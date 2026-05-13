@@ -10,4 +10,4 @@ Run `npm run dev` to start the development server.
 
 ## Deployment
 
-Sau này nếu team mình có thay đổi gì trên source code, chỉ cần push commit lên nhánh `main` của repo GitHub, Vercel sẽ tự động deploy phiên bản mới.
+In the future, if our team makes any changes to the source code, simply push the commit to the `main` branch of the GitHub repository. Vercel will automatically deploy the new version.
