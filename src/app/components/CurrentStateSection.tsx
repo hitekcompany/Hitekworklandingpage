@@ -143,22 +143,14 @@ export function CurrentStateSection() {
                 <div className="flex items-start gap-4">
                   <span className="text-[#1e4bbf] text-xl font-bold mt-1">•</span>
                   <p className="text-lg lg:text-xl text-gray-700 leading-relaxed">
-                    Theo{' '}
-                    <a href="#" className="text-[#1e4bbf] underline font-bold hover:text-blue-700 transition-colors">
-                      Asana
-                    </a>
-                    : "60% thời gian nhân viên văn phòng không tạo giá trị."
+                    Theo Asana: "60% thời gian nhân viên văn phòng không tạo giá trị."
                   </p>
                 </div>
                 
                 <div className="flex items-start gap-4">
                   <span className="text-[#1e4bbf] text-xl font-bold mt-1">•</span>
                   <p className="text-lg lg:text-xl text-gray-700 leading-relaxed">
-                    Theo{' '}
-                    <a href="#" className="text-[#1e4bbf] underline font-bold hover:text-blue-700 transition-colors">
-                      Microsoft
-                    </a>
-                    : "57% thời gian mỗi ngày nhân viên dành cho họp, chat, email."
+                    Theo Microsoft: "57% thời gian mỗi ngày nhân viên dành cho họp, chat, email."
                   </p>
                 </div>
               </div>

@@ -99,9 +99,7 @@ export function RootCauseSection() {
                   
                   {/* Evidence statement with BARC */}
                   <p className="text-base lg:text-lg text-gray-900 leading-relaxed">
-                    <a href="#" className="text-[#1e4bbf] underline font-bold hover:text-blue-700 transition-colors">
-                      Theo BARC:
-                    </a>{' '}
+                    Theo BARC:{' '}
                     <span className="font-black text-[#1e4bbf]">58%</span> quyết định trong doanh nghiệp Việt dựa vào cảm giác.
                   </p>
                   

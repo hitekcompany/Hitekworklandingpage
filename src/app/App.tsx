@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import { ScrollToHash } from "./components/ScrollToHash";
 import { HomePage } from "./pages/HomePage";
 import { CurrentStatePage } from "./pages/CurrentStatePage";
 import { PricingPage } from "./pages/PricingPage";
@@ -10,6 +11,7 @@ import { AboutPage } from "./pages/AboutPage";
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToHash />
       <div className="min-h-screen bg-white">
         <Header />
         <main className="bg-gradient-to-br from-blue-50 via-white to-indigo-50 min-h-screen">

@@ -1,4 +1,5 @@
-import { ArrowRight, TrendingUp, Shield, Search, FileText } from 'lucide-react';
+import { TrendingUp, Shield, Search, FileText } from 'lucide-react';
+import { Link } from 'react-router';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import detailImg from '../../imports/detail.png';
 import performanceImg from '../../imports/performance.png';
@@ -82,7 +83,7 @@ export function PillarsSection() {
               >
                 {/* Image */}
                 <div className="flex-1 w-full group">
-                  <a href={pillar.demoLink} className="block">
+                  <Link to={pillar.demoLink} className="block">
                     <div className="relative rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-500 aspect-[4/3] hover:scale-[1.02]">
                       <ImageWithFallback
                         src={pillar.imageUrl}
@@ -90,13 +91,13 @@ export function PillarsSection() {
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent group-hover:from-black/50 transition-all duration-500"></div>
-                      
+
                       {/* Overlay Icon */}
                       <div className="absolute bottom-6 right-6 w-16 h-16 rounded-2xl bg-white/90 backdrop-blur-md flex items-center justify-center shadow-xl opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
                         <Icon className="w-8 h-8 text-[#1e4bbf]" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
 
                 {/* Content */}
@@ -126,13 +127,13 @@ export function PillarsSection() {
                     </ul>
                     
                     {/* Demo Link */}
-                    <a 
-                      href={pillar.demoLink}
+                    <Link
+                      to={pillar.demoLink}
                       className="inline-flex items-center gap-3 text-[#1e4bbf] font-bold text-lg hover:gap-4 transition-all group"
                     >
-                      
-                      
-                    </a>
+
+
+                    </Link>
                     
                     {/* Decorative line */}
                     

@@ -84,14 +84,22 @@ export function DemoPage() {
 
       {/* Sections */}
       <DemoHeroSection />
-      <DemoScreenshotSection />
-      <DemoTimelineSection />
-      <DemoFocusMetricsSection />
-      <DemoAIClassificationSection />
-      <DemoIncidentTraceSection />
-      <DemoAwarenessReminderSection />
-      <DemoManagerReportSection />
-      <DemoExecutiveReportSection />
+      <div id="minh-bach" className="scroll-mt-20">
+        <DemoScreenshotSection />
+        <DemoTimelineSection />
+        <DemoFocusMetricsSection />
+      </div>
+      <div id="ai-bao-mat" className="scroll-mt-20">
+        <DemoAIClassificationSection />
+        <DemoAwarenessReminderSection />
+      </div>
+      <div id="truy-vet" className="scroll-mt-20">
+        <DemoIncidentTraceSection />
+      </div>
+      <div id="bao-cao-da-cap" className="scroll-mt-20">
+        <DemoManagerReportSection />
+        <DemoExecutiveReportSection />
+      </div>
       <DemoCTASection />
     </div>
   );

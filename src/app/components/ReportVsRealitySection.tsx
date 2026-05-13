@@ -85,10 +85,10 @@ export function ReportVsRealitySection() {
             <h3 className="text-base font-black text-[#1e4bbf] mb-3">Dữ liệu thực tế</h3>
             <div className="space-y-2.5 text-sm text-gray-700 leading-relaxed">
               <p>
-                <span className="font-black text-[#1e4bbf]">1.</span> Nhân viên dành <span className="font-black text-gray-900">1,5-2,5 giờ/ngày</span> cho mạng xã hội & lướt web – <a href="#" className="text-[#1e4bbf] underline hover:text-blue-700">Teamstage</a>
+                <span className="font-black text-[#1e4bbf]">1.</span> Nhân viên dành <span className="font-black text-gray-900">1,5-2,5 giờ/ngày</span> cho mạng xã hội & lướt web – Teamstage
               </p>
               <p>
-                <span className="font-black text-[#1e4bbf]">2.</span> <span className="font-black text-gray-900">89%</span> nhân viên lãng phí <span className="font-black text-gray-900">30 phút - 2 giờ/ngày</span> – <a href="#" className="text-[#1e4bbf] underline hover:text-blue-700">Forbes</a>
+                <span className="font-black text-[#1e4bbf]">2.</span> <span className="font-black text-gray-900">89%</span> nhân viên lãng phí <span className="font-black text-gray-900">30 phút - 2 giờ/ngày</span> – Forbes
               </p>
             </div>
           </div>
