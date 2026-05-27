@@ -1,1 +1,82 @@
-{}
+{
+  "timeline": {
+    "section_badge": "Timeline",
+    "section_title": "Our Journey",
+    "section_subtitle": "From a single idea to a work management platform trusted by thousands of businesses",
+    "items": [
+      {
+        "year": "2019",
+        "title": "A Real-World Need",
+        "description": "While delivering software outsourcing services to international markets, the Hitek team frequently received questions from clients about how we ensure transparency and accountability in our team's performance."
+      },
+      {
+        "year": "2020",
+        "title": "Finding the Answer",
+        "description": "We recognized that the geographical distance between international clients and the Hitek team in Vietnam was a significant barrier to trust and governance. From that insight, Hitek began building a platform that allows clients to remotely manage and monitor vendors in a visual, transparent, and true-to-reality way — as if they were working side by side with our team."
+      },
+      {
+        "year": "2024",
+        "title": "Refining the Product for Internal Use",
+        "description": "Over the next five years, we continuously developed, improved, and optimized the system to meet reporting needs and ensure transparency for our clients. With a commitment to \"real work\" and \"real accountability\", Hitek shares all image and text data related to each employee's work activity in real time."
+      },
+      {
+        "year": "2025–Present",
+        "title": "AI Integration & Broader Reach",
+        "description": "From 2025, the AI wave has unlocked significant leaps in productivity and innovation. Seizing that momentum, Hitek integrated AI into the system to analyze user activity data, predict work performance, and automatically generate reports for management and clients. We believe this is the right time to spread the value of this solution — helping build trust for international clients collaborating remotely with tech talent in Vietnam."
+      }
+    ]
+  },
+  "values": {
+    "section_badge": "Core Values",
+    "section_title": "Mission & Values",
+    "section_subtitle": "The core values that guide every activity and decision we make",
+    "items": [
+      {
+        "title": "Mission",
+        "description": "Partnering with Vietnamese businesses to optimize workforce productivity, enhance data security, and build lasting trust with their clients."
+      },
+      {
+        "title": "Vision",
+        "description": "To become Vietnam's leading work management platform, elevating international confidence in Vietnamese talent and driving global business connectivity."
+      },
+      {
+        "title": "Core Values",
+        "description": "Continuous innovation, transparent operations, maximum data security, and always placing the customer at the heart of every development decision."
+      }
+    ]
+  },
+  "culture": {
+    "section_badge": "Culture & People",
+    "section_title": "Culture & People",
+    "section_subtitle": "The talented team and work culture that set Hitek Work apart",
+    "items": [
+      {
+        "title": "Diverse Team",
+        "description": "Over 100 technology, design, and business professionals from various fields, united in building the best product together."
+      },
+      {
+        "title": "Continuous Innovation",
+        "description": "We constantly research and adopt the latest technologies to deliver superior experiences to our clients."
+      },
+      {
+        "title": "Absolute Security",
+        "description": "Data security is our top priority. Our solution includes an On-Premise mechanism, ensuring data is stored internally within the client's own systems."
+      },
+      {
+        "title": "Sustainable Growth",
+        "description": "We build long-term relationships with our clients, growing and succeeding together."
+      }
+    ]
+  },
+  "team_image": {
+    "badge": "Our Team",
+    "title": "The Hitek Work Team",
+    "subtitle": "We are a diverse, creative team always focused on delivering the best possible value to our clients."
+  },
+  "cta": {
+    "badge": "Get Started",
+    "title": "Ready to go digital\nwith Hitek Work?",
+    "subtitle": "Let us support your business on the journey to optimizing performance and securing your data.",
+    "contact_button": "Contact us now"
+  }
+}

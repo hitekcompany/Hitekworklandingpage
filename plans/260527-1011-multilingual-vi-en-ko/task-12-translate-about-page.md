@@ -1,15 +1,15 @@
 ---
 task: 12
 title: Translate AboutPage
-status: pending
+status: done
 type: AFK
 blocked_by: [task-06]
 effort: S
 human_estimate_hours: 1
 ai_estimate_hours: 0.15
-actual_hours: null
+actual_hours: 0.2
 created: 2026-05-27
-completed: null
+completed: 2026-05-27
 ---
 
 # Task 12: Translate AboutPage
