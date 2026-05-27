@@ -50,3 +50,13 @@ coverage/
 # Deployment
 .vercel/
 .netlify/
+
+# Local debug artefacts
+.playwright-mcp/
+*.snapshot.md
+check-i18n-keys.mjs
+check-t-keys.mjs
+trans-keys.txt
+t-keys-raw.txt
+ko-*.png
+ko-*.md
