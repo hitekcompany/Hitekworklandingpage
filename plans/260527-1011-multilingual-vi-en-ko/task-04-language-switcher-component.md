@@ -1,15 +1,15 @@
 ---
 task: 04
 title: LanguageSwitcher component (desktop + mobile drawer)
-status: pending
+status: done
 type: AFK
 blocked_by: [task-02]
 effort: M
 human_estimate_hours: 2
 ai_estimate_hours: 0.3
-actual_hours: null
+actual_hours: 0.2
 created: 2026-05-27
-completed: null
+completed: 2026-05-27
 ---
 
 # Task 04: LanguageSwitcher component
@@ -114,3 +114,14 @@ Logic navigation: parse current URL → strip lang prefix → append new lang pr
 - `DropdownMenuCheckboxItem` của shadcn render checkmark sẵn → set `checked={lang === currentLang}`.
 - Mobile variant có thể render inline list thay vì dropdown nested (UX mobile tốt hơn) — quyết định styling khi implement, ưu tiên không nested dropdown trong drawer.
 - Edge case: pathname không có lang prefix (vd `/` ngay sau load trước khi redirect) → fallback `restOfPath = pathname`. Có thể defensive code, không phải concern primary.
+
+## Execution log
+
+- 2026-05-27 10:35 — Read: src/app/components/ui/dropdown-menu.tsx (DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem available)
+- 2026-05-27 10:36 — Impl: created `LanguageSwitcher.tsx` (95 LOC) — desktop variant (DropdownMenu) + mobile variant (inline button list), stripLangPrefix helper, ENDONYM_MAP, navigate + localStorage on select
+- 2026-05-27 10:37 — Impl: mounted `<LanguageSwitcher />` in Header desktop cluster (trước WireframeButton CTA) + `<LanguageSwitcher variant="mobile" />` cuối mobile drawer với `onSelect` close menu
+- 2026-05-27 10:38 — Verify AC1-3 (file, DropdownMenu import, 3 endonyms) — PASS
+- 2026-05-27 10:38 — Verify AC4 (no flag) — PASS (0 matches)
+- 2026-05-27 10:38 — Verify AC5 (Header mount) — PASS (3 LanguageSwitcher refs: 1 import + 2 mount points)
+- 2026-05-27 10:38 — Verify AC build `pnpm build` — PASS (3.47s)
+- 2026-05-27 10:38 — Verify manual QA — DEFERRED

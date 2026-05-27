@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
 import { WireframeButton } from "./WireframeButton";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES, type Lang } from "../../i18n/config";
 import logoNgang from "../../imports/logo-ngang.png";
 
@@ -73,8 +74,9 @@ export function Header() {
             })}
           </nav>
 
-          {/* Desktop CTAs */}
-          <div className="hidden lg:flex items-center gap-4">
+          {/* Desktop: Switcher + CTAs */}
+          <div className="hidden lg:flex items-center gap-6">
+            <LanguageSwitcher />
             <WireframeButton
               variant="primary"
               className="text-sm"
@@ -136,6 +138,10 @@ export function Header() {
             >
               Dùng thử miễn phí
             </button>
+            <LanguageSwitcher
+              variant="mobile"
+              onSelect={() => setMobileMenuOpen(false)}
+            />
           </nav>
         )}
       </div>
