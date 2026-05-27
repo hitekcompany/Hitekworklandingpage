@@ -1,11 +1,13 @@
 ---
 title: Multilingual Support (Tiếng Việt / English / 한국어)
-status: pending
+status: ready-for-verify
 created: 2026-05-27
+completed_afk: 2026-05-27
 spec: ./spec.md
 total_tasks: 14
 total_estimate_hours_human: 26.5
 total_estimate_hours_ai: 3.55
+actual_hours_ai_total: 3.7
 ---
 
 # Plan: Đa ngôn ngữ landing page
