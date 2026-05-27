@@ -7,8 +7,10 @@ import { NeedSolutionSection } from '../components/NeedSolutionSection';
 import { WhyRealDataSection } from '../components/WhyRealDataSection';
 import { CTASection } from '../components/CTASection';
 import { Zap, Cpu, Sparkles, Star, BrainCircuit, CircuitBoard } from 'lucide-react';
+import { useSEOMeta } from '../hooks/useSEOMeta';
 
 export function CurrentStatePage() {
+  useSEOMeta('current-state');
   return (
     <div className="relative">
       {/* AI Icons Background */}

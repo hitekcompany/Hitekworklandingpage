@@ -1,15 +1,15 @@
 ---
 task: 13
 title: useSEOMeta hook + seo.json + hreflang + html lang sync
-status: pending
+status: done
 type: AFK
 blocked_by: [task-02]
 effort: M
 human_estimate_hours: 3
 ai_estimate_hours: 0.4
-actual_hours: null
+actual_hours: 0.35
 created: 2026-05-27
-completed: null
+completed: 2026-05-27
 ---
 
 # Task 13: SEO meta hook + hreflang

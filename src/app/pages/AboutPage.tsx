@@ -1,5 +1,6 @@
 import { Building2, Target, Users, Zap, Shield, Sparkles, TrendingUp, Award, Star, Rocket, Brain } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
+import { useSEOMeta } from '../hooks/useSEOMeta';
 import companyImage1 from '../../imports/company_image.jpg';
 import companyImage2 from '../../imports/company_image_2.jpg';
 import companyImage3 from '../../imports/company_image_3.jpg';
@@ -82,6 +83,7 @@ const statsData = [
 ];
 
 export function AboutPage() {
+  useSEOMeta('about');
   return (
     <div className="min-h-screen">
       {/* Hero Section */}

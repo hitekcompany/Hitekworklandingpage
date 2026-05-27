@@ -9,8 +9,10 @@ import { DemoManagerReportSection } from '../components/DemoManagerReportSection
 import { DemoExecutiveReportSection } from '../components/DemoExecutiveReportSection';
 import { DemoCTASection } from '../components/DemoCTASection';
 import { Zap, Cpu, Sparkles, Star, BrainCircuit, CircuitBoard } from 'lucide-react';
+import { useSEOMeta } from '../hooks/useSEOMeta';
 
 export function DemoPage() {
+  useSEOMeta('demo');
   return (
     <div className="relative">
       {/* AI Icons Background */}

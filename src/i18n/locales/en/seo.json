@@ -1,1 +1,22 @@
-{}
+{
+  "home": {
+    "title": "Hitek Work — Remote Productivity Management Based on Real Data",
+    "description": "The #1 tool that helps businesses build trust with remote teams. Real-time transparency, AI-powered alerts, multi-level reporting."
+  },
+  "current-state": {
+    "title": "Remote Work Management Solution — Hitek Work",
+    "description": "Overcome the downsides of manual reports and disconnected tools. Discover why remote teams need a real-data system to operate effectively."
+  },
+  "demo": {
+    "title": "Features — Hitek Work Productivity Platform Powered by Real Data",
+    "description": "Real-time timeline, AI activity classification, employee reminders, incident tracing, multi-level reports. Book a Live Demo today."
+  },
+  "pricing": {
+    "title": "Pricing — Hitek Work",
+    "description": "Flexible pricing for teams of any size. Browse plans and request a tailored quote for your organization."
+  },
+  "about": {
+    "title": "About Hitek Work — Vietnamese Tech Company Serving Remote Teams",
+    "description": "Hitek Software JSC — developer of Hitek Work, a real-data platform for remote workforce management. Offices in Vietnam, Korea, and Japan."
+  }
+}
