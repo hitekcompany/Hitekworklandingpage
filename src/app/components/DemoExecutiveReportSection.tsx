@@ -25,7 +25,7 @@ export function DemoExecutiveReportSection() {
                 </span>
               </div>
               <h2 className="text-3xl lg:text-5xl font-black text-gray-900 leading-tight mb-4">
-                <Trans i18nKey="demo:executive_report.title">
+                <Trans i18nKey="demo:executive_report.title" components={{ 1: <span className="text-[#1e4bbf]" /> }}>
                   Báo cáo BOD: chỉ <span className="text-[#1e4bbf]">insight</span>, không dữ liệu thô
                 </Trans>
               </h2>
@@ -111,7 +111,7 @@ export function DemoExecutiveReportSection() {
                       <Clock className="w-5 h-5 text-indigo-600" />
                     </div>
                     <p className="text-gray-800 text-sm leading-relaxed">
-                      <Trans i18nKey="demo:executive_report.automation_note">
+                      <Trans i18nKey="demo:executive_report.automation_note" components={{ 1: <strong /> }}>
                         Báo cáo được gửi <strong>tự động theo lịch</strong> (daily/weekly/monthly), cấu hình linh hoạt.
                       </Trans>
                     </p>

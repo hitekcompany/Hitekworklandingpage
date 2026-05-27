@@ -26,7 +26,7 @@ export function DemoFocusMetricsSection() {
 
               {/* Headline */}
               <h2 className="text-3xl lg:text-5xl font-black text-gray-900 leading-tight">
-                <Trans i18nKey="demo:focus_metrics.title">
+                <Trans i18nKey="demo:focus_metrics.title" components={{ 1: <span className="text-[#1e4bbf]" /> }}>
                   Đo hiệu suất & mức độ tập trung bằng{' '}
                   <span className="text-[#1e4bbf]">dữ liệu hành vi</span>
                 </Trans>

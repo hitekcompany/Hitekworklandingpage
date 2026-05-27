@@ -26,7 +26,7 @@ export function DemoIncidentTraceSection() {
 
               {/* Headline */}
               <h2 className="text-2xl md:text-4xl lg:text-5xl font-black text-gray-900 leading-tight">
-                <Trans i18nKey="demo:incident_trace.title">
+                <Trans i18nKey="demo:incident_trace.title" components={{ 1: <span className="text-[#1e4bbf]" /> }}>
                   Truy vết sự cố: xem lại{' '}
                   <span className="text-[#1e4bbf]">toàn bộ hành vi</span>
                   {' '}theo thời gian
@@ -111,7 +111,7 @@ export function DemoIncidentTraceSection() {
                   <div className="flex items-start gap-3">
                     <Search className="w-4 h-4 lg:w-5 lg:h-5 text-[#1e4bbf] flex-shrink-0 mt-0.5" />
                     <p className="text-gray-800 text-xs lg:text-sm leading-relaxed">
-                      <Trans i18nKey="demo:incident_trace.bullet1">
+                      <Trans i18nKey="demo:incident_trace.bullet1" components={{ 1: <strong /> }}>
                         <strong>Lọc nhanh</strong> theo thời gian / người dùng / dự án / trạng thái
                       </Trans>
                     </p>
@@ -119,7 +119,7 @@ export function DemoIncidentTraceSection() {
                   <div className="flex items-start gap-3">
                     <Clock className="w-4 h-4 lg:w-5 lg:h-5 text-[#1e4bbf] flex-shrink-0 mt-0.5" />
                     <p className="text-gray-800 text-xs lg:text-sm leading-relaxed">
-                      <Trans i18nKey="demo:incident_trace.bullet2">
+                      <Trans i18nKey="demo:incident_trace.bullet2" components={{ 1: <strong /> }}>
                         <strong>Duyệt theo chuỗi timeline</strong> để thấy diễn biến
                       </Trans>
                     </p>
@@ -127,7 +127,7 @@ export function DemoIncidentTraceSection() {
                   <div className="flex items-start gap-3">
                     <FileCheck className="w-4 h-4 lg:w-5 lg:h-5 text-[#1e4bbf] flex-shrink-0 mt-0.5" />
                     <p className="text-gray-800 text-xs lg:text-sm leading-relaxed">
-                      <Trans i18nKey="demo:incident_trace.bullet3">
+                      <Trans i18nKey="demo:incident_trace.bullet3" components={{ 1: <strong /> }}>
                         <strong>Tạo bằng chứng rõ ràng</strong> phục vụ điều hành & xử lý sự cố
                       </Trans>
                     </p>

@@ -25,7 +25,7 @@ export function DemoAwarenessReminderSection() {
 
               {/* Headline */}
               <h2 className="text-3xl lg:text-5xl font-black text-gray-900 leading-tight">
-                <Trans i18nKey="demo:awareness_reminder.title">
+                <Trans i18nKey="demo:awareness_reminder.title" components={{ 1: <span className="text-[#1e4bbf]" /> }}>
                   Nhắc nhở nhân viên — giúp tự điều chỉnh,{' '}
                   <span className="text-[#1e4bbf]">không phải giám sát</span>
                 </Trans>
@@ -81,14 +81,14 @@ export function DemoAwarenessReminderSection() {
 
                       {/* Greeting */}
                       <p className="text-gray-900 text-sm mb-4">
-                        <Trans i18nKey="demo:awareness_reminder.email_greeting">
+                        <Trans i18nKey="demo:awareness_reminder.email_greeting" components={{ 1: <strong /> }}>
                           Chào <strong>[Tên nhân viên]</strong>,
                         </Trans>
                       </p>
 
                       {/* Intro */}
                       <p className="text-gray-800 text-sm mb-6 leading-relaxed">
-                        <Trans i18nKey="demo:awareness_reminder.email_intro">
+                        <Trans i18nKey="demo:awareness_reminder.email_intro" components={{ 1: <strong /> }}>
                           Trong quá trình theo dõi ca làm việc ngày <strong>[dd/mm/yyyy]</strong>, hệ thống Hitek Work phát hiện một số khoảng thời gian bạn không có thao tác trong thời gian dài hơn bình thường.
                         </Trans>
                       </p>
@@ -99,11 +99,11 @@ export function DemoAwarenessReminderSection() {
                       </p>
 
                       <ul className="text-gray-800 text-sm space-y-2 mb-6 ml-4">
-                        <li>• <Trans i18nKey="demo:awareness_reminder.email_item_shift">Ca làm việc: <strong>[Ngày / Khung giờ]</strong></Trans></li>
-                        <li>• <Trans i18nKey="demo:awareness_reminder.email_item_total_time">Tổng thời gian làm việc: <strong>[X]</strong> giờ</Trans></li>
-                        <li>• <Trans i18nKey="demo:awareness_reminder.email_item_low_activity">Thời gian hoạt động hiệu suất thấp: <strong>[Y]</strong> phút</Trans></li>
-                        <li>• <Trans i18nKey="demo:awareness_reminder.email_item_freeze_count">Số lần "treo máy" phát hiện: <strong>[N]</strong> lần</Trans></li>
-                        <li>• <Trans i18nKey="demo:awareness_reminder.email_item_rating">Mức độ đánh giá: <strong>[Cảnh báo / Không đạt]</strong></Trans></li>
+                        <li>• <Trans i18nKey="demo:awareness_reminder.email_item_shift" components={{ 1: <strong /> }}>Ca làm việc: <strong>[Ngày / Khung giờ]</strong></Trans></li>
+                        <li>• <Trans i18nKey="demo:awareness_reminder.email_item_total_time" components={{ 1: <strong /> }}>Tổng thời gian làm việc: <strong>[X]</strong> giờ</Trans></li>
+                        <li>• <Trans i18nKey="demo:awareness_reminder.email_item_low_activity" components={{ 1: <strong /> }}>Thời gian hoạt động hiệu suất thấp: <strong>[Y]</strong> phút</Trans></li>
+                        <li>• <Trans i18nKey="demo:awareness_reminder.email_item_freeze_count" components={{ 1: <strong /> }}>Số lần "treo máy" phát hiện: <strong>[N]</strong> lần</Trans></li>
+                        <li>• <Trans i18nKey="demo:awareness_reminder.email_item_rating" components={{ 1: <strong /> }}>Mức độ đánh giá: <strong>[Cảnh báo / Không đạt]</strong></Trans></li>
                       </ul>
 
                       {/* Supportive paragraph */}
@@ -148,7 +148,7 @@ export function DemoAwarenessReminderSection() {
                     <div className="flex items-start gap-3">
                       <Clock className="w-5 h-5 text-[#1e4bbf] flex-shrink-0 mt-0.5" />
                       <p className="text-gray-800 text-sm lg:text-base leading-relaxed">
-                        <Trans i18nKey="demo:awareness_reminder.content_item1">
+                        <Trans i18nKey="demo:awareness_reminder.content_item1" components={{ 1: <strong /> }}>
                           <strong>Tổng quan ca làm:</strong> ngày/khung giờ, tổng thời gian, số lần idle/treo máy
                         </Trans>
                       </p>
@@ -156,7 +156,7 @@ export function DemoAwarenessReminderSection() {
                     <div className="flex items-start gap-3">
                       <TrendingDown className="w-5 h-5 text-[#1e4bbf] flex-shrink-0 mt-0.5" />
                       <p className="text-gray-800 text-sm lg:text-base leading-relaxed">
-                        <Trans i18nKey="demo:awareness_reminder.content_item2">
+                        <Trans i18nKey="demo:awareness_reminder.content_item2" components={{ 1: <strong /> }}>
                           <strong>Mức đánh giá:</strong> Cảnh báo / Không đạt
                         </Trans>
                       </p>
@@ -164,7 +164,7 @@ export function DemoAwarenessReminderSection() {
                     <div className="flex items-start gap-3">
                       <Mail className="w-5 h-5 text-[#1e4bbf] flex-shrink-0 mt-0.5" />
                       <p className="text-gray-800 text-sm lg:text-base leading-relaxed">
-                        <Trans i18nKey="demo:awareness_reminder.content_item3">
+                        <Trans i18nKey="demo:awareness_reminder.content_item3" components={{ 1: <strong /> }}>
                           <strong>Kêu gọi phản hồi</strong> để hệ thống đánh giá chính xác hơn
                         </Trans>
                       </p>

@@ -158,7 +158,7 @@ export function CurrentStateSection() {
                   <div className="flex items-start gap-3">
                     <span className="text-gray-400 mt-1">•</span>
                     <p className="text-base lg:text-lg text-gray-700 leading-relaxed">
-                      <Trans i18nKey="current-state:current_state.example_item1">
+                      <Trans i18nKey="current-state:current_state.example_item1" components={{ 1: <span className="font-bold text-gray-900" /> }}>
                         Nếu mỗi người lãng phí <span className="font-bold text-gray-900">2 giờ/ngày</span>,
                       </Trans>
                     </p>
@@ -167,7 +167,7 @@ export function CurrentStateSection() {
                   <div className="flex items-start gap-3">
                     <span className="text-gray-400 mt-1">•</span>
                     <p className="text-base lg:text-lg text-gray-700 leading-relaxed">
-                      <Trans i18nKey="current-state:current_state.example_item2">
+                      <Trans i18nKey="current-state:current_state.example_item2" components={{ 1: <span className="font-bold text-gray-900" /> }}>
                         Một doanh nghiệp <span className="font-bold text-gray-900">50 người</span>,
                       </Trans>
                     </p>
@@ -176,7 +176,7 @@ export function CurrentStateSection() {
                   <div className="flex items-start gap-3">
                     <span className="text-gray-400 mt-1">•</span>
                     <p className="text-base lg:text-lg text-gray-700 leading-relaxed">
-                      <Trans i18nKey="current-state:current_state.example_item3">
+                      <Trans i18nKey="current-state:current_state.example_item3" components={{ 1: <span className="font-bold text-gray-900" /> }}>
                         Lương trung bình <span className="font-bold text-gray-900">10 triệu/người/tháng</span>.
                       </Trans>
                     </p>
@@ -186,7 +186,7 @@ export function CurrentStateSection() {
                   <div className="flex items-start gap-3 pt-5 mt-5 border-t-2 border-gray-200">
                     <span className="text-[#1e4bbf] text-xl font-bold mt-1">→</span>
                     <p className="text-base lg:text-lg text-[#1e4bbf] font-bold leading-relaxed">
-                      <Trans i18nKey="current-state:current_state.example_result">
+                      <Trans i18nKey="current-state:current_state.example_result" components={{ 1: <span className="text-xl font-black" />, 2: <span className="text-xl font-black" /> }}>
                         Mất hơn <span className="text-xl font-black">100tr/tháng</span> - <span className="text-xl font-black">1,2 tỷ/năm</span> (chưa bao gồm chi phí cơ hội đã mất)
                       </Trans>
                     </p>

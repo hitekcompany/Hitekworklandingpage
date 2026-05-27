@@ -27,7 +27,7 @@ export function DemoScreenshotSection() {
 
               {/* Headline */}
               <h2 className="text-3xl lg:text-5xl font-black text-gray-900 leading-tight">
-                <Trans i18nKey="demo:screenshot.title">
+                <Trans i18nKey="demo:screenshot.title" components={{ 1: <span className="text-[#1e4bbf]" /> }}>
                   Screenshot{' '}
                   <span className="text-[#1e4bbf]">thông minh</span>
                 </Trans>

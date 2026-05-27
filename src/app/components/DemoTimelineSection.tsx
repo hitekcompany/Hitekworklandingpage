@@ -26,7 +26,7 @@ export function DemoTimelineSection() {
 
               {/* Headline */}
               <h2 className="text-3xl lg:text-5xl font-black text-gray-900 leading-tight">
-                <Trans i18nKey="demo:timeline.title">
+                <Trans i18nKey="demo:timeline.title" components={{ 1: <span className="text-[#1e4bbf]" /> }}>
                   Timeline hoạt động theo{' '}
                   <span className="text-[#1e4bbf]">thời gian thực</span>
                 </Trans>

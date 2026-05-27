@@ -77,13 +77,13 @@ export function ReportVsRealitySection() {
             <div className="space-y-2.5 text-sm text-gray-700 leading-relaxed">
               <p>
                 <span className="font-black text-[#1e4bbf]">1.</span>{' '}
-                <Trans i18nKey="current-state:report_vs_reality.evidence1">
+                <Trans i18nKey="current-state:report_vs_reality.evidence1" components={{ 1: <span className="font-black text-gray-900" /> }}>
                   Nhân viên dành <span className="font-black text-gray-900">1,5-2,5 giờ/ngày</span> cho mạng xã hội & lướt web – Teamstage
                 </Trans>
               </p>
               <p>
                 <span className="font-black text-[#1e4bbf]">2.</span>{' '}
-                <Trans i18nKey="current-state:report_vs_reality.evidence2">
+                <Trans i18nKey="current-state:report_vs_reality.evidence2" components={{ 1: <span className="font-black text-gray-900" />, 2: <span className="font-black text-gray-900" /> }}>
                   <span className="font-black text-gray-900">89%</span> nhân viên lãng phí <span className="font-black text-gray-900">30 phút - 2 giờ/ngày</span> – Forbes
                 </Trans>
               </p>
@@ -97,7 +97,7 @@ export function ReportVsRealitySection() {
             <div className="flex items-start gap-3">
               <Lightbulb className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
               <p className="text-sm text-gray-700 leading-relaxed">
-                <Trans i18nKey="current-state:report_vs_reality.takeaway">
+                <Trans i18nKey="current-state:report_vs_reality.takeaway" components={{ 1: <span className="font-black text-gray-900" />, 2: <span className="font-black text-[#1e4bbf]" />, 3: <span className="font-black text-gray-900" /> }}>
                   Báo cáo có thể <span className="font-black text-gray-900">đẹp</span> – nhưng <span className="font-black text-[#1e4bbf]">dữ liệu hành vi</span> mới là sự thật. Không có dữ liệu = lãnh đạo chỉ nghe điều nhân viên <span className="font-black text-gray-900">muốn nói</span>.
                 </Trans>
               </p>

@@ -25,7 +25,7 @@ export function DemoManagerReportSection() {
 
               {/* Headline */}
               <h2 className="text-3xl lg:text-5xl font-black text-gray-900 leading-tight">
-                <Trans i18nKey="demo:manager_report.title">
+                <Trans i18nKey="demo:manager_report.title" components={{ 1: <span className="text-[#1e4bbf]" /> }}>
                   Báo cáo quản lý trực tiếp — nhìn{' '}
                   <span className="text-[#1e4bbf]">tổng quan</span>{' '}
                   để ra quyết định
@@ -58,7 +58,7 @@ export function DemoManagerReportSection() {
 
                       {/* Greeting */}
                       <p className="text-gray-900 text-sm mb-4">
-                        <Trans i18nKey="demo:manager_report.email_greeting">
+                        <Trans i18nKey="demo:manager_report.email_greeting" components={{ 1: <strong /> }}>
                           Chào <strong>[Tên Quản lý]</strong>,
                         </Trans>
                       </p>
@@ -74,12 +74,12 @@ export function DemoManagerReportSection() {
                       </p>
 
                       <ul className="text-gray-800 text-sm space-y-2 mb-6 ml-4">
-                        <li>• <Trans i18nKey="demo:manager_report.email_item_employee">Nhân viên: <strong>[Tên nhân viên]</strong></Trans></li>
-                        <li>• <Trans i18nKey="demo:manager_report.email_item_shift">Ca làm việc: <strong>[Ngày / Khung giờ]</strong></Trans></li>
-                        <li>• <Trans i18nKey="demo:manager_report.email_item_total_time">Tổng thời gian làm việc: <strong>[X]</strong> giờ</Trans></li>
-                        <li>• <Trans i18nKey="demo:manager_report.email_item_low_activity">Thời gian hoạt động hiệu suất thấp: <strong>[Y]</strong> phút</Trans></li>
-                        <li>• <Trans i18nKey="demo:manager_report.email_item_freeze_count">Số lần "treo máy" phát hiện: <strong>[N]</strong> lần</Trans></li>
-                        <li>• <Trans i18nKey="demo:manager_report.email_item_rating">Mức độ đánh giá: <strong>[Cảnh báo / Không đạt]</strong></Trans></li>
+                        <li>• <Trans i18nKey="demo:manager_report.email_item_employee" components={{ 1: <strong /> }}>Nhân viên: <strong>[Tên nhân viên]</strong></Trans></li>
+                        <li>• <Trans i18nKey="demo:manager_report.email_item_shift" components={{ 1: <strong /> }}>Ca làm việc: <strong>[Ngày / Khung giờ]</strong></Trans></li>
+                        <li>• <Trans i18nKey="demo:manager_report.email_item_total_time" components={{ 1: <strong /> }}>Tổng thời gian làm việc: <strong>[X]</strong> giờ</Trans></li>
+                        <li>• <Trans i18nKey="demo:manager_report.email_item_low_activity" components={{ 1: <strong /> }}>Thời gian hoạt động hiệu suất thấp: <strong>[Y]</strong> phút</Trans></li>
+                        <li>• <Trans i18nKey="demo:manager_report.email_item_freeze_count" components={{ 1: <strong /> }}>Số lần "treo máy" phát hiện: <strong>[N]</strong> lần</Trans></li>
+                        <li>• <Trans i18nKey="demo:manager_report.email_item_rating" components={{ 1: <strong /> }}>Mức độ đánh giá: <strong>[Cảnh báo / Không đạt]</strong></Trans></li>
                       </ul>
 
                       {/* Action section */}
@@ -123,7 +123,7 @@ export function DemoManagerReportSection() {
                     <div className="flex items-start gap-3">
                       <FileText className="w-5 h-5 text-[#1e4bbf] flex-shrink-0 mt-0.5" />
                       <p className="text-gray-800 text-sm lg:text-base leading-relaxed">
-                        <Trans i18nKey="demo:manager_report.report_item1">
+                        <Trans i18nKey="demo:manager_report.report_item1" components={{ 1: <strong /> }}>
                           <strong>Tóm tắt ca làm & mức độ hoạt động</strong> (theo ngưỡng cấu hình)
                         </Trans>
                       </p>
@@ -131,7 +131,7 @@ export function DemoManagerReportSection() {
                     <div className="flex items-start gap-3">
                       <Users className="w-5 h-5 text-[#1e4bbf] flex-shrink-0 mt-0.5" />
                       <p className="text-gray-800 text-sm lg:text-base leading-relaxed">
-                        <Trans i18nKey="demo:manager_report.report_item2">
+                        <Trans i18nKey="demo:manager_report.report_item2" components={{ 1: <strong /> }}>
                           <strong>Danh sách trường hợp cần chú ý</strong> (không hiển thị dữ liệu thô nhạy cảm)
                         </Trans>
                       </p>
@@ -139,7 +139,7 @@ export function DemoManagerReportSection() {
                     <div className="flex items-start gap-3">
                       <TrendingUp className="w-5 h-5 text-[#1e4bbf] flex-shrink-0 mt-0.5" />
                       <p className="text-gray-800 text-sm lg:text-base leading-relaxed">
-                        <Trans i18nKey="demo:manager_report.report_item3">
+                        <Trans i18nKey="demo:manager_report.report_item3" components={{ 1: <strong /> }}>
                           <strong>Mức đánh giá:</strong> Cảnh báo / Không đạt (demo placeholder)
                         </Trans>
                       </p>
@@ -147,7 +147,7 @@ export function DemoManagerReportSection() {
                     <div className="flex items-start gap-3">
                       <AlertCircle className="w-5 h-5 text-[#1e4bbf] flex-shrink-0 mt-0.5" />
                       <p className="text-gray-800 text-sm lg:text-base leading-relaxed">
-                        <Trans i18nKey="demo:manager_report.report_item4">
+                        <Trans i18nKey="demo:manager_report.report_item4" components={{ 1: <strong /> }}>
                           <strong>Gợi ý hành động:</strong> kiểm tra nguyên nhân (họp, nghỉ trưa, sự cố kỹ thuật…)
                         </Trans>
                       </p>

@@ -75,7 +75,7 @@ export function RootCauseSection() {
             {/* Red warning statement */}
             <div className="text-center">
               <p className="text-base lg:text-lg text-red-600 leading-relaxed">
-                <Trans i18nKey="current-state:root_cause.warning">
+                <Trans i18nKey="current-state:root_cause.warning" components={{ 1: <span className="font-black text-red-700" />, 2: <span className="font-black text-red-700" /> }}>
                   Khi không thấy được <span className="font-black text-red-700">"sự thật đang diễn ra"</span>, mọi quyết định đều mang tính <span className="font-black text-red-700">may rủi</span>.
                 </Trans>
               </p>
@@ -104,7 +104,7 @@ export function RootCauseSection() {
 
                   {/* Evidence statement with BARC */}
                   <p className="text-base lg:text-lg text-gray-900 leading-relaxed">
-                    <Trans i18nKey="current-state:root_cause.evidence_stat">
+                    <Trans i18nKey="current-state:root_cause.evidence_stat" components={{ 1: <span className="font-black text-[#1e4bbf]" /> }}>
                       Theo BARC:{' '}
                       <span className="font-black text-[#1e4bbf]">58%</span> quyết định trong doanh nghiệp Việt dựa vào cảm giác.
                     </Trans>
@@ -112,14 +112,14 @@ export function RootCauseSection() {
 
                   {/* Quote line */}
                   <p className="text-base lg:text-lg text-gray-700 leading-relaxed italic pl-4 border-l-2 border-gray-300">
-                    <Trans i18nKey="current-state:root_cause.evidence_quote">
+                    <Trans i18nKey="current-state:root_cause.evidence_quote" components={{ 1: <span className="font-black text-red-600 not-italic" /> }}>
                       Mà cảm giác thì… <span className="font-black text-red-600 not-italic">hay đánh lừa mình</span>
                     </Trans>
                   </p>
 
                   {/* Closing line */}
                   <p className="text-sm lg:text-base text-gray-700 leading-relaxed">
-                    <Trans i18nKey="current-state:root_cause.evidence_close">
+                    <Trans i18nKey="current-state:root_cause.evidence_close" components={{ 1: <span className="font-black text-red-600" /> }}>
                       Không có dữ liệu, doanh nghiệp buộc phải <span className="font-black text-red-600">điều hành theo may rủi</span>.
                     </Trans>
                   </p>

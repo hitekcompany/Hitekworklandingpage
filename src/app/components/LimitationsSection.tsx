@@ -62,7 +62,7 @@ export function LimitationsSection() {
                   <div className="pt-4 space-y-4">
                     {/* Heading with red emphasis */}
                     <h3 className="text-base font-black text-gray-900">
-                      <Trans i18nKey="current-state:limitations.card2_heading">
+                      <Trans i18nKey="current-state:limitations.card2_heading" components={{ 1: <span className="text-red-600" /> }}>
                         Nhưng <span className="text-red-600">KHÔNG</span> tool nào ghi lại được:
                       </Trans>
                     </h3>
@@ -84,7 +84,7 @@ export function LimitationsSection() {
               <div className="flex items-start gap-3 bg-blue-50/50 rounded-xl p-4 border border-blue-100">
                 <span className="text-2xl flex-shrink-0">👉</span>
                 <p className="text-base text-gray-900 leading-relaxed">
-                  <Trans i18nKey="current-state:limitations.takeaway">
+                  <Trans i18nKey="current-state:limitations.takeaway" components={{ 1: <span className="font-black" /> }}>
                     Đây là <span className="font-black">lớp dữ liệu quan trọng nhất</span> để điều hành, và cũng là lớp dữ liệu mà mọi doanh nghiệp đang thiếu.
                   </Trans>
                 </p>

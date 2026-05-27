@@ -26,7 +26,7 @@ export function DemoAIClassificationSection() {
 
               {/* Headline */}
               <h2 className="text-3xl lg:text-5xl font-black text-gray-900 leading-tight">
-                <Trans i18nKey="demo:ai_classification.title">
+                <Trans i18nKey="demo:ai_classification.title" components={{ 1: <span className="text-[#1e4bbf]" /> }}>
                   AI nhận diện{' '}
                   <span className="text-[#1e4bbf]">làm việc thật</span>
                   {' '}/ phân loại hoạt động

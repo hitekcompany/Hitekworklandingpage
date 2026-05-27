@@ -74,7 +74,7 @@ export function WhyRealDataSection() {
 
             <div className="mt-4 pt-4 border-t border-blue-200/50">
               <p className="text-sm text-gray-600">
-                <Trans i18nKey="current-state:why_real_data.block1_note">
+                <Trans i18nKey="current-state:why_real_data.block1_note" components={{ 1: <span className="font-bold text-gray-900" /> }}>
                   <span className="font-bold text-gray-900">Đặc biệt quan trọng với:</span> Team outsource, Night shift, Freelancer, Junior
                 </Trans>
               </p>
@@ -92,7 +92,7 @@ export function WhyRealDataSection() {
 
             <div className="space-y-4">
               <p className="text-gray-700">
-                <Trans i18nKey="current-state:why_real_data.block2_intro">
+                <Trans i18nKey="current-state:why_real_data.block2_intro" components={{ 1: <span className="font-bold text-gray-900" /> }}>
                   Nhiều vấn đề không nằm ở KPI cuối tháng mà nằm ở <span className="font-bold text-gray-900">behavior hàng ngày:</span>
                 </Trans>
               </p>
@@ -119,7 +119,7 @@ export function WhyRealDataSection() {
 
               <div className="bg-purple-100/50 rounded-xl p-4 mt-4">
                 <p className="text-sm text-gray-800">
-                  <Trans i18nKey="current-state:why_real_data.block2_ai_note">
+                  <Trans i18nKey="current-state:why_real_data.block2_ai_note" components={{ 1: <span className="font-bold text-purple-900" /> }}>
                     <span className="font-bold text-purple-900">AI phát hiện pattern bất thường</span> sớm hơn nhiều so với báo cáo cuối tháng
                   </Trans>
                 </p>

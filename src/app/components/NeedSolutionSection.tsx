@@ -49,7 +49,7 @@ export function NeedSolutionSection() {
             <div className="space-y-6 order-1 lg:order-2">
               {/* Title */}
               <h2 className="text-3xl lg:text-4xl font-black text-gray-900 leading-tight">
-                <Trans i18nKey="current-state:need_solution.block_a_title">
+                <Trans i18nKey="current-state:need_solution.block_a_title" components={{ 1: <span className="text-[#1e4bbf]" /> }}>
                   Doanh nghiệp nhận được gì khi có <span className="text-[#1e4bbf]">dữ liệu thật</span>?
                 </Trans>
               </h2>
@@ -97,7 +97,7 @@ export function NeedSolutionSection() {
 
             {/* Main statement */}
             <h2 className="text-3xl lg:text-4xl font-black text-gray-900 leading-tight max-w-3xl">
-              <Trans i18nKey="current-state:need_solution.block_b_title">
+              <Trans i18nKey="current-state:need_solution.block_b_title" components={{ 1: <span className="font-bold" />, 2: <span className="text-[#1e4bbf]" />, 3: <span className="font-bold" /> }}>
                 <span className="font-bold">Hitek Work là hệ thống thu thập </span>
                 <span className="text-[#1e4bbf]"><span className="font-bold">dữ liệu thật</span></span>
                 <span className="font-bold"> để quản lý đội ngũ từ xa một cách hiệu quả</span>

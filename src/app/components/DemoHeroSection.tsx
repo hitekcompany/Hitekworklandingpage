@@ -28,7 +28,7 @@ export function DemoHeroSection() {
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-gray-900 mb-4 leading-tight">
-            <Trans i18nKey="demo:hero.title">
+            <Trans i18nKey="demo:hero.title" components={{ 1: <span className="text-[#1e4bbf]" /> }}>
               Hitek Work là hệ thống thu thập <span className="text-[#1e4bbf]">dữ liệu thật</span> để quản lý đội ngũ từ xa một cách hiệu quả
             </Trans>
           </h1>

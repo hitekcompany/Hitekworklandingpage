@@ -42,7 +42,7 @@ export function DemoCTASection() {
 
               {/* Headline */}
               <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white leading-tight mb-6">
-                <Trans i18nKey="demo:cta.title">
+                <Trans i18nKey="demo:cta.title" components={{ 1: <span className="text-white drop-shadow-lg" /> }}>
                   Hitek Work giúp bạn quản trị bằng <span className="text-white drop-shadow-lg">dữ liệu thật</span>
                 </Trans>
               </h2>
