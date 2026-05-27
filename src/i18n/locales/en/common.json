@@ -1,1 +1,36 @@
-{}
+{
+  "nav": {
+    "home": "Home",
+    "solution": "Solution",
+    "features": "Features",
+    "about": "About Us"
+  },
+  "cta": {
+    "request_demo": "Request a Demo",
+    "try_free": "Try for Free",
+    "subscribe": "Subscribe"
+  },
+  "header": {
+    "logo_alt": "Hitek Work",
+    "toggle_menu": "Toggle menu"
+  },
+  "switcher": {
+    "aria_label": "Change language"
+  },
+  "footer": {
+    "dev_center": {
+      "title": "Development Center",
+      "address": "6th Floor, Hai Au Building, 39B Truong Son, Tan Son Nhi Ward, Tan Binh District, Ho Chi Minh City, Vietnam"
+    },
+    "offices": {
+      "title": "Representative Offices",
+      "korea": "Korea",
+      "japan": "Japan"
+    },
+    "social": {
+      "title": "Follow Us",
+      "newsletter_pitch": "Subscribe to receive the latest product news and exclusive offers from Hitek Work"
+    },
+    "copyright": "Copyright © 2026 Hitek Software JSC"
+  }
+}

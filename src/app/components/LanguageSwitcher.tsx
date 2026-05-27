@@ -38,7 +38,7 @@ type Props = {
 export function LanguageSwitcher({ variant = "desktop", onSelect }: Props) {
   const location = useLocation();
   const navigate = useNavigate();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation("common");
   const currentLang = resolveLang(location.pathname, i18n.language);
 
   const handleSelect = (newLang: Lang) => {
@@ -79,7 +79,7 @@ export function LanguageSwitcher({ variant = "desktop", onSelect }: Props) {
     <DropdownMenu>
       <DropdownMenuTrigger
         className="flex items-center gap-1 text-neutral-700 hover:text-[#1e4bbf] font-semibold transition-colors outline-none"
-        aria-label="Chuyển ngôn ngữ"
+        aria-label={t("switcher.aria_label")}
       >
         <span>{ENDONYM_MAP[currentLang]}</span>
         <ChevronDown className="w-4 h-4" />

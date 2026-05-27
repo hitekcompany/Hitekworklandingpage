@@ -1,15 +1,15 @@
 ---
 task: 06
 title: Translate common namespace (nav, footer, switcher labels)
-status: pending
+status: done
 type: AFK
 blocked_by: [task-01, task-04]
 effort: M
 human_estimate_hours: 2
 ai_estimate_hours: 0.3
-actual_hours: null
+actual_hours: 0.3
 created: 2026-05-27
-completed: null
+completed: 2026-05-27
 ---
 
 # Task 06: Translate common namespace

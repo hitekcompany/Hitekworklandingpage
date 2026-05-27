@@ -8,11 +8,11 @@ import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES, type Lang } from "../../i18n/con
 import logoNgang from "../../imports/logo-ngang.png";
 
 const navItems = [
-  { label: "Trang chủ", path: "" },
-  { label: "Giải pháp", path: "current-state" },
-  { label: "Tính năng", path: "demo" },
-  { label: "Về chúng tôi", path: "about" },
-  // { label: "Bảng giá", path: "pricing" },
+  { labelKey: "nav.home", path: "" },
+  { labelKey: "nav.solution", path: "current-state" },
+  { labelKey: "nav.features", path: "demo" },
+  { labelKey: "nav.about", path: "about" },
+  // { labelKey: "nav.pricing", path: "pricing" },
 ];
 
 function resolveLang(pathname: string, i18nLang: string): Lang {
@@ -25,7 +25,7 @@ function resolveLang(pathname: string, i18nLang: string): Lang {
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation("common");
   const lang = resolveLang(location.pathname, i18n.language);
 
   const buildHref = (path: string) => (path ? `/${lang}/${path}` : `/${lang}`);
@@ -46,7 +46,7 @@ export function Header() {
           >
             <img
               src={logoNgang}
-              alt="Hitek Work"
+              alt={t("header.logo_alt")}
               className="h-14 lg:h-18 w-auto"
             />
           </Link>
@@ -68,7 +68,7 @@ export function Header() {
                       : "text-neutral-700 hover:text-[#1e4bbf]"
                   }`}
                 >
-                  {item.label}
+                  {t(item.labelKey)}
                 </Link>
               );
             })}
@@ -81,7 +81,7 @@ export function Header() {
               variant="primary"
               className="text-sm"
             >
-              Yêu cầu Demo
+              {t("cta.request_demo")}
             </WireframeButton>
           </div>
 
@@ -91,12 +91,12 @@ export function Header() {
               variant="primary"
               className="text-sm px-5 py-2.5"
             >
-              Yêu cầu Demo
+              {t("cta.request_demo")}
             </WireframeButton>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 hover:bg-neutral-100 rounded-lg transition-colors"
-              aria-label="Toggle menu"
+              aria-label={t("header.toggle_menu")}
             >
               {mobileMenuOpen ? (
                 <X className="w-6 h-6" />
@@ -128,7 +128,7 @@ export function Header() {
                     handleNavClick();
                   }}
                 >
-                  {item.label}
+                  {t(item.labelKey)}
                 </Link>
               );
             })}
@@ -136,7 +136,7 @@ export function Header() {
               className="mt-2 w-full text-left py-3 px-4 text-neutral-700 hover:text-[#1e4bbf] hover:bg-neutral-50 rounded-lg font-semibold transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Dùng thử miễn phí
+              {t("cta.try_free")}
             </button>
             <LanguageSwitcher
               variant="mobile"

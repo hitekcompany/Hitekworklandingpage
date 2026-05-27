@@ -5,8 +5,10 @@ import {
   Mail,
   MapPin,
 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export function Footer() {
+  const { t } = useTranslation("common");
   return (
     <footer className="bg-[#1a1a1a] text-white">
       <div className="max-w-[1440px] mx-auto px-6 lg:px-12 py-12 lg:py-16">
@@ -14,16 +16,12 @@ export function Footer() {
           {/* Development Center */}
           <div>
             <h3 className="text-lg font-bold mb-6">
-              Development Center
+              {t("footer.dev_center.title")}
             </h3>
             <div className="space-y-3 text-gray-300 text-sm">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
-                <p>
-                  Lầu 6, Tòa nhà Hải Âu, 39B Trường Sơn, P. Tân
-                  Sơn Nhì, Q. Tân Bình, TP. Hồ Chí Minh, Việt
-                  Nam
-                </p>
+                <p>{t("footer.dev_center.address")}</p>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0" />
@@ -49,13 +47,13 @@ export function Footer() {
           {/* Văn phòng đại diện */}
           <div>
             <h3 className="text-lg font-bold mb-6">
-              Văn phòng đại diện
+              {t("footer.offices.title")}
             </h3>
             <div className="space-y-6 text-gray-300 text-sm">
               {/* Hàn Quốc */}
               <div>
                 <p className="font-semibold text-white mb-2">
-                  Hàn Quốc
+                  {t("footer.offices.korea")}
                 </p>
                 <div className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
@@ -69,7 +67,7 @@ export function Footer() {
               {/* Nhật Bản */}
               <div>
                 <p className="font-semibold text-white mb-2">
-                  Nhật Bản
+                  {t("footer.offices.japan")}
                 </p>
                 <div className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
@@ -85,7 +83,7 @@ export function Footer() {
           {/* Theo dõi chúng tôi & Newsletter */}
           <div>
             <h3 className="text-lg font-bold mb-6">
-              Theo dõi chúng tôi
+              {t("footer.social.title")}
             </h3>
             <div className="flex gap-4 mb-6">
               <a
@@ -107,8 +105,7 @@ export function Footer() {
             </div>
 
             <p className="text-sm text-gray-300 mb-4">
-              Đăng ký để nhận những tin tức mới nhất về sản phẩm
-              và các ưu đãi hấp dẫn từ Hitek Work
+              {t("footer.social.newsletter_pitch")}
             </p>
             <div className="flex gap-2">
               {/* <input
@@ -116,11 +113,11 @@ export function Footer() {
                 placeholder="Email của bạn"
                 className="flex-1 px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-sm focus:outline-none focus:border-[#1e4bbf] transition-colors text-white placeholder:text-gray-400"
               /> */}
-          <button 
+          <button
   onClick={() => window.open('https://zalo.me/84777505030', '_blank')}
   className="px-6 py-2 bg-[#1e4bbf] hover:bg-[#1640a0] rounded-lg text-sm font-medium transition-colors"
 >
-  Đăng ký
+  {t("cta.subscribe")}
 </button>  </div>
           </div>
         </div>
@@ -201,7 +198,7 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-2 pt-8 border-t border-white/10 text-center text-gray-400 text-sm">
-          <p>Copyright @ 2026 Hitek Software JSC</p>
+          <p>{t("footer.copyright")}</p>
         </div>
       </div>
     </footer>
