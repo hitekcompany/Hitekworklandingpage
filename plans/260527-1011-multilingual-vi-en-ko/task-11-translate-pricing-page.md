@@ -1,15 +1,15 @@
 ---
 task: 11
 title: Translate PricingPage sections
-status: pending
+status: done
 type: AFK
 blocked_by: [task-06]
 effort: S
 human_estimate_hours: 1.5
 ai_estimate_hours: 0.2
-actual_hours: null
+actual_hours: 0.25
 created: 2026-05-27
-completed: null
+completed: 2026-05-27
 ---
 
 # Task 11: Translate PricingPage

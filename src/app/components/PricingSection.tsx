@@ -1,143 +1,73 @@
 import { Check, ChevronDown, Star, Sparkles, Rocket, Brain } from 'lucide-react';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { WireframeButton } from './WireframeButton';
 
-const pricingPlans = [
-  {
-    name: 'Miễn phí',
-    price: '0₫',
-    period: '/tháng',
-    description: 'Dùng thử cơ bản',
-    features: [
-      'Tối đa 5 nhân viên',
-      'Quản lý task cơ bản',
-      'Báo cáo tuần',
-      'Lưu trữ 1GB',
-      'Hỗ trợ email',
-    ],
-    buttonText: 'Bắt đầu miễn phí',
-    highlighted: false,
-  },
-  {
-    name: 'Tiêu chuẩn',
-    price: '99,000₫',
-    period: '/người/tháng',
-    description: 'Cho team nhỏ',
-    features: [
-      'Tối đa 20 nhân viên',
-      'Quản lý dự án đầy đủ',
-      'Báo cáo hàng ngày',
-      'Timeline hoạt động',
-      'Lưu trữ 50GB',
-      'Hỗ trợ qua chat',
-    ],
-    buttonText: 'Dùng ngay',
-    highlighted: false,
-  },
-  {
-    name: 'Chuyên nghiệp',
-    price: '199,000₫',
-    period: '/người/tháng',
-    description: 'Phù hợp doanh nghiệp',
-    features: [
-      'Không giới hạn nhân viên',
-      'AI đo lường hiệu suất',
-      'Báo cáo real-time',
-      'Bảo mật dữ liệu nâng cao',
-      'Chống copy USB',
-      'Lưu trữ 500GB',
-      'Hỗ trợ ưu tiên',
-    ],
-    buttonText: 'D��ng ngay',
-    highlighted: true,
-  },
-  {
-    name: 'Doanh nghiệp',
-    price: 'Liên hệ',
-    period: '',
-    description: 'Giải pháp tùy chỉnh',
-    features: [
-      'Tất cả tính năng Pro',
-      'Tích hợp tùy chỉnh',
-      'Quản lý tài khoản chuyên trách',
-      'Triển khai on-premise',
-      'SLA 99.9%',
-      'Lưu trữ không giới hạn',
-      'Hỗ trợ điện thoại 24/7',
-    ],
-    buttonText: 'Liên hệ ngay',
-    highlighted: false,
-  },
-];
+// Plan meta that doesn't change with language (highlighted flag)
+const planHighlighted = [false, false, true, false];
 
-const comparisonFeatures = [
+// Comparison table: boolean availability per plan (free, standard, pro, enterprise)
+const comparisonFeatureFlags = [
   {
-    category: 'Quản lý công việc',
     features: [
-      { name: 'Tạo & gán task', free: true, standard: true, pro: true, enterprise: true },
-      { name: 'Quản lý dự án', free: false, standard: true, pro: true, enterprise: true },
-      { name: 'Timeline & Gantt chart', free: false, standard: true, pro: true, enterprise: true },
-      { name: 'Dependencies task', free: false, standard: false, pro: true, enterprise: true },
-      { name: 'Custom workflows', free: false, standard: false, pro: true, enterprise: true },
-    ],
+      { free: true, standard: true, pro: true, enterprise: true },
+      { free: false, standard: true, pro: true, enterprise: true },
+      { free: false, standard: true, pro: true, enterprise: true },
+      { free: false, standard: false, pro: true, enterprise: true },
+      { free: false, standard: false, pro: true, enterprise: true }
+    ]
   },
   {
-    category: 'Báo cáo & Phân tích',
     features: [
-      { name: 'Báo cáo tuần', free: true, standard: true, pro: true, enterprise: true },
-      { name: 'Báo cáo hàng ngày', free: false, standard: true, pro: true, enterprise: true },
-      { name: 'Báo cáo real-time', free: false, standard: false, pro: true, enterprise: true },
-      { name: 'Phân tích AI', free: false, standard: false, pro: true, enterprise: true },
-      { name: 'Báo cáo tùy chỉnh', free: false, standard: false, pro: false, enterprise: true },
-    ],
+      { free: true, standard: true, pro: true, enterprise: true },
+      { free: false, standard: true, pro: true, enterprise: true },
+      { free: false, standard: false, pro: true, enterprise: true },
+      { free: false, standard: false, pro: true, enterprise: true },
+      { free: false, standard: false, pro: false, enterprise: true }
+    ]
   },
   {
-    category: 'Bảo mật',
     features: [
-      { name: 'Bảo mật cơ bản', free: true, standard: true, pro: true, enterprise: true },
-      { name: 'Chống copy USB', free: false, standard: false, pro: true, enterprise: true },
-      { name: 'Truy vết file', free: false, standard: false, pro: true, enterprise: true },
-      { name: 'Nhật ký kiểm toán', free: false, standard: false, pro: true, enterprise: true },
-      { name: 'SSO & SAML', free: false, standard: false, pro: false, enterprise: true },
-    ],
+      { free: true, standard: true, pro: true, enterprise: true },
+      { free: false, standard: false, pro: true, enterprise: true },
+      { free: false, standard: false, pro: true, enterprise: true },
+      { free: false, standard: false, pro: true, enterprise: true },
+      { free: false, standard: false, pro: false, enterprise: true }
+    ]
   },
   {
-    category: 'Hỗ trợ',
     features: [
-      { name: 'Hỗ trợ qua email', free: true, standard: true, pro: true, enterprise: true },
-      { name: 'Hỗ trợ qua chat', free: false, standard: true, pro: true, enterprise: true },
-      { name: 'Hỗ trợ ưu tiên', free: false, standard: false, pro: true, enterprise: true },
-      { name: 'Hỗ trợ điện thoại 24/7', free: false, standard: false, pro: false, enterprise: true },
-      { name: 'Quản lý tài khoản chuyên trách', free: false, standard: false, pro: false, enterprise: true },
-    ],
-  },
-];
-
-const faqs = [
-  {
-    question: 'Tôi có thể dùng thử miễn phí không?',
-    answer: 'Có! Gói Miễn phí của chúng tôi cho phép bạn dùng thử các tính năng cơ bản với tối đa 5 nhân viên. Không cần thẻ tín dụng để đăng ký.',
-  },
-  {
-    question: 'Tôi có thể nâng cấp hoặc hạ cấp gói bất cứ lúc nào không?',
-    answer: 'Có, bạn có thể thay đổi gói dịch vụ bất cứ lúc nào. Chúng tôi sẽ tính phí theo tỷ lệ cho thời gian sử dụng còn lại.',
-  },
-  {
-    question: 'Phương thức thanh toán nào được chấp nhận?',
-    answer: 'Chúng tôi chấp nhận thanh toán qua thẻ tín dụng/ghi nợ, chuyển khoản ngân hàng, và ví điện tử (Momo, ZaloPay). Đối với gói Doanh nghiệp, chúng tôi hỗ trợ thanh toán theo hóa đơn.',
-  },
-  {
-    question: 'Dữ liệu của tôi có an toàn không?',
-    answer: 'Tất cả dữ liệu được mã hóa end-to-end và lưu trữ trên server tại Việt Nam. Chúng tôi tuân thủ các tiêu chuẩn bảo mật quốc tế như ISO 27001 và GDPR.',
-  },
-  {
-    question: 'Tôi có thể hủy bất cứ lúc nào không?',
-    answer: 'Có, bạn có thể hủy subscription bất cứ lúc nào. Dữ liệu của bạn sẽ được giữ lại trong 30 ngày sau khi hủy để bạn có thể xuất ra nếu cần.',
-  },
+      { free: true, standard: true, pro: true, enterprise: true },
+      { free: false, standard: true, pro: true, enterprise: true },
+      { free: false, standard: false, pro: true, enterprise: true },
+      { free: false, standard: false, pro: false, enterprise: true },
+      { free: false, standard: false, pro: false, enterprise: true }
+    ]
+  }
 ];
 
 export function PricingSection() {
+  const { t } = useTranslation('pricing');
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
+
+  const plans = t('plans', { returnObjects: true }) as Array<{
+    name: string;
+    price: string;
+    period: string;
+    description: string;
+    features: string[];
+    buttonText: string;
+  }>;
+
+  const comparisonCategories = t('comparison.categories', { returnObjects: true }) as Array<{
+    category: string;
+    features: string[];
+  }>;
+
+  const faqItems = t('faq.items', { returnObjects: true }) as Array<{
+    question: string;
+    answer: string;
+  }>;
 
   return (
     <section id="pricing" className="relative py-16 lg:py-24 overflow-hidden">
@@ -157,31 +87,31 @@ export function PricingSection() {
       </div>
 
       <div className="max-w-[1200px] mx-auto px-6 lg:px-12 relative z-10">
-        
+
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-black text-gray-900 mb-4">
-            Bảng giá Hitek Work
+            {t('header.title')}
           </h2>
           <p className="text-lg lg:text-xl text-gray-700 max-w-3xl mx-auto">
-            Chọn gói phù hợp với quy mô và nhu cầu của doanh nghiệp bạn
+            {t('header.subtitle')}
           </p>
         </div>
 
         {/* Pricing Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
-          {pricingPlans.map((plan, index) => (
+          {plans.map((plan, index) => (
             <div
               key={index}
               className={`relative bg-white/90 backdrop-blur-sm rounded-3xl border-2 p-6 lg:p-8 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 flex flex-col min-h-[580px] ${
-                plan.highlighted
+                planHighlighted[index]
                   ? 'border-[#1e4bbf] shadow-xl'
                   : 'border-gray-200 shadow-lg'
               }`}
             >
-              {plan.highlighted && (
+              {planHighlighted[index] && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#1e4bbf] to-blue-600 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg whitespace-nowrap">
-                  Phổ biến nhất
+                  {t('popular_badge')}
                 </div>
               )}
 
@@ -204,7 +134,7 @@ export function PricingSection() {
               </ul>
 
               <WireframeButton
-                variant={plan.highlighted ? 'primary' : 'secondary'}
+                variant={planHighlighted[index] ? 'primary' : 'secondary'}
                 className="w-full mt-auto"
               >
                 {plan.buttonText}
@@ -216,65 +146,68 @@ export function PricingSection() {
         {/* Comparison Table */}
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl border-2 border-blue-100 p-8 lg:p-12 shadow-lg mb-20">
           <h3 className="text-3xl font-black text-gray-900 text-center mb-12">
-            So sánh chi tiết các gói
+            {t('comparison.title')}
           </h3>
 
           <div className="overflow-x-auto">
             <table className="w-full min-w-[800px]">
               <thead>
                 <tr className="border-b-2 border-gray-200">
-                  <th className="text-left py-4 px-4 text-gray-900 font-bold">Tính năng</th>
-                  <th className="text-center py-4 px-4 text-gray-900 font-bold">Miễn phí</th>
-                  <th className="text-center py-4 px-4 text-gray-900 font-bold">Tiêu chuẩn</th>
+                  <th className="text-left py-4 px-4 text-gray-900 font-bold">{t('comparison.feature_col')}</th>
+                  <th className="text-center py-4 px-4 text-gray-900 font-bold">{plans[0]?.name}</th>
+                  <th className="text-center py-4 px-4 text-gray-900 font-bold">{plans[1]?.name}</th>
                   <th className="text-center py-4 px-4 text-gray-900 font-bold bg-blue-50 rounded-t-xl">
-                    Chuyên nghiệp
+                    {plans[2]?.name}
                   </th>
-                  <th className="text-center py-4 px-4 text-gray-900 font-bold">Doanh nghiệp</th>
+                  <th className="text-center py-4 px-4 text-gray-900 font-bold">{plans[3]?.name}</th>
                 </tr>
               </thead>
               <tbody>
-                {comparisonFeatures.flatMap((category, categoryIndex) => [
+                {comparisonCategories.flatMap((category, categoryIndex) => [
                   <tr key={`category-${categoryIndex}`} className="bg-gray-50">
                     <td colSpan={5} className="py-3 px-4 font-black text-gray-900 text-sm uppercase tracking-wide">
                       {category.category}
                     </td>
                   </tr>,
-                  ...category.features.map((feature, featureIndex) => (
-                    <tr
-                      key={`feature-${categoryIndex}-${featureIndex}`}
-                      className="border-b border-gray-100 hover:bg-gray-50"
-                    >
-                      <td className="py-4 px-4 text-gray-700 text-sm">{feature.name}</td>
-                      <td className="py-4 px-4 text-center">
-                        {feature.free ? (
-                          <Check className="w-5 h-5 text-[#1e4bbf] mx-auto" />
-                        ) : (
-                          <span className="text-gray-300">—</span>
-                        )}
-                      </td>
-                      <td className="py-4 px-4 text-center">
-                        {feature.standard ? (
-                          <Check className="w-5 h-5 text-[#1e4bbf] mx-auto" />
-                        ) : (
-                          <span className="text-gray-300">—</span>
-                        )}
-                      </td>
-                      <td className="py-4 px-4 text-center bg-blue-50/50">
-                        {feature.pro ? (
-                          <Check className="w-5 h-5 text-[#1e4bbf] mx-auto" />
-                        ) : (
-                          <span className="text-gray-300">—</span>
-                        )}
-                      </td>
-                      <td className="py-4 px-4 text-center">
-                        {feature.enterprise ? (
-                          <Check className="w-5 h-5 text-[#1e4bbf] mx-auto" />
-                        ) : (
-                          <span className="text-gray-300">—</span>
-                        )}
-                      </td>
-                    </tr>
-                  ))
+                  ...category.features.map((featureName, featureIndex) => {
+                    const flags = comparisonFeatureFlags[categoryIndex]?.features[featureIndex];
+                    return (
+                      <tr
+                        key={`feature-${categoryIndex}-${featureIndex}`}
+                        className="border-b border-gray-100 hover:bg-gray-50"
+                      >
+                        <td className="py-4 px-4 text-gray-700 text-sm">{featureName}</td>
+                        <td className="py-4 px-4 text-center">
+                          {flags?.free ? (
+                            <Check className="w-5 h-5 text-[#1e4bbf] mx-auto" />
+                          ) : (
+                            <span className="text-gray-300">—</span>
+                          )}
+                        </td>
+                        <td className="py-4 px-4 text-center">
+                          {flags?.standard ? (
+                            <Check className="w-5 h-5 text-[#1e4bbf] mx-auto" />
+                          ) : (
+                            <span className="text-gray-300">—</span>
+                          )}
+                        </td>
+                        <td className="py-4 px-4 text-center bg-blue-50/50">
+                          {flags?.pro ? (
+                            <Check className="w-5 h-5 text-[#1e4bbf] mx-auto" />
+                          ) : (
+                            <span className="text-gray-300">—</span>
+                          )}
+                        </td>
+                        <td className="py-4 px-4 text-center">
+                          {flags?.enterprise ? (
+                            <Check className="w-5 h-5 text-[#1e4bbf] mx-auto" />
+                          ) : (
+                            <span className="text-gray-300">—</span>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })
                 ])}
               </tbody>
             </table>
@@ -284,11 +217,11 @@ export function PricingSection() {
         {/* FAQ Section */}
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl border-2 border-blue-100 p-8 lg:p-12 shadow-lg">
           <h3 className="text-3xl font-black text-gray-900 text-center mb-12">
-            Câu hỏi thường gặp
+            {t('faq.title')}
           </h3>
 
           <div className="max-w-3xl mx-auto space-y-4">
-            {faqs.map((faq, index) => (
+            {faqItems.map((faq, index) => (
               <div
                 key={index}
                 className="border border-gray-200 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-md"
@@ -317,14 +250,14 @@ export function PricingSection() {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <p className="text-gray-700 mb-6">
-            Vẫn còn thắc mắc? Chúng tôi sẵn sàng tư vấn miễn phí
+            {t('bottom_cta.text')}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <WireframeButton variant="secondary">
-              Đặt lịch tư vấn
+              {t('bottom_cta.schedule')}
             </WireframeButton>
             <WireframeButton variant="primary">
-              Dùng thử miễn phí
+              {t('bottom_cta.try_free')}
             </WireframeButton>
           </div>
         </div>
