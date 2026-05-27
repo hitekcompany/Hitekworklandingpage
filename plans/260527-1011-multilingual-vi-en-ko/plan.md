@@ -37,7 +37,7 @@ post-launch. Testing setup Vitest DEFER Phase 1.5 (user quyết manual QA qua
 | 06 | ✅ Translate common namespace | AFK | 01, 04 | M (2h / 0.3h) — actual 0.3h | [task-06](./task-06-translate-common-namespace.md) |
 | 07 | Translate HomePage | AFK | 06 | M (3h / 0.4h) | [task-07](./task-07-translate-home-page.md) |
 | 08 | Translate CurrentStatePage | AFK | 06 | M (3h / 0.4h) | [task-08](./task-08-translate-current-state-page.md) |
-| 09 | Translate DemoPage part 1 (5 sections) | AFK | 06 | M (3h / 0.4h) | [task-09](./task-09-translate-demo-page-part-1.md) |
+| 09 | ✅ Translate DemoPage part 1 (5 sections) | AFK | 06 | M (3h / 0.4h) — actual 0.5h | [task-09](./task-09-translate-demo-page-part-1.md) |
 | 10 | Translate DemoPage part 2 (5 sections) | AFK | 09 | M (3h / 0.4h) | [task-10](./task-10-translate-demo-page-part-2.md) |
 | 11 | Translate PricingPage | AFK | 06 | S (1.5h / 0.2h) | [task-11](./task-11-translate-pricing-page.md) |
 | 12 | Translate AboutPage | AFK | 06 | S (1h / 0.15h) | [task-12](./task-12-translate-about-page.md) |

@@ -1,7 +1,9 @@
+import { useTranslation, Trans } from 'react-i18next';
 import { WireframeButton } from './WireframeButton';
 import { Star, Sparkles, Rocket, Brain } from 'lucide-react';
 
 export function DemoHeroSection() {
+  const { t } = useTranslation('demo');
   return (
     <section className="relative py-12 lg:py-20 overflow-hidden">
       {/* Animated Background Blobs */}
@@ -20,26 +22,30 @@ export function DemoHeroSection() {
       </div>
 
       <div className="max-w-[1200px] mx-auto px-6 lg:px-12 relative z-10">
-        
+
         {/* Main Hero Content */}
         <div className="max-w-5xl mx-auto text-center">
 
           {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-gray-900 mb-4 leading-tight">Hitek Work là hệ thống thu thập  <span className="text-[#1e4bbf]">dữ liệu thật </span>để quản lý đội ngũ từ xa một cách hiệu quả</h1>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-gray-900 mb-4 leading-tight">
+            <Trans i18nKey="demo:hero.title">
+              Hitek Work là hệ thống thu thập <span className="text-[#1e4bbf]">dữ liệu thật</span> để quản lý đội ngũ từ xa một cách hiệu quả
+            </Trans>
+          </h1>
 
           {/* Subheadline */}
           <p className="text-lg lg:text-xl xl:text-2xl text-gray-700 mb-6 max-w-3xl mx-auto leading-relaxed">
-            Hitek Work không phải là công cụ giám sát,<br className="hidden sm:block" />
-            Đây là công cụ giúp đội ngũ thấu hiểu để đưa ra giải pháp tối đa năng suất.
+            {t('hero.subtitle_line1')}<br className="hidden sm:block" />
+            {t('hero.subtitle_line2')}
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <WireframeButton variant="primary" className="w-full sm:w-auto px-8 py-4 text-base lg:text-lg">
-              Dùng thử miễn phí →
+              {t('hero.cta_trial')}
             </WireframeButton>
             <WireframeButton variant="secondary" className="w-full sm:w-auto px-8 py-4 text-base lg:text-lg">
-              Yêu cầu Live Demo
+              {t('hero.cta_live_demo')}
             </WireframeButton>
           </div>
 
