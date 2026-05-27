@@ -1,15 +1,15 @@
 ---
 task: 07
 title: Translate HomePage sections
-status: pending
+status: done
 type: AFK
 blocked_by: [task-06]
 effort: M
 human_estimate_hours: 3
 ai_estimate_hours: 0.4
-actual_hours: null
+actual_hours: 0.4
 created: 2026-05-27
-completed: null
+completed: 2026-05-27
 ---
 
 # Task 07: Translate HomePage sections

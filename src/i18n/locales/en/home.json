@@ -1,1 +1,67 @@
-{}
+{
+  "hero": {
+    "title": "Remote productivity management based on <1>real data</1>",
+    "title_before": "Remote productivity management based on",
+    "title_highlight": "real data",
+    "subtitle": "The #1 tool for building trust within distributed teams",
+    "cta_demo": "Request a Demo",
+    "benefits": {
+      "transparency": "Real-time transparency",
+      "ai_alert": "AI alerts & security",
+      "reports": "Reports for every level"
+    },
+    "dashboard": {
+      "performance": "Performance",
+      "security": "Security",
+      "ai_analysis": "AI Analysis"
+    }
+  },
+  "pillars": {
+    "section_title": "4 Pillars of Hitek Work",
+    "section_subtitle": "The platform that helps businesses effectively manage remote teams",
+    "items": [
+      {
+        "title": "Make performance transparency a reality",
+        "valueSentence": "See each employee's progress and focus level in real time — then plan rewards or coaching accordingly.",
+        "features": [
+          "Real-time activity timeline",
+          "Smart minute-by-minute screenshots",
+          "Behavior-based focus index reports"
+        ]
+      },
+      {
+        "title": "AI security & early warning",
+        "valueSentence": "AI detects anomalies early so you can act before they become risks.",
+        "features": [
+          "AI distinguishes real work / classifies activity",
+          "AI alerts for low productivity",
+          "AI detects unauthorized tools / unsafe websites"
+        ]
+      },
+      {
+        "title": "Incident traceability",
+        "valueSentence": "Trace back through time to find the exact moment and source.",
+        "features": [
+          "Review complete behavioral history",
+          "Pinpoint the exact time and source",
+          "Provide clear, documented evidence"
+        ]
+      },
+      {
+        "title": "Multi-level reporting",
+        "valueSentence": "Each level sees exactly what they need to make fast, aligned decisions.",
+        "features": [
+          "Staff – Team Lead – Manager – BOD",
+          "Role-specific insights at every level",
+          "100% automated"
+        ]
+      }
+    ]
+  },
+  "bottom_cta": {
+    "badge": "Get Started",
+    "headline": "Ready for the productivity revolution?",
+    "subheadline": "Book a live demo now and discover a completely different approach.",
+    "cta_primary": "Request a Live Demo"
+  }
+}

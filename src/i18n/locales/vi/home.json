@@ -1,1 +1,67 @@
-{}
+{
+  "hero": {
+    "title": "Quản lý năng suất từ xa dựa trên <1>dữ liệu thật</1>",
+    "title_before": "Quản lý năng suất từ xa dựa trên",
+    "title_highlight": "dữ liệu thật",
+    "subtitle": "Công cụ số 1 để gây dựng sự tin tưởng cho các đội ngũ làm việc cách xa nhau",
+    "cta_demo": "Yêu cầu Demo",
+    "benefits": {
+      "transparency": "Minh bạch theo thời gian thực",
+      "ai_alert": "AI cảnh báo & bảo mật",
+      "reports": "Báo cáo cho từng cấp"
+    },
+    "dashboard": {
+      "performance": "Hiệu suất",
+      "security": "Bảo mật",
+      "ai_analysis": "Phân tích AI"
+    }
+  },
+  "pillars": {
+    "section_title": "4 trụ cột của Hitek Work",
+    "section_subtitle": "Nền tảng giúp doanh nghiệp quản lý hiệu quả đội ngũ từ xa",
+    "items": [
+      {
+        "title": "Giúp doanh nghiệp minh bạch hiệu suất",
+        "valueSentence": "Thấy tiến độ & mức độ tập trung từng nhân sự. Từ đó có kế hoạch khen thưởng hoặc đào tạo tương ứng.",
+        "features": [
+          "Timeline hoạt động theo thời gian thật",
+          "Screenshot thông minh theo phút",
+          "Báo cáo chỉ số tập trung theo hành vi"
+        ]
+      },
+      {
+        "title": "AI bảo mật & cảnh báo sớm",
+        "valueSentence": "AI phát hiện bất thường sớm để xử lý trước khi thành rủi ro.",
+        "features": [
+          "AI nhận diện làm việc thật / Phân loại hoạt động",
+          "AI cảnh báo hiệu suất thấp",
+          "AI phát hiện tool lạ / web không an toàn"
+        ]
+      },
+      {
+        "title": "Truy vết sự cố",
+        "valueSentence": "Lần ngược theo thời gian để tìm đúng lúc – đúng nguồn.",
+        "features": [
+          "Xem lại toàn bộ hành vi",
+          "Tìm đúng thời điểm – đúng nguồn",
+          "Đưa ra bằng chứng rõ ràng"
+        ]
+      },
+      {
+        "title": "Báo cáo đa cấp",
+        "valueSentence": "Mỗi cấp xem đúng thứ họ cần để ra quyết định nhanh và thống nhất.",
+        "features": [
+          "Nhân viên – Team Lead – Manager – BOD",
+          "Xem đúng thứ họ cần theo cấp bậc",
+          "100% tự động hóa"
+        ]
+      }
+    ]
+  },
+  "bottom_cta": {
+    "badge": "Bắt đầu",
+    "headline": "Sẵn sàng cho cuộc cách mạng về năng suất làm việc?",
+    "subheadline": "Đặt lịch live demo ngay để khám phá một giải pháp hoàn toàn khác biệt.",
+    "cta_primary": "Yêu cầu Live Demo"
+  }
+}
