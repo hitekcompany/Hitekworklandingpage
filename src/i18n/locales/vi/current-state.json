@@ -1,1 +1,187 @@
-{}
+{
+  "hero": {
+    "title_part1": "Hôm nay đội của bạn làm",
+    "title_highlight1": "việc hiệu quả",
+    "title_part2": "bao nhiêu",
+    "title_highlight2": "phần trăm",
+    "title_end": "?",
+    "subtitle_part1": "Trong đó bao nhiêu phần trăm dữ liệu báo cáo là",
+    "subtitle_highlight": "sự thật",
+    "subtitle_end": "?",
+    "questions": [
+      "Bạn thật sự tin tưởng các công cụ truyền thống như KPI và OKR là đủ để quản trị một con người?",
+      "Bạn có truy vết được khi ai đó làm lộ các bí mật kinh doanh, khi nào, ở đâu không?",
+      "Bạn luôn cảm thấy cộng tác cùng các nhóm không ở gần nhau là khó khăn?"
+    ],
+    "scroll_label": "Khám phá thực trạng"
+  },
+  "current_state": {
+    "title": "Hiệu suất bị mất",
+    "time_allocation_label": "Phân bổ thời gian trong Microsoft 365",
+    "communication_label": "Communication",
+    "creation_label": "Creation",
+    "comm_items": [
+      { "label": "Email", "percent": 28 },
+      { "label": "Họp/Meeting", "percent": 21 },
+      { "label": "Chat", "percent": 8 }
+    ],
+    "creation_items": [
+      { "label": "Viết tài liệu", "percent": 22 },
+      { "label": "Phân tích/tính toán", "percent": 14 },
+      { "label": "Thiết kế/Code", "percent": 7 }
+    ],
+    "stat1": "Theo Asana: \"60% thời gian nhân viên văn phòng không tạo giá trị.\"",
+    "stat2": "Theo Microsoft: \"57% thời gian mỗi ngày nhân viên dành cho họp, chat, email.\"",
+    "example_label": "Ví dụ:",
+    "example_item1": "Nếu mỗi người lãng phí <1>2 giờ/ngày</1>,",
+    "example_item2": "Một doanh nghiệp <1>50 người</1>,",
+    "example_item3": "Lương trung bình <1>10 triệu/người/tháng</1>.",
+    "example_result": "Mất hơn <1>100tr/tháng</1> - <2>1,2 tỷ/năm</2> (chưa bao gồm chi phí cơ hội đã mất)",
+    "transition_label": "Nhưng tại sao báo cáo luôn \"100% hoàn thành\"?"
+  },
+  "report_vs_reality": {
+    "title": "Báo cáo vs Thực tế",
+    "report_card": {
+      "heading": "Báo cáo",
+      "percent": "100%",
+      "status": "Hoàn thành",
+      "items": ["Hoàn tất công việc", "Đúng deadline", "100% hoàn thành"]
+    },
+    "reality_card": {
+      "heading": "Thực tế",
+      "percent": "40-60%",
+      "status": "Năng suất thực tế",
+      "items": ["Lãng phí 2-3 giờ mỗi ngày", "Lướt mạng xã hội", "Họp quá nhiều"]
+    },
+    "evidence_heading": "Dữ liệu thực tế",
+    "evidence1": "Nhân viên dành <1>1,5-2,5 giờ/ngày</1> cho mạng xã hội & lướt web – Teamstage",
+    "evidence2": "<1>89%</1> nhân viên lãng phí <2>30 phút - 2 giờ/ngày</2> – Forbes",
+    "takeaway": "Báo cáo có thể <1>đẹp</1> – nhưng <2>dữ liệu hành vi</2> mới là sự thật. Không có dữ liệu = lãnh đạo chỉ nghe điều nhân viên <3>muốn nói</3>."
+  },
+  "root_cause": {
+    "title": "Gốc rễ thật sự của mọi vấn đề",
+    "card1_title": "Thiếu dữ liệu hành vi theo thời gian thực",
+    "card1_body": "Không có timeline tiến độ thực tế để truy vết \"ai / khi nào / vì sao\".",
+    "card2_title": "Dữ liệu phân mảnh, rời rạc, không đồng bộ",
+    "card2_body": "Task, chat, email, file, chấm công… nằm rải rác, không có \"single source of truth\".",
+    "card3_title": "Lãnh đạo buộc phải ra quyết định bằng cảm tính",
+    "card3_body": "Không đo được sự thật đang diễn ra → ưu tiên sai → trễ hạn, đội chi phí, tăng rủi ro.",
+    "warning": "Khi không thấy được <1>\"sự thật đang diễn ra\"</1>, mọi quyết định đều mang tính <2>may rủi</2>.",
+    "evidence_heading": "Nguyên nhân lớn nhất",
+    "evidence_stat": "Theo BARC: <1>58%</1> quyết định trong doanh nghiệp Việt dựa vào cảm giác.",
+    "evidence_quote": "Mà cảm giác thì… <1>hay đánh lừa mình</1>",
+    "evidence_close": "Không có dữ liệu, doanh nghiệp buộc phải <1>điều hành theo may rủi</1>.",
+    "image_alt": "Foggy unclear path representing decision making without data"
+  },
+  "limitations": {
+    "title": "Tại sao doanh nghiệp vẫn quản trị khó – dù đã dùng rất nhiều công cụ?",
+    "card1_heading": "Công cụ đang ghi lại:",
+    "card1_items": [
+      "Task giao việc",
+      "Tin nhắn chat",
+      "Lịch họp",
+      "Email",
+      "File làm việc",
+      "Antivirus chặn mối nguy",
+      "…"
+    ],
+    "card2_heading": "Nhưng <1>KHÔNG</1> tool nào ghi lại được:",
+    "card2_items": [
+      "Ảnh chụp màn hình theo phút",
+      "Timeline hoạt động thật",
+      "Mức độ tập trung - Hiệu suất theo hành vi",
+      "Tool lạ, web độc, file nguy hiểm",
+      "Truy vết lại sự cố bảo mật",
+      "Ai là nguồn gây rò rỉ dữ liệu"
+    ],
+    "takeaway": "Đây là <1>lớp dữ liệu quan trọng nhất</1> để điều hành, và cũng là lớp dữ liệu mà mọi doanh nghiệp đang thiếu.",
+    "transition": "Vậy doanh nghiệp cần gì để quản trị hiệu quả?",
+    "image_alt": "Business software dashboard and tools visualization"
+  },
+  "need_solution": {
+    "intro_badge": "Câu trả lời: Hệ thống thu thập \"dữ liệu thật\"",
+    "block_a_title": "Doanh nghiệp nhận được gì khi có <1>dữ liệu thật</1>?",
+    "benefit1": "Biết sớm vấn đề trước khi 'cháy'",
+    "benefit2": "Có bằng chứng khi ra quyết định khó",
+    "benefit3": "Quản trị công bằng - giảm mâu thuẫn nội bộ",
+    "block_b_preface": "Hitek Work không phải là công cụ giám sát.",
+    "block_b_title": "<1>Hitek Work là hệ thống thu thập </1><2>dữ liệu thật</2><3> để quản lý đội ngũ từ xa một cách hiệu quả</3>",
+    "cap1_heading": "Dữ liệu bao gồm gì?",
+    "cap1_items": [
+      "Screenshot màn hình nhân sự trong ngày",
+      "Chi tiết hành vi làm việc thông qua thao tác máy tính",
+      "Báo cáo cho các cấp quản lý để có giải pháp kịp thời"
+    ],
+    "cap2_heading": "AI bảo mật & cảnh báo sớm",
+    "cap2_items": [
+      "AI nhận diện làm việc thật/Phân loại hoạt động",
+      "AI cảnh báo hiệu suất thấp",
+      "AI phát hiện Tool lạ / web không an toàn"
+    ],
+    "cap3_heading": "Truy vết sự cố",
+    "cap3_items": [
+      "Xem lại toàn bộ hành vi",
+      "Tìm đúng thời điểm - đúng nguồn",
+      "Đưa ra bằng chứng rõ ràng"
+    ],
+    "cap4_heading": "Báo cáo đa cấp",
+    "cap4_items": [
+      "Nhân viên - Team Lead - Manager - BOD",
+      "Xem đúng thứ họ cần theo cấp bậc",
+      "100% tự động hoá"
+    ],
+    "image_alt": "Business professional analyzing data and charts"
+  },
+  "why_real_data": {
+    "badge": "Thách thức",
+    "title_part1": "Tại sao cần",
+    "title_highlight": "dữ liệu thật",
+    "title_part2": "để quản lý đội ngũ từ xa?",
+    "subtitle": "Khi làm việc từ xa, thiếu dữ liệu thật khiến quản lý trở nên mù mờ và dựa vào \"cảm tính\"",
+    "block1_heading": "1. Tăng tính minh bạch vận hành",
+    "block1_problem_label": "Khi làm remote/hybrid, leader khó biết:",
+    "block1_problems": [
+      "Team có đang làm việc thật không",
+      "Có bị kẹt ở task nào không",
+      "Có đang phối hợp hiệu quả không"
+    ],
+    "block1_solution_label": "Dữ liệu thật giúp:",
+    "block1_solutions": [
+      "Xác nhận sự hiện diện thực tế",
+      "Giảm tình trạng \"online nhưng không làm\"",
+      "Tăng accountability tự nhiên"
+    ],
+    "block1_note": "<1>Đặc biệt quan trọng với:</1> Team outsource, Night shift, Freelancer, Junior",
+    "block2_heading": "2. Phát hiện sớm vấn đề hiệu suất",
+    "block2_intro": "Nhiều vấn đề không nằm ở KPI cuối tháng mà nằm ở <1>behavior hàng ngày:</1>",
+    "block2_signals": [
+      "Mất tập trung liên tục",
+      "Bỏ máy nhiều lần",
+      "Làm việc riêng trong giờ",
+      "Stress/burnout dần dần",
+      "Team không giao tiếp",
+      "Dev active keyboard rất ít",
+      "Thường xuyên rời bàn làm việc",
+      "Họp nhưng không tập trung"
+    ],
+    "block2_ai_note": "<1>AI phát hiện pattern bất thường</1> sớm hơn nhiều so với báo cáo cuối tháng",
+    "block3_heading": "3. Bảo mật dữ liệu",
+    "block3_teams_label": "Đặc biệt với các đội ngũ:",
+    "block3_teams": ["Outsourcing", "Fintech", "Healthcare", "AI Training", "Crypto"],
+    "block3_help_label": "Hitek Work giúp:",
+    "block3_helps": [
+      "Cảnh báo khi nhân sự gây rò rỉ dữ liệu",
+      "Truy vết tìm ra nguyên nhân của sự cố",
+      "Gây dựng niềm tin cho khách hàng"
+    ]
+  },
+  "cta": {
+    "badge": "Bắt đầu",
+    "title": "Hitek Work giúp bạn quản trị bằng dữ liệu thật",
+    "subtitle": "Xem live demo để khám phá một giải pháp hoàn toàn khác biệt",
+    "primary_btn": "Yêu cầu Live Demo",
+    "trust1": "Minh bạch",
+    "trust2": "Bằng chứng theo thời gian",
+    "trust3": "Bảo mật dữ liệu"
+  }
+}

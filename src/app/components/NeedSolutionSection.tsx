@@ -1,73 +1,83 @@
+import { useTranslation, Trans } from 'react-i18next';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import { Lightbulb, ArrowRight } from 'lucide-react';
+import { Lightbulb } from 'lucide-react';
 import screenshotImg from '../../imports/screenshot.png';
 import detail1Img from '../../imports/detail-1.png';
 
 export function NeedSolutionSection() {
+  const { t } = useTranslation('current-state');
+
+  const cap1Items = t('need_solution.cap1_items', { returnObjects: true }) as string[];
+  const cap2Items = t('need_solution.cap2_items', { returnObjects: true }) as string[];
+  const cap3Items = t('need_solution.cap3_items', { returnObjects: true }) as string[];
+  const cap4Items = t('need_solution.cap4_items', { returnObjects: true }) as string[];
+
   return (
     <section id="need-solution" className="relative py-8 lg:py-10">
       <div className="max-w-[1200px] mx-auto px-6 lg:px-12 space-y-12">
-        
+
         {/* ========== ELEGANT INTRO: Answer badge ========== */}
         <div className="text-center -mt-6">
           <div className="inline-flex items-center gap-3 bg-[#1e4bbf] rounded-2xl px-6 py-3 shadow-lg border border-white/10">
             <Lightbulb className="w-5 h-5 text-white" />
-            <p className="text-base lg:text-lg font-bold text-white">Câu trả lời: Hệ thống thu thập "dữ liệu thật"</p>
+            <p className="text-base lg:text-lg font-bold text-white">{t('need_solution.intro_badge')}</p>
           </div>
         </div>
-        
+
         {/* ========== BLOCK A: Benefits when having real data ========== */}
         <div className="bg-white/80 backdrop-blur-sm rounded-[2.5rem] border-2 border-blue-100 p-8 lg:p-12 shadow-lg">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            
+
             {/* Left: Illustration */}
             <div className="relative order-2 lg:order-1">
               {/* Curved split edge decoration */}
               <div className="hidden lg:block absolute -right-8 top-0 bottom-0 w-16 overflow-hidden z-10">
                 <div className="absolute inset-0 bg-white rounded-[100%] transform translate-x-1/2"></div>
               </div>
-              
+
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <ImageWithFallback
                   src={detail1Img}
-                  alt="Business professional analyzing data and charts"
+                  alt={t('need_solution.image_alt')}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1e4bbf]/10 via-transparent to-transparent"></div>
               </div>
             </div>
-            
+
             {/* Right: Content */}
             <div className="space-y-6 order-1 lg:order-2">
               {/* Title */}
               <h2 className="text-3xl lg:text-4xl font-black text-gray-900 leading-tight">
-                Doanh nghiệp nhận được gì khi có <span className="text-[#1e4bbf]">dữ liệu thật</span>?
+                <Trans i18nKey="current-state:need_solution.block_a_title">
+                  Doanh nghiệp nhận được gì khi có <span className="text-[#1e4bbf]">dữ liệu thật</span>?
+                </Trans>
               </h2>
-              
+
               {/* 3 Benefit Pills */}
               <div className="space-y-4">
                 <div className="bg-gradient-to-r from-blue-50/80 to-white border-2 border-blue-200 rounded-full px-6 py-4 shadow-sm hover:shadow-md transition-shadow">
                   <p className="text-base font-bold text-gray-900">
-                    Biết sớm vấn đề trước khi 'cháy'
+                    {t('need_solution.benefit1')}
                   </p>
                 </div>
-                
+
                 <div className="bg-gradient-to-r from-blue-50/80 to-white border-2 border-blue-200 rounded-full px-6 py-4 shadow-sm hover:shadow-md transition-shadow">
                   <p className="text-base font-bold text-gray-900">
-                    Có bằng chứng khi ra quyết định khó
+                    {t('need_solution.benefit2')}
                   </p>
                 </div>
-                
+
                 <div className="bg-gradient-to-r from-blue-50/80 to-white border-2 border-blue-200 rounded-full px-6 py-4 shadow-sm hover:shadow-md transition-shadow">
                   <p className="text-base font-bold text-gray-900">
-                    Quản trị công bằng - giảm mâu thuẫn nội bộ
+                    {t('need_solution.benefit3')}
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
+
         {/* ========== BLOCK B: Positioning & Capabilities ========== */}
         <div className="relative bg-white/80 backdrop-blur-sm rounded-[2.5rem] border-2 border-blue-100 overflow-hidden shadow-lg">
           {/* Background image overlay */}
@@ -78,105 +88,83 @@ export function NeedSolutionSection() {
               className="w-full h-full object-cover"
             />
           </div>
-          
+
           <div className="relative p-8 lg:p-12 space-y-8">
             {/* Preface lines */}
             <div className="space-y-1">
-              
-              <p className="text-sm text-gray-500">Hitek Work không phải là công cụ giám sát.</p>
+              <p className="text-sm text-gray-500">{t('need_solution.block_b_preface')}</p>
             </div>
-            
+
             {/* Main statement */}
-            <h2 className="text-3xl lg:text-4xl font-black text-gray-900 leading-tight max-w-3xl"><span className="font-bold">Hitek Work là hệ thống thu thập </span><span className="text-[#1e4bbf]"><span className="font-bold">dữ liệu thật</span></span><span className="font-bold"> để quản lý đội ngũ từ xa một cách hiệu quả</span></h2>
-            
+            <h2 className="text-3xl lg:text-4xl font-black text-gray-900 leading-tight max-w-3xl">
+              <Trans i18nKey="current-state:need_solution.block_b_title">
+                <span className="font-bold">Hitek Work là hệ thống thu thập </span>
+                <span className="text-[#1e4bbf]"><span className="font-bold">dữ liệu thật</span></span>
+                <span className="font-bold"> để quản lý đội ngũ từ xa một cách hiệu quả</span>
+              </Trans>
+            </h2>
+
             {/* 4 Capability Cards in 2x2 grid */}
             <div className="grid md:grid-cols-2 gap-6 pt-4">
-              
-              {/* Card 1: Minh bạch hiệu suất */}
+
+              {/* Card 1 */}
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl border-t-4 border-[#1e4bbf] p-6 shadow-md space-y-3">
-                <h3 className="text-lg font-black text-gray-900">Dữ liệu bao gồm gì?</h3>
+                <h3 className="text-lg font-black text-gray-900">{t('need_solution.cap1_heading')}</h3>
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>Screenshot màn hình nhân sự trong ngày</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>Chi tiết hành vi làm việc thông qua thao tác máy tính</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>Báo cáo cho các cấp quản lý để có giải pháp kịp thời</span>
-                  </li>
+                  {cap1Items.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
-              
-              {/* Card 2: AI bảo mật */}
+
+              {/* Card 2 */}
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl border-t-4 border-[#1e4bbf] p-6 shadow-md space-y-3">
                 <h3 className="text-lg font-black text-gray-900">
-                  AI bảo mật & cảnh báo sớm
+                  {t('need_solution.cap2_heading')}
                 </h3>
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>AI nhận diện làm việc thật/Phân loại hoạt động</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>AI cảnh báo hiệu suất thấp</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>AI phát hiện Tool lạ / web không an toàn</span>
-                  </li>
+                  {cap2Items.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
-              
-              {/* Card 3: Truy vết sự cố */}
+
+              {/* Card 3 */}
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl border-t-4 border-[#1e4bbf] p-6 shadow-md space-y-3">
                 <h3 className="text-lg font-black text-gray-900">
-                  Truy vết sự cố
+                  {t('need_solution.cap3_heading')}
                 </h3>
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>Xem lại toàn bộ hành vi</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>Tìm đúng thời điểm - đúng nguồn</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>Đưa ra bằng chứng rõ ràng</span>
-                  </li>
+                  {cap3Items.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
-              
-              {/* Card 4: Báo cáo đa cấp */}
+
+              {/* Card 4 */}
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl border-t-4 border-[#1e4bbf] p-6 shadow-md space-y-3">
                 <h3 className="text-lg font-black text-gray-900">
-                  Báo cáo đa cấp
+                  {t('need_solution.cap4_heading')}
                 </h3>
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>Nhân viên - Team Lead - Manager - BOD</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>Xem đúng thứ họ cần theo cấp bậc</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
-                    <span>100% tự động hoá</span>
-                  </li>
+                  {cap4Items.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <span className="text-[#1e4bbf] mt-1 flex-shrink-0">•</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
-            
-            {/* Bridge note to Demo */}
-            
           </div>
         </div>
       </div>

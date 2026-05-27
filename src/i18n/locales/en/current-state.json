@@ -1,1 +1,187 @@
-{}
+{
+  "hero": {
+    "title_part1": "How productive is your team",
+    "title_highlight1": "actually working",
+    "title_part2": "today —",
+    "title_highlight2": "what percentage",
+    "title_end": "?",
+    "subtitle_part1": "And of that reported data, how much is",
+    "subtitle_highlight": "the truth",
+    "subtitle_end": "?",
+    "questions": [
+      "Do you truly believe traditional tools like KPI and OKR are enough to manage people effectively?",
+      "Can you trace back when and where someone leaked sensitive business information?",
+      "Do you find it consistently difficult to collaborate with teams that are not co-located?"
+    ],
+    "scroll_label": "Explore the current reality"
+  },
+  "current_state": {
+    "title": "Lost Productivity",
+    "time_allocation_label": "Time Allocation in Microsoft 365",
+    "communication_label": "Communication",
+    "creation_label": "Creation",
+    "comm_items": [
+      { "label": "Email", "percent": 28 },
+      { "label": "Meetings", "percent": 21 },
+      { "label": "Chat", "percent": 8 }
+    ],
+    "creation_items": [
+      { "label": "Document Writing", "percent": 22 },
+      { "label": "Analysis/Calculations", "percent": 14 },
+      { "label": "Design/Code", "percent": 7 }
+    ],
+    "stat1": "According to Asana: \"60% of office workers' time generates no value.\"",
+    "stat2": "According to Microsoft: \"57% of employees' daily time is spent on meetings, chat, and email.\"",
+    "example_label": "Example:",
+    "example_item1": "If each person wastes <1>2 hours/day</1>,",
+    "example_item2": "A business of <1>50 people</1>,",
+    "example_item3": "Average salary <1>10M VND/person/month</1>.",
+    "example_result": "That's over <1>100M VND/month</1> — <2>1.2B VND/year</2> lost (excluding opportunity costs)",
+    "transition_label": "But why do reports always show \"100% complete\"?"
+  },
+  "report_vs_reality": {
+    "title": "Reports vs. Reality",
+    "report_card": {
+      "heading": "Report",
+      "percent": "100%",
+      "status": "Completed",
+      "items": ["Tasks completed", "On deadline", "100% done"]
+    },
+    "reality_card": {
+      "heading": "Reality",
+      "percent": "40–60%",
+      "status": "Actual Productivity",
+      "items": ["2–3 hours wasted daily", "Browsing social media", "Too many meetings"]
+    },
+    "evidence_heading": "Data-Backed Evidence",
+    "evidence1": "Employees spend <1>1.5–2.5 hours/day</1> on social media & web browsing – Teamstage",
+    "evidence2": "<1>89%</1> of employees waste <2>30 minutes – 2 hours/day</2> – Forbes",
+    "takeaway": "Reports can look <1>polished</1> – but <2>behavioral data</2> tells the real story. No data = leaders only hear what employees <3>want them to hear</3>."
+  },
+  "root_cause": {
+    "title": "The Real Root Cause of Every Problem",
+    "card1_title": "Lack of real-time behavioral data",
+    "card1_body": "No actual progress timeline to trace \"who / when / why\".",
+    "card2_title": "Fragmented, siloed, unsynchronized data",
+    "card2_body": "Tasks, chat, email, files, attendance… scattered everywhere with no single source of truth.",
+    "card3_title": "Leaders are forced to make gut-based decisions",
+    "card3_body": "Unable to measure what's actually happening → wrong priorities → missed deadlines, cost overruns, elevated risk.",
+    "warning": "When you can't see <1>\"what's really happening\"</1>, every decision becomes a <2>gamble</2>.",
+    "evidence_heading": "The Biggest Root Cause",
+    "evidence_stat": "According to BARC: <1>58%</1> of business decisions in Vietnam are based on intuition.",
+    "evidence_quote": "And intuition… <1>often deceives us</1>",
+    "evidence_close": "Without data, businesses are forced to <1>operate on chance</1>.",
+    "image_alt": "Foggy unclear path representing decision making without data"
+  },
+  "limitations": {
+    "title": "Why Is Managing a Business Still Hard — Even With So Many Tools?",
+    "card1_heading": "Tools currently track:",
+    "card1_items": [
+      "Task assignments",
+      "Chat messages",
+      "Meeting calendars",
+      "Email",
+      "Work files",
+      "Antivirus threat blocking",
+      "…"
+    ],
+    "card2_heading": "But <1>NO</1> tool captures:",
+    "card2_items": [
+      "Per-minute screen captures",
+      "Real activity timelines",
+      "Focus levels – Behavioral productivity",
+      "Unknown tools, malicious sites, dangerous files",
+      "Security incident traceability",
+      "Who is the source of a data leak"
+    ],
+    "takeaway": "This is <1>the most critical data layer</1> for running a business — and it's the layer every organization is missing.",
+    "transition": "So what does a business actually need to manage effectively?",
+    "image_alt": "Business software dashboard and tools visualization"
+  },
+  "need_solution": {
+    "intro_badge": "The Answer: A System That Collects \"Real Data\"",
+    "block_a_title": "What does a business gain when it has <1>real data</1>?",
+    "benefit1": "Catch problems early — before they become fires",
+    "benefit2": "Evidence-backed decision-making for tough calls",
+    "benefit3": "Fair management — reduced internal conflict",
+    "block_b_preface": "Hitek Work is not a surveillance tool.",
+    "block_b_title": "<1>Hitek Work is a real data collection system </1><2>for managing remote teams effectively</2><3></3>",
+    "cap1_heading": "What data is collected?",
+    "cap1_items": [
+      "Employee screen captures throughout the day",
+      "Detailed work behavior via computer activity",
+      "Multi-level reports for timely management decisions"
+    ],
+    "cap2_heading": "AI Security & Early Warning",
+    "cap2_items": [
+      "AI identifies genuine work / classifies activities",
+      "AI alerts for low productivity",
+      "AI detects unknown tools / unsafe websites"
+    ],
+    "cap3_heading": "Incident Traceability",
+    "cap3_items": [
+      "Review complete behavioral history",
+      "Pinpoint exact time and source",
+      "Deliver clear, verifiable evidence"
+    ],
+    "cap4_heading": "Multi-Level Reporting",
+    "cap4_items": [
+      "Employee – Team Lead – Manager – BOD",
+      "Each level sees exactly what they need",
+      "100% automated"
+    ],
+    "image_alt": "Business professional analyzing data and charts"
+  },
+  "why_real_data": {
+    "badge": "Challenge",
+    "title_part1": "Why is",
+    "title_highlight": "real data",
+    "title_part2": "essential for managing remote teams?",
+    "subtitle": "Without real data, remote management becomes blind and gut-driven",
+    "block1_heading": "1. Increase Operational Transparency",
+    "block1_problem_label": "In remote/hybrid work, leaders struggle to know:",
+    "block1_problems": [
+      "Whether the team is genuinely working",
+      "Which tasks are blocked",
+      "Whether collaboration is effective"
+    ],
+    "block1_solution_label": "Real data enables:",
+    "block1_solutions": [
+      "Confirmed actual presence",
+      "Reduced \"online but idle\" situations",
+      "Natural increase in accountability"
+    ],
+    "block1_note": "<1>Especially critical for:</1> Outsourced teams, Night shifts, Freelancers, Junior staff",
+    "block2_heading": "2. Early Detection of Performance Issues",
+    "block2_intro": "Many problems don't show up in month-end KPIs — they live in <1>daily behavior:</1>",
+    "block2_signals": [
+      "Persistent loss of focus",
+      "Frequently stepping away from the desk",
+      "Handling personal tasks during work hours",
+      "Gradual stress/burnout",
+      "Team communication breakdown",
+      "Very low developer keyboard activity",
+      "Repeatedly leaving the workstation",
+      "Attending meetings without engaging"
+    ],
+    "block2_ai_note": "<1>AI detects abnormal patterns</1> far earlier than end-of-month reports",
+    "block3_heading": "3. Data Security",
+    "block3_teams_label": "Especially relevant for teams in:",
+    "block3_teams": ["Outsourcing", "Fintech", "Healthcare", "AI Training", "Crypto"],
+    "block3_help_label": "Hitek Work helps:",
+    "block3_helps": [
+      "Alert when staff causes a data leak",
+      "Trace back the root cause of an incident",
+      "Build trust with your clients"
+    ]
+  },
+  "cta": {
+    "badge": "Get Started",
+    "title": "Hitek Work helps you manage with real data",
+    "subtitle": "Watch a live demo to discover a completely different approach",
+    "primary_btn": "Request a Live Demo",
+    "trust1": "Transparent",
+    "trust2": "Time-stamped evidence",
+    "trust3": "Data security"
+  }
+}
