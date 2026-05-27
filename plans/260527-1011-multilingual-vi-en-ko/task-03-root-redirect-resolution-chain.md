@@ -1,15 +1,15 @@
 ---
 task: 03
 title: RootRedirect với Language Resolution Chain
-status: pending
+status: done
 type: AFK
 blocked_by: [task-02]
 effort: M
 human_estimate_hours: 2
 ai_estimate_hours: 0.3
-actual_hours: null
+actual_hours: 0.15
 created: 2026-05-27
-completed: null
+completed: 2026-05-27
 ---
 
 # Task 03: RootRedirect với Language Resolution Chain
