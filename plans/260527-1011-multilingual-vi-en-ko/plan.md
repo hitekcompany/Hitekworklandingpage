@@ -30,7 +30,7 @@ post-launch. Testing setup Vitest DEFER Phase 1.5 (user quyết manual QA qua
 | ID | Title | Type | Blocked by | Est (H/AI) | File |
 |----|-------|------|------------|------------|------|
 | 01 | ✅ Setup i18n infrastructure | AFK | — | M (2h / 0.3h) — actual 0.15h | [task-01](./task-01-setup-i18n-infrastructure.md) |
-| 02 | URL routing với :lang prefix | AFK | 01 | M (2h / 0.3h) | [task-02](./task-02-routing-locale-prefix.md) |
+| 02 | ✅ URL routing với :lang prefix | AFK | 01 | M (2h / 0.3h) — actual 0.2h | [task-02](./task-02-routing-locale-prefix.md) |
 | 03 | RootRedirect + Resolution Chain | AFK | 02 | M (2h / 0.3h) | [task-03](./task-03-root-redirect-resolution-chain.md) |
 | 04 | LanguageSwitcher component | AFK | 02 | M (2h / 0.3h) | [task-04](./task-04-language-switcher-component.md) |
 | 05 | Font loading Noto Sans + Noto Sans KR | AFK | — | S (0.5h / 0.1h) | [task-05](./task-05-font-loading-noto-sans.md) |

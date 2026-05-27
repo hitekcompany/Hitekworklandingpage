@@ -1,15 +1,15 @@
 ---
 task: 02
 title: URL routing with :lang prefix + LocalizedShell sync
-status: pending
+status: done
 type: AFK
 blocked_by: [task-01]
 effort: M
 human_estimate_hours: 2
 ai_estimate_hours: 0.3
-actual_hours: null
+actual_hours: 0.2
 created: 2026-05-27
-completed: null
+completed: 2026-05-27
 ---
 
 # Task 02: URL routing với :lang prefix
@@ -125,3 +125,16 @@ Files to update (estimate):
 - `i18n.changeLanguage` async return Promise — `useEffect` dùng `void i18n.changeLanguage(lang)` để không lint warning.
 - KHÔNG đặt `LocalizedShell` cao hơn `Header`/`Footer` trong tree để switcher có thể read `:lang` (Header outside Route → không có lang param). **Option:** move `Header`/`Footer` vào LocalizedShell hoặc share lang qua i18n state.
 - Pattern recommended: `Header`/`Footer` đọc lang qua `useTranslation().i18n.language` (i18n đã được sync bởi LocalizedShell) → không cần URL param trực tiếp.
+
+## Execution log
+
+- 2026-05-27 10:25 — Read: src/app/components/ScrollToHash.tsx
+- 2026-05-27 10:25 — Read: src/app/components/Footer.tsx (no internal SPA links to update)
+- 2026-05-27 10:26 — Impl: created `LocalizedShell.tsx` — useParams + isSupportedLang validation + useEffect sync (i18n.changeLanguage + localStorage)
+- 2026-05-27 10:27 — Impl: refactored `App.tsx` — nested `/:lang/*` route + Navigate placeholders at `/` and `*` (RootRedirect by task-03)
+- 2026-05-27 10:28 — Impl: refactored `Header.tsx` — resolveLang helper from URL pathname, buildHref(path) for locale-aware Link to, removed dead isHashLink branch (navItems has no hash links)
+- 2026-05-27 10:29 — Verify AC1 (LocalizedShell exists + 3 patterns) — PASS (4 matches)
+- 2026-05-27 10:29 — Verify AC2 (:lang route in App.tsx) — PASS
+- 2026-05-27 10:29 — Verify AC3 (5 nested page routes) — PASS (5 matches)
+- 2026-05-27 10:29 — Verify AC7 `pnpm build` — PASS (built in 2.26s, no TS errors)
+- 2026-05-27 10:29 — Verify AC4-6 manual QA — DEFERRED

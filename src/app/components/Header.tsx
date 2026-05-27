@@ -1,20 +1,33 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router";
+import { useTranslation } from "react-i18next";
 import { WireframeButton } from "./WireframeButton";
+import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES, type Lang } from "../../i18n/config";
 import logoNgang from "../../imports/logo-ngang.png";
 
 const navItems = [
-  { label: "Trang chủ", href: "/" },
-  { label: "Giải pháp", href: "/current-state" },
-  { label: "Tính năng", href: "/demo" },
-  { label: "Về chúng tôi", href: "/about" },
-  // { label: "Bảng giá", href: "/pricing" },
+  { label: "Trang chủ", path: "" },
+  { label: "Giải pháp", path: "current-state" },
+  { label: "Tính năng", path: "demo" },
+  { label: "Về chúng tôi", path: "about" },
+  // { label: "Bảng giá", path: "pricing" },
 ];
+
+function resolveLang(pathname: string, i18nLang: string): Lang {
+  const first = pathname.split("/")[1];
+  if ((SUPPORTED_LANGUAGES as readonly string[]).includes(first)) return first as Lang;
+  if ((SUPPORTED_LANGUAGES as readonly string[]).includes(i18nLang)) return i18nLang as Lang;
+  return DEFAULT_LANGUAGE;
+}
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const { i18n } = useTranslation();
+  const lang = resolveLang(location.pathname, i18n.language);
+
+  const buildHref = (path: string) => (path ? `/${lang}/${path}` : `/${lang}`);
 
   const handleNavClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -26,7 +39,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link
-            to="/"
+            to={`/${lang}`}
             onClick={handleNavClick}
             className="flex items-center hover:opacity-80 transition-opacity"
           >
@@ -40,25 +53,13 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-10">
             {navItems.map((item) => {
-              const isActive = location.pathname === item.href;
-              const isHashLink = item.href.startsWith("#");
-
-              if (isHashLink) {
-                return (
-                  <a
-                    key={item.href}
-                    href={item.href}
-                    className="text-neutral-700 hover:text-[#1e4bbf] font-semibold transition-colors"
-                  >
-                    {item.label}
-                  </a>
-                );
-              }
+              const href = buildHref(item.path);
+              const isActive = location.pathname === href;
 
               return (
                 <Link
-                  key={item.href}
-                  to={item.href}
+                  key={item.path}
+                  to={href}
                   onClick={handleNavClick}
                   className={`font-semibold transition-colors ${
                     isActive
@@ -108,26 +109,13 @@ export function Header() {
         {mobileMenuOpen && (
           <nav className="lg:hidden border-t border-neutral-200 py-4 space-y-2">
             {navItems.map((item) => {
-              const isActive = location.pathname === item.href;
-              const isHashLink = item.href.startsWith("#");
-
-              if (isHashLink) {
-                return (
-                  <a
-                    key={item.href}
-                    href={item.href}
-                    className="block py-3 px-4 text-neutral-700 hover:text-[#1e4bbf] hover:bg-neutral-50 rounded-lg font-semibold transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {item.label}
-                  </a>
-                );
-              }
+              const href = buildHref(item.path);
+              const isActive = location.pathname === href;
 
               return (
                 <Link
-                  key={item.href}
-                  to={item.href}
+                  key={item.path}
+                  to={href}
                   className={`block py-3 px-4 hover:bg-neutral-50 rounded-lg font-semibold transition-colors ${
                     isActive
                       ? "text-[#1e4bbf] bg-blue-50"
