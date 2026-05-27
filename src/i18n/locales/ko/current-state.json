@@ -18,8 +18,8 @@
   "current_state": {
     "title": "낭비되는 생산성",
     "time_allocation_label": "Microsoft 365에서의 시간 배분",
-    "communication_label": "Communication",
-    "creation_label": "Creation",
+    "communication_label": "커뮤니케이션",
+    "creation_label": "콘텐츠 제작",
     "comm_items": [
       { "label": "이메일", "percent": 28 },
       { "label": "회의/미팅", "percent": 21 },

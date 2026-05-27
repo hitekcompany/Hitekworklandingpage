@@ -7,7 +7,7 @@
     "cta_live_demo": "라이브 데모 요청"
   },
   "timeline": {
-    "label": "Real-time Activity",
+    "label": "실시간 활동",
     "title": "<1>실시간</1> 활동 타임라인",
     "subtitle": "타임라인은 분/시간 단위로 활동 이력을 표시하여 집중도와 중단 현황을 반영합니다. 관리자가 \"실제로 일어나고 있는 일\"을 파악할 수 있도록 돕습니다.",
     "highlight1_title": "타임라인에서 명확한 활동 이력 확인",
@@ -23,7 +23,7 @@
     "image_caption": "일러스트: 분/시간 단위 타임라인, 업무 시간과 중단 시간 구분"
   },
   "screenshot": {
-    "label": "Smart Screenshot",
+    "label": "스마트 스크린샷",
     "title": "<1>스마트</1> 스크린샷",
     "subtitle": "실제 업무 행동을 반영하기 위해 맥락에 따라 화면을 캡처합니다. 프로젝트 / 작업 / 사용자 / 시간별로 쉽게 검색할 수 있습니다.",
     "highlight1_title": "타임라인 순서로 보기",
@@ -38,7 +38,7 @@
     "image2_caption": "타임라인 순서의 스크린샷 목록"
   },
   "ai_classification": {
-    "label": "AI Activity Classification",
+    "label": "AI 활동 분류",
     "title": "AI가 <1>실제 업무</1>를 인식하고 활동을 분류합니다",
     "subtitle": "AI가 스크린샷의 맥락을 이해하고 활동에 자동으로 레이블을 지정하여 신뢰할 수 있는 관리 데이터를 생성합니다.",
     "point1_title": "앱 이름",
@@ -55,7 +55,7 @@
     "image_caption": "AI가 스크린샷에서 업무 여부 + 신뢰도 + 세부 정보를 분석하고 레이블 지정"
   },
   "awareness_reminder": {
-    "label": "Awareness Reminder",
+    "label": "인식 알림",
     "title": "직원에게 알림 발송 — 스스로 개선하도록 돕기, <1>감시가 아닙니다</1>",
     "subtitle": "시스템이 장시간 낮은 활동을 감지하면, 직원이 상황을 재검토하고 유효한 사유(회의, 조사, 시스템 외 업무 등)가 있는 경우 응답할 수 있도록 이메일이 발송됩니다.",
     "email_subject": "📧 알림: [dd/mm/yyyy] 업무 활동",
@@ -88,7 +88,7 @@
     "tone_text": "투명성 향상 및 개선 지원 — 부정적인 평가를 목적으로 하지 않습니다."
   },
   "focus_metrics": {
-    "label": "Behavior-based Tracking",
+    "label": "행동 기반 추적",
     "title": "<1>행동 데이터</1>로 성과 및 집중도 측정",
     "subtitle": "\"보고를 듣는\" 대신, 관리자가 시간별 및 업무 세션별 활동 상태를 직접 확인합니다.",
     "highlight1_title": "팀별 상태 분류",
@@ -101,7 +101,7 @@
     "image_caption": "일러스트: 사용자별 추적, 상태 분류 및 세션별 상세 활동 테이블 (데모 데이터)."
   },
   "incident_trace": {
-    "label": "Incident Traceability",
+    "label": "인시던트 추적",
     "title": "인시던트 추적: 시간별 <1>전체 행동</1> 재검토",
     "subtitle": "데이터 유출이나 비정상적인 활동이 의심될 때, 이력을 역추적하여 정확한 시점과 출처를 파악할 수 있습니다.",
     "step1_title": "범위 설정",
@@ -117,7 +117,7 @@
     "image_caption": "일러스트: 시간별 스크린샷 이력 재검토, 사용자/프로젝트/상태별 필터로 추적."
   },
   "executive_report": {
-    "label": "Executive Insight Report",
+    "label": "임원 인사이트 리포트",
     "title": "이사회 보고서: 원시 데이터 없이 <1>인사이트</1>만",
     "subtitle": "이사회는 빠른 의사결정을 위한 고수준 개요가 필요합니다: 리스크, 트렌드, 우선 조치 사항 — 개별 스크린샷이나 로그 라인을 검토하는 것이 아닌.",
     "report_title": "보고서 내용:",
@@ -130,7 +130,7 @@
     "item4_title": "권장 조치 사항",
     "item4_desc": "어느 팀/그룹을 우선 지원할지, 무엇을 먼저 확인할지",
     "automation_note": "보고서는 <1>일정에 따라 자동으로 발송</1>되며 (일간/주간/월간), 유연하게 설정 가능합니다.",
-    "image_alt": "Illustration_ExecutiveReportEmail_Provided",
+    "image_alt": "임원 리포트 이메일 일러스트레이션",
     "image_caption": "일러스트: 관리자/이사회에 발송되는 통합 보고서 이메일 (인사이트 우선).",
     "no_raw_title": "이사회에 원시 데이터 제공 안 함:",
     "no_raw_item1": "스크린샷 내용 첨부 없음",
@@ -138,7 +138,7 @@
     "no_raw_item3": "경영진 수준의 집계 지표 및 인사이트만 제공"
   },
   "manager_report": {
-    "label": "Manager Summary",
+    "label": "관리자 요약",
     "title": "직속 관리자 보고서 — 의사결정을 위한 <1>전체 개요</1>",
     "subtitle": "팀 내 이상 신호 발생 시 관리자가 적시에 지원, 조정, 원인 확인을 할 수 있도록 보고서를 수신합니다.",
     "email_greeting": "<1>[관리자 이름]</1> 님, 안녕하세요.",
