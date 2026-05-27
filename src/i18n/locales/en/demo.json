@@ -84,6 +84,8 @@
     "content_item3": "<1>Call to respond</1> so the system can assess more accurately",
     "rule_title": "Email sending rules:",
     "rule_item1": "Send email when activity falls below configured threshold",
+    "rule_item_min_activity": "Minimum Activity (%)",
+    "rule_item_check_freq": "Check Frequency",
     "tone_label": "Objective:",
     "tone_text": "increase transparency & support improvement — not intended as a negative assessment."
   },
@@ -165,6 +167,8 @@
     "no_personal_item2": "No need to open individual screenshots to understand",
     "no_personal_item3": "Focused on management signals & timely support",
     "rule_title": "Trigger by Activity Threshold:",
+    "rule_item_min_activity": "Minimum Activity (%)",
+    "rule_item_check_freq": "Check Frequency",
     "tone_label": "Objective:",
     "tone_text": "support the team in operating better, not intended as a negative assessment."
   },

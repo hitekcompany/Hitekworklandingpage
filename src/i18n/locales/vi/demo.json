@@ -84,6 +84,8 @@
     "content_item3": "<1>Kêu gọi phản hồi</1> để hệ thống đánh giá chính xác hơn",
     "rule_title": "Quy tắc gửi email:",
     "rule_item1": "Gửi mail khi hoạt động dưới ngưỡng cấu hình",
+    "rule_item_min_activity": "Hoạt động tối thiểu (%)",
+    "rule_item_check_freq": "Tần suất kiểm tra",
     "tone_label": "Mục tiêu:",
     "tone_text": "tăng minh bạch & hỗ trợ cải thiện — không nhằm đánh giá tiêu cực."
   },
@@ -165,6 +167,8 @@
     "no_personal_item2": "Không yêu cầu mở từng screenshot để đọc hiểu",
     "no_personal_item3": "Tập trung vào tín hiệu điều hành & hỗ trợ kịp thời",
     "rule_title": "Trigger theo Activity Threshold:",
+    "rule_item_min_activity": "Hoạt động tối thiểu (%)",
+    "rule_item_check_freq": "Tần suất kiểm tra",
     "tone_label": "Mục tiêu:",
     "tone_text": "hỗ trợ team vận hành tốt hơn, không nhằm đánh giá tiêu cực."
   },

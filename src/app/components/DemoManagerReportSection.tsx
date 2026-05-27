@@ -186,10 +186,10 @@ export function DemoManagerReportSection() {
                   </div>
                   <ul className="space-y-1 ml-8 text-gray-700 text-sm">
                     <li className="list-none text-xs text-gray-600">
-                      • <strong>Minimum Activity (%)</strong>
+                      • <strong>{t('manager_report.rule_item_min_activity')}</strong>
                     </li>
                     <li className="list-none text-xs text-gray-600">
-                      • <strong>Check Frequency</strong>
+                      • <strong>{t('manager_report.rule_item_check_freq')}</strong>
                     </li>
                   </ul>
                 </div>
