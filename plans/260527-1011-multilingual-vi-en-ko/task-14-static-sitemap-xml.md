@@ -1,15 +1,15 @@
 ---
 task: 14
 title: Static sitemap.xml với 15 URL + hreflang alternates
-status: pending
+status: done
 type: AFK
 blocked_by: []
 effort: S
 human_estimate_hours: 0.5
 ai_estimate_hours: 0.1
-actual_hours: null
+actual_hours: 0.05
 created: 2026-05-27
-completed: null
+completed: 2026-05-27
 ---
 
 # Task 14: Static sitemap.xml
