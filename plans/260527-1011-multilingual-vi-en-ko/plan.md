@@ -33,7 +33,7 @@ post-launch. Testing setup Vitest DEFER Phase 1.5 (user quyết manual QA qua
 | 02 | ✅ URL routing với :lang prefix | AFK | 01 | M (2h / 0.3h) — actual 0.2h | [task-02](./task-02-routing-locale-prefix.md) |
 | 03 | RootRedirect + Resolution Chain | AFK | 02 | M (2h / 0.3h) | [task-03](./task-03-root-redirect-resolution-chain.md) |
 | 04 | ✅ LanguageSwitcher component | AFK | 02 | M (2h / 0.3h) — actual 0.2h | [task-04](./task-04-language-switcher-component.md) |
-| 05 | Font loading Noto Sans + Noto Sans KR | AFK | — | S (0.5h / 0.1h) | [task-05](./task-05-font-loading-noto-sans.md) |
+| 05 | ✅ Font loading Noto Sans + Noto Sans KR | AFK | — | S (0.5h / 0.1h) — actual 0.05h | [task-05](./task-05-font-loading-noto-sans.md) |
 | 06 | ✅ Translate common namespace | AFK | 01, 04 | M (2h / 0.3h) — actual 0.3h | [task-06](./task-06-translate-common-namespace.md) |
 | 07 | Translate HomePage | AFK | 06 | M (3h / 0.4h) | [task-07](./task-07-translate-home-page.md) |
 | 08 | Translate CurrentStatePage | AFK | 06 | M (3h / 0.4h) | [task-08](./task-08-translate-current-state-page.md) |

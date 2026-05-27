@@ -1,15 +1,15 @@
 ---
 task: 05
 title: Font loading (Noto Sans + Noto Sans KR) + theme chain
-status: pending
+status: done
 type: AFK
 blocked_by: []
 effort: S
 human_estimate_hours: 0.5
 ai_estimate_hours: 0.1
-actual_hours: null
+actual_hours: 0.05
 created: 2026-05-27
-completed: null
+completed: 2026-05-27
 ---
 
 # Task 05: Font loading — Noto Sans + Noto Sans KR
