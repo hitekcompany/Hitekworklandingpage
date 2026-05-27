@@ -78,7 +78,7 @@ export function LanguageSwitcher({ variant = "desktop", onSelect }: Props) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger
-        className="flex items-center gap-1 text-neutral-700 hover:text-[#1e4bbf] font-semibold transition-colors outline-none"
+        className="flex items-center gap-1 text-neutral-700 hover:text-[#1e4bbf] font-semibold transition-colors outline-none cursor-pointer"
         aria-label={t("switcher.aria_label")}
       >
         <span>{ENDONYM_MAP[currentLang]}</span>
