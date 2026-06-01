@@ -1,6 +1,6 @@
 # Hitek Work Landing Page — Status
 
-**Last updated:** 2026-05-27 | **Branch:** main
+**Last updated:** 2026-06-01 | **Branch:** main
 
 ---
 
@@ -16,6 +16,7 @@ Feature đa ngôn ngữ (vi/en/ko) hoàn tất 14/14 tasks và đã deploy produ
 
 | Date | Description |
 |------|-------------|
+| 2026-06-01 | Header logo: thay icon thương hiệu bằng icon đồng hồ mới (nguồn nét cao 3000px từ desktop app), giữ nguyên wordmark "Hitek Work" + tagline — board task #124, label "Ready to test", pushed `main` → Vercel deploy |
 | 2026-05-27 | i18n hardening: extract Minimum Activity / Check Frequency labels to translations |
 | 2026-05-27 | i18n cleanup: translate remaining English design labels in `ko/*.json` (8 demo labels + 2 current-state labels) |
 | 2026-05-27 | i18n bug fix: add `components` prop to all 53 Trans across 16 files — fixes slot indexing causing VN/EN bleed on Korean pages |
@@ -75,7 +76,7 @@ Feature đa ngôn ngữ (vi/en/ko) hoàn tất 14/14 tasks và đã deploy produ
 
 | Metric | Value |
 |--------|-------|
-| Total commits `main` | 25 |
+| Total commits `main` | 28 |
 | Active feature plans | 0 |
 | Completed plans | 1 (multilingual-vi-en-ko) |
 | ADRs documented | N/A (project chưa bootstrap `docs/adr/`) |
@@ -128,6 +129,6 @@ This file = **single source of truth** cho project status, scannable trong 10 gi
 - 📅 Sprint end → roll completed items to history, refresh "Next up"
 
 <!-- project-status-meta
-last-commit: 03f6484047dad5bea77c52c20a41faf84d432478
-last-updated: 2026-05-27T13:48:23+0700
+last-commit: 0f973d9a97def2000ecfbd01e278a11d4300d439
+last-updated: 2026-06-01T11:30:36+0700
 -->
