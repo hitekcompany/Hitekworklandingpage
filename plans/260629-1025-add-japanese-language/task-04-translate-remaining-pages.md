@@ -1,15 +1,15 @@
 ---
 task: 04
 title: Dịch 4 trang còn lại sang Japanese
-status: pending
+status: done
 type: AFK
 blocked_by: [01]
 effort: M
 human_estimate_hours: 3
 ai_estimate_hours: 0.4
-actual_hours: null
+actual_hours: 0.5
 created: 2026-06-29
-completed: null
+completed: 2026-06-29
 ---
 
 # Task 04: Dịch 4 trang còn lại sang Japanese
@@ -92,5 +92,12 @@ task-03.
   demo labels + 2 current-state labels) — quét kỹ demo/current-state để không sót.
 
 ## Execution log (filled during /feature-execute)
+
+- 2026-06-29 — Read: vi/{current-state,demo,pricing,about}.json (source), ko/pricing.json (VND pattern), CONTEXT.md
+- 2026-06-29 — Implementation: translate ja/{current-state,demo,pricing,about}.json to Japanese (です・ます調); preserved keys + all `<1..3>` slots + percent numbers + email placeholders [X]/[Y]; pricing kept VND (0₫/99,000₫/199,000₫), translated labels only ("お問い合わせ"); translated design labels + image alts to JP (avoid prior ko English-bleed bug)
+- 2026-06-29 — Verify: parity 4/4 `MISSING [] EXTRA []` — PASS
+- 2026-06-29 — Verify: ₫ count=3 in pricing; JP_CHARS 4/4 True; slot match current-state/demo OK — PASS
+- 2026-06-29 — Verify: `pnpm build` — PASS (built in 2.70s)
+- 2026-06-29 — Behavioral (Playwright 4 pages render + pricing VND) — DEFERRED to final consolidated QA
 
 ## Escalation report (filled only if blocked)

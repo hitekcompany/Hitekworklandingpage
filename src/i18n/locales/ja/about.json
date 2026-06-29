@@ -1,82 +1,82 @@
 {
   "timeline": {
-    "section_badge": "Timeline",
-    "section_title": "Hành trình phát triển",
-    "section_subtitle": "Từ một ý tưởng đến nền tảng quản lý công việc được hàng nghìn doanh nghiệp tin dùng",
+    "section_badge": "沿革",
+    "section_title": "成長の歩み",
+    "section_subtitle": "1つのアイデアから、数千の企業に信頼される業務管理プラットフォームへ",
     "items": [
       {
         "year": "2019",
-        "title": "Yêu cầu thực tế",
-        "description": "Trong quá trình triển khai dịch vụ gia công phần mềm cho thị trường quốc tế, đội ngũ Hitek thường xuyên nhận được câu hỏi từ khách hàng về cách chúng tôi đảm bảo tính minh bạch cũng như cam kết hiệu suất làm việc của nhân sự."
+        "title": "現場からの要望",
+        "description": "海外市場向けにソフトウェア開発（オフショア）サービスを提供する中で、Hitek のチームは、透明性をどう確保し、メンバーの生産性をどう保証するのかを顧客から頻繁に尋ねられていました。"
       },
       {
         "year": "2020",
-        "title": "Tìm ra câu trả lời",
-        "description": "Chúng tôi nhận thấy khoảng cách địa lý giữa khách hàng quốc tế và đội ngũ Hitek tại Việt Nam là một rào cản lớn về mặt niềm tin và quản trị. Từ đó, Hitek bắt đầu xây dựng một nền tảng cho phép khách hàng có thể quản lý và theo dõi vendor từ xa một cách trực quan, minh bạch và sát với thực tế nhất — như thể họ đang làm việc trực tiếp cùng đội ngũ của chúng tôi."
+        "title": "答えを見つける",
+        "description": "海外の顧客とベトナムの Hitek チームとの地理的な距離が、信頼と管理の面で大きな壁になっていると気づきました。そこで Hitek は、顧客が遠隔地からでもベンダーを直感的かつ透明に、実態に即して管理・把握できる——まるで私たちのチームと直接働いているかのような——プラットフォームの構築を始めました。"
       },
       {
         "year": "2024",
-        "title": "Hoàn thiện sản phẩm và sử dụng nội bộ",
-        "description": "Trong suốt 5 năm tiếp theo, chúng tôi liên tục phát triển, cải tiến và tối ưu hệ thống nhằm đáp ứng nhu cầu báo cáo và đảm bảo tính minh bạch cho khách hàng. Với tinh thần \"làm thật\" và \"cam kết thật\", Hitek chia sẻ toàn bộ dữ liệu hình ảnh và văn bản liên quan đến hoạt động làm việc của từng nhân sự theo thời gian thực."
+        "title": "製品の完成と社内利用",
+        "description": "その後の5年間、私たちは顧客の報告ニーズに応え、透明性を確保するために、システムの開発・改善・最適化を続けてきました。「本気で取り組み」「本気で約束する」という姿勢のもと、Hitek は各メンバーの業務に関する画像・テキストのデータをすべてリアルタイムで共有しています。"
       },
       {
-        "year": "2025-Nay",
-        "title": "Tích hợp AI và Chia sẻ",
-        "description": "Từ năm 2025, làn sóng AI đã mở ra những bước tiến vượt bậc về hiệu suất và khả năng đổi mới. Nắm bắt xu hướng đó, Hitek tích hợp AI vào hệ thống để phân tích dữ liệu hoạt động của người dùng, dự đoán hiệu suất làm việc và tự động tạo báo cáo dành cho cấp quản lý hoặc khách hàng. Chúng tôi tin rằng đây là thời điểm phù hợp để lan tỏa giá trị của giải pháp này, góp phần xây dựng niềm tin cho khách hàng quốc tế khi hợp tác từ xa cùng các tài năng công nghệ tại Việt Nam."
+        "year": "2025年〜現在",
+        "title": "AIの統合と共有",
+        "description": "2025年以降、AIの波は生産性とイノベーションに飛躍的な進歩をもたらしました。その流れを捉え、Hitek はシステムにAIを統合し、ユーザーの活動データを分析し、生産性を予測し、管理層や顧客向けのレポートを自動生成しています。今こそ、このソリューションの価値を広め、ベトナムのテクノロジー人材と遠隔で協業する海外の顧客に信頼を築く好機だと私たちは考えています。"
       }
     ]
   },
   "values": {
-    "section_badge": "Giá trị cốt lõi",
-    "section_title": "Sứ mệnh & Giá trị",
-    "section_subtitle": "Những giá trị cốt lõi định hướng mọi hoạt động và quyết định của chúng tôi",
+    "section_badge": "コアバリュー",
+    "section_title": "ミッションとバリュー",
+    "section_subtitle": "私たちのあらゆる活動と意思決定を導くコアバリュー",
     "items": [
       {
-        "title": "Sứ mệnh",
-        "description": "Đồng hành cùng doanh nghiệp Việt Nam trong việc tối ưu năng suất làm việc, nâng cao tính bảo mật dữ liệu và xây dựng niềm tin bền vững với khách hàng."
+        "title": "ミッション",
+        "description": "ベトナム企業とともに、業務生産性の最適化、データセキュリティの強化、そして顧客との揺るぎない信頼の構築に取り組みます。"
       },
       {
-        "title": "Tầm nhìn",
-        "description": "Trở thành nền tảng quản lý công việc hàng đầu tại Việt Nam, góp phần nâng cao niềm tin của khách hàng quốc tế đối với nguồn nhân lực Việt Nam và thúc đẩy kết nối thương mại toàn cầu."
+        "title": "ビジョン",
+        "description": "ベトナムを代表する業務管理プラットフォームとなり、ベトナムの人材に対する海外顧客の信頼を高め、グローバルなビジネスのつながりを促進します。"
       },
       {
-        "title": "Giá trị cốt lõi",
-        "description": "Không ngừng đổi mới sáng tạo, vận hành minh bạch, đảm bảo bảo mật tối đa và luôn lấy khách hàng làm trọng tâm trong mọi quyết định phát triển."
+        "title": "コアバリュー",
+        "description": "絶えず革新し、透明性をもって運営し、最大限のセキュリティを確保し、あらゆる開発の意思決定で常に顧客を中心に据えます。"
       }
     ]
   },
   "culture": {
-    "section_badge": "Văn hóa & Con người",
-    "section_title": "Văn hóa & Con người",
-    "section_subtitle": "Đội ngũ tài năng và văn hóa làm việc tạo nên sự khác biệt của Hitek Work",
+    "section_badge": "カルチャーと人",
+    "section_title": "カルチャーと人",
+    "section_subtitle": "優秀なチームと働き方の文化が、Hitek Work の違いを生み出します",
     "items": [
       {
-        "title": "Đội ngũ đa dạng",
-        "description": "Hơn 100 chuyên gia công nghệ, thiết kế và kinh doanh từ nhiều lĩnh vực, cùng nhau xây dựng sản phẩm tốt nhất."
+        "title": "多様なチーム",
+        "description": "さまざまな分野の技術・デザイン・ビジネスの専門家100名以上が、力を合わせて最高の製品を作り上げています。"
       },
       {
-        "title": "Đổi mới không ngừng",
-        "description": "Chúng tôi liên tục nghiên cứu và áp dụng công nghệ mới nhất để mang đến trải nghiệm vượt trội cho khách hàng."
+        "title": "絶え間ない革新",
+        "description": "私たちは最新技術を常に研究・導入し、お客様に優れた体験をお届けします。"
       },
       {
-        "title": "Bảo mật tuyệt đối",
-        "description": "An toàn dữ liệu là ưu tiên hàng đầu. Giải pháp của chúng tôi bao gồm cơ chế On-Premise, đảm bảo dữ liệu được lưu trữ nội bộ tại hệ thống của khách hàng."
+        "title": "万全のセキュリティ",
+        "description": "データの安全性を最優先します。私たちのソリューションはオンプレミス方式に対応し、データを顧客のシステム内に保管できます。"
       },
       {
-        "title": "Tăng trưởng bền vững",
-        "description": "Chúng tôi xây dựng mối quan hệ lâu dài với khách hàng, cùng nhau phát triển và thành công."
+        "title": "持続的な成長",
+        "description": "私たちは顧客と長期的な関係を築き、ともに成長し成功します。"
       }
     ]
   },
   "team_image": {
-    "badge": "Đội ngũ của chúng tôi",
-    "title": "Đội ngũ Hitek Work",
-    "subtitle": "Chúng tôi là một team đa dạng, sáng tạo và luôn hướng đến việc mang lại giá trị tốt nhất cho khách hàng."
+    "badge": "私たちのチーム",
+    "title": "Hitek Work のチーム",
+    "subtitle": "私たちは多様で創造的なチームであり、常にお客様に最高の価値を届けることを目指しています。"
   },
   "cta": {
-    "badge": "Bắt đầu",
-    "title": "Sẵn sàng chuyển đổi số\ncùng Hitek Work?",
-    "subtitle": "Hãy để chúng tôi đồng hành cùng doanh nghiệp của bạn trong hành trình tối ưu hiệu suất và bảo mật dữ liệu.",
-    "contact_button": "Liên hệ chúng tôi ngay"
+    "badge": "はじめる",
+    "title": "Hitek Work と一緒に\nデジタル変革を始めませんか？",
+    "subtitle": "生産性の最適化とデータセキュリティの歩みを、私たちが貴社とともに支援します。",
+    "contact_button": "今すぐお問い合わせ"
   }
 }

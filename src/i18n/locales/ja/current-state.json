@@ -1,187 +1,187 @@
 {
   "hero": {
-    "title_part1": "Hôm nay đội của bạn làm",
-    "title_highlight1": "việc hiệu quả",
-    "title_part2": "bao nhiêu",
-    "title_highlight2": "phần trăm",
-    "title_end": "?",
-    "subtitle_part1": "Trong đó bao nhiêu phần trăm dữ liệu báo cáo là",
-    "subtitle_highlight": "sự thật",
-    "subtitle_end": "?",
+    "title_part1": "今日、あなたのチームが",
+    "title_highlight1": "効率的に",
+    "title_part2": "働いているのは何",
+    "title_highlight2": "パーセント",
+    "title_end": "？",
+    "subtitle_part1": "そのうち、報告データの何パーセントが",
+    "subtitle_highlight": "真実",
+    "subtitle_end": "でしょうか？",
     "questions": [
-      "Bạn thật sự tin tưởng các công cụ truyền thống như KPI và OKR là đủ để quản trị một con người?",
-      "Bạn có truy vết được khi ai đó làm lộ các bí mật kinh doanh, khi nào, ở đâu không?",
-      "Bạn luôn cảm thấy cộng tác cùng các nhóm không ở gần nhau là khó khăn?"
+      "KPIやOKRといった従来のツールだけで、人を本当に管理できると思いますか？",
+      "誰かが企業秘密を漏らしたとき、いつ・どこでかを追跡できますか？",
+      "離れた場所にいるチームとの連携を、いつも難しいと感じていませんか？"
     ],
-    "scroll_label": "Khám phá thực trạng"
+    "scroll_label": "現状を見る"
   },
   "current_state": {
-    "title": "Hiệu suất bị mất",
-    "time_allocation_label": "Phân bổ thời gian trong Microsoft 365",
-    "communication_label": "Communication",
-    "creation_label": "Creation",
+    "title": "失われている生産性",
+    "time_allocation_label": "Microsoft 365 における時間配分",
+    "communication_label": "コミュニケーション",
+    "creation_label": "制作",
     "comm_items": [
-      { "label": "Email", "percent": 28 },
-      { "label": "Họp/Meeting", "percent": 21 },
-      { "label": "Chat", "percent": 8 }
+      { "label": "メール", "percent": 28 },
+      { "label": "会議", "percent": 21 },
+      { "label": "チャット", "percent": 8 }
     ],
     "creation_items": [
-      { "label": "Viết tài liệu", "percent": 22 },
-      { "label": "Phân tích/tính toán", "percent": 14 },
-      { "label": "Thiết kế/Code", "percent": 7 }
+      { "label": "資料作成", "percent": 22 },
+      { "label": "分析・計算", "percent": 14 },
+      { "label": "デザイン・コード", "percent": 7 }
     ],
-    "stat1": "Theo Asana: \"60% thời gian nhân viên văn phòng không tạo giá trị.\"",
-    "stat2": "Theo Microsoft: \"57% thời gian mỗi ngày nhân viên dành cho họp, chat, email.\"",
-    "example_label": "Ví dụ:",
-    "example_item1": "Nếu mỗi người lãng phí <1>2 giờ/ngày</1>,",
-    "example_item2": "Một doanh nghiệp <1>50 người</1>,",
-    "example_item3": "Lương trung bình <1>10 triệu/người/tháng</1>.",
-    "example_result": "Mất hơn <1>100tr/tháng</1> - <2>1,2 tỷ/năm</2> (chưa bao gồm chi phí cơ hội đã mất)",
-    "transition_label": "Nhưng tại sao báo cáo luôn \"100% hoàn thành\"?"
+    "stat1": "Asana によると「オフィスワーカーの時間の60%は価値を生んでいない」。",
+    "stat2": "Microsoft によると「従業員は1日の時間の57%を会議・チャット・メールに費やしている」。",
+    "example_label": "例：",
+    "example_item1": "1人あたり<1>1日2時間</1>を無駄にすると、",
+    "example_item2": "<1>50人</1>の企業では、",
+    "example_item3": "平均給与が<1>1人あたり月1,000万ドン</1>の場合。",
+    "example_result": "<1>月1億ドン</1>〜<2>年12億ドン</2>以上の損失です（逸失した機会コストは含みません）。",
+    "transition_label": "では、なぜ報告はいつも「100%完了」なのでしょうか？"
   },
   "report_vs_reality": {
-    "title": "Báo cáo vs Thực tế",
+    "title": "報告 vs 実態",
     "report_card": {
-      "heading": "Báo cáo",
+      "heading": "報告",
       "percent": "100%",
-      "status": "Hoàn thành",
-      "items": ["Hoàn tất công việc", "Đúng deadline", "100% hoàn thành"]
+      "status": "完了",
+      "items": ["業務完了", "期限どおり", "100%完了"]
     },
     "reality_card": {
-      "heading": "Thực tế",
+      "heading": "実態",
       "percent": "40-60%",
-      "status": "Năng suất thực tế",
-      "items": ["Lãng phí 2-3 giờ mỗi ngày", "Lướt mạng xã hội", "Họp quá nhiều"]
+      "status": "実際の生産性",
+      "items": ["1日2〜3時間を浪費", "SNSの閲覧", "過剰な会議"]
     },
-    "evidence_heading": "Dữ liệu thực tế",
-    "evidence1": "Nhân viên dành <1>1,5-2,5 giờ/ngày</1> cho mạng xã hội & lướt web – Teamstage",
-    "evidence2": "<1>89%</1> nhân viên lãng phí <2>30 phút - 2 giờ/ngày</2> – Forbes",
-    "takeaway": "Báo cáo có thể <1>đẹp</1> – nhưng <2>dữ liệu hành vi</2> mới là sự thật. Không có dữ liệu = lãnh đạo chỉ nghe điều nhân viên <3>muốn nói</3>."
+    "evidence_heading": "実際のデータ",
+    "evidence1": "従業員は<1>1日1.5〜2.5時間</1>をSNSやネット閲覧に費やしている – Teamstage",
+    "evidence2": "<1>89%</1>の従業員が<2>1日30分〜2時間</2>を無駄にしている – Forbes",
+    "takeaway": "報告は<1>美しく</1>できます。しかし<2>行動データ</2>こそが真実です。データがなければ、経営者は従業員が<3>言いたいこと</3>しか聞けません。"
   },
   "root_cause": {
-    "title": "Gốc rễ thật sự của mọi vấn đề",
-    "card1_title": "Thiếu dữ liệu hành vi theo thời gian thực",
-    "card1_body": "Không có timeline tiến độ thực tế để truy vết \"ai / khi nào / vì sao\".",
-    "card2_title": "Dữ liệu phân mảnh, rời rạc, không đồng bộ",
-    "card2_body": "Task, chat, email, file, chấm công… nằm rải rác, không có \"single source of truth\".",
-    "card3_title": "Lãnh đạo buộc phải ra quyết định bằng cảm tính",
-    "card3_body": "Không đo được sự thật đang diễn ra → ưu tiên sai → trễ hạn, đội chi phí, tăng rủi ro.",
-    "warning": "Khi không thấy được <1>\"sự thật đang diễn ra\"</1>, mọi quyết định đều mang tính <2>may rủi</2>.",
-    "evidence_heading": "Nguyên nhân lớn nhất",
-    "evidence_stat": "Theo BARC: <1>58%</1> quyết định trong doanh nghiệp Việt dựa vào cảm giác.",
-    "evidence_quote": "Mà cảm giác thì… <1>hay đánh lừa mình</1>",
-    "evidence_close": "Không có dữ liệu, doanh nghiệp buộc phải <1>điều hành theo may rủi</1>.",
-    "image_alt": "Foggy unclear path representing decision making without data"
+    "title": "あらゆる問題の本当の根本原因",
+    "card1_title": "リアルタイムの行動データの不足",
+    "card1_body": "「誰が／いつ／なぜ」を追跡できる実際の進捗タイムラインがありません。",
+    "card2_title": "断片的でバラバラ、同期されていないデータ",
+    "card2_body": "タスク、チャット、メール、ファイル、勤怠…が散在し、「単一の信頼できる情報源」がありません。",
+    "card3_title": "経営者は感覚で意思決定せざるを得ない",
+    "card3_body": "実態を測定できない → 優先順位を誤る → 納期遅延、コスト増、リスク増大。",
+    "warning": "<1>「今起きている真実」</1>が見えなければ、あらゆる意思決定は<2>運任せ</2>になります。",
+    "evidence_heading": "最大の原因",
+    "evidence_stat": "BARC によると、ベトナム企業の意思決定の<1>58%</1>は感覚に基づいています。",
+    "evidence_quote": "しかし感覚は…<1>しばしば自分を欺きます</1>",
+    "evidence_close": "データがなければ、企業は<1>運任せの経営</1>を強いられます。",
+    "image_alt": "データなしで意思決定を行う、霧がかった不確かな道のイメージ"
   },
   "limitations": {
-    "title": "Tại sao doanh nghiệp vẫn quản trị khó – dù đã dùng rất nhiều công cụ?",
-    "card1_heading": "Công cụ đang ghi lại:",
+    "title": "多くのツールを使っているのに、なぜ管理は難しいままなのでしょうか？",
+    "card1_heading": "ツールが記録しているもの：",
     "card1_items": [
-      "Task giao việc",
-      "Tin nhắn chat",
-      "Lịch họp",
-      "Email",
-      "File làm việc",
-      "Antivirus chặn mối nguy",
+      "割り当てたタスク",
+      "チャットメッセージ",
+      "会議の予定",
+      "メール",
+      "作業ファイル",
+      "脅威を防ぐアンチウイルス",
       "…"
     ],
-    "card2_heading": "Nhưng <1>KHÔNG</1> tool nào ghi lại được:",
+    "card2_heading": "しかし、<1>どのツールも</1>記録できないもの：",
     "card2_items": [
-      "Ảnh chụp màn hình theo phút",
-      "Timeline hoạt động thật",
-      "Mức độ tập trung - Hiệu suất theo hành vi",
-      "Tool lạ, web độc, file nguy hiểm",
-      "Truy vết lại sự cố bảo mật",
-      "Ai là nguồn gây rò rỉ dữ liệu"
+      "分単位のスクリーンショット",
+      "実際の活動タイムライン",
+      "集中度・行動ベースの生産性",
+      "不審なツール・悪質なサイト・危険なファイル",
+      "セキュリティインシデントの追跡",
+      "データ漏洩の発生源"
     ],
-    "takeaway": "Đây là <1>lớp dữ liệu quan trọng nhất</1> để điều hành, và cũng là lớp dữ liệu mà mọi doanh nghiệp đang thiếu.",
-    "transition": "Vậy doanh nghiệp cần gì để quản trị hiệu quả?",
-    "image_alt": "Business software dashboard and tools visualization"
+    "takeaway": "これは経営にとって<1>最も重要なデータ層</1>であり、同時にあらゆる企業に不足しているデータ層です。",
+    "transition": "では、効果的に管理するには企業に何が必要でしょうか？",
+    "image_alt": "ビジネスソフトウェアのダッシュボードとツールのイメージ"
   },
   "need_solution": {
-    "intro_badge": "Câu trả lời: Hệ thống thu thập \"dữ liệu thật\"",
-    "block_a_title": "Doanh nghiệp nhận được gì khi có <1>dữ liệu thật</1>?",
-    "benefit1": "Biết sớm vấn đề trước khi 'cháy'",
-    "benefit2": "Có bằng chứng khi ra quyết định khó",
-    "benefit3": "Quản trị công bằng - giảm mâu thuẫn nội bộ",
-    "block_b_preface": "Hitek Work không phải là công cụ giám sát.",
-    "block_b_title": "<1>Hitek Work là hệ thống thu thập </1><2>dữ liệu thật</2><3> để quản lý đội ngũ từ xa một cách hiệu quả</3>",
-    "cap1_heading": "Dữ liệu bao gồm gì?",
+    "intro_badge": "答え：「実データ」を収集するシステム",
+    "block_a_title": "<1>実データ</1>があると、企業は何を得られるのでしょうか？",
+    "benefit1": "問題が「炎上」する前に早期に把握",
+    "benefit2": "難しい意思決定の際に根拠を持てる",
+    "benefit3": "公平な管理 — 社内の対立を軽減",
+    "block_b_preface": "Hitek Work は監視ツールではありません。",
+    "block_b_title": "<1>Hitek Work は</1><2>実データ</2><3>を収集し、リモートチームを効率的に管理するシステムです</3>",
+    "cap1_heading": "データには何が含まれますか？",
     "cap1_items": [
-      "Screenshot màn hình nhân sự trong ngày",
-      "Chi tiết hành vi làm việc thông qua thao tác máy tính",
-      "Báo cáo cho các cấp quản lý để có giải pháp kịp thời"
+      "1日の従業員の画面スクリーンショット",
+      "PC操作による詳細な業務行動",
+      "各管理層への報告で迅速な対応を実現"
     ],
-    "cap2_heading": "AI bảo mật & cảnh báo sớm",
+    "cap2_heading": "AIセキュリティ＆早期アラート",
     "cap2_items": [
-      "AI nhận diện làm việc thật/Phân loại hoạt động",
-      "AI cảnh báo hiệu suất thấp",
-      "AI phát hiện Tool lạ / web không an toàn"
+      "AIによる実作業の認識／活動の分類",
+      "低パフォーマンスのAIアラート",
+      "不審なツール／安全でないサイトの検知"
     ],
-    "cap3_heading": "Truy vết sự cố",
+    "cap3_heading": "インシデント追跡",
     "cap3_items": [
-      "Xem lại toàn bộ hành vi",
-      "Tìm đúng thời điểm - đúng nguồn",
-      "Đưa ra bằng chứng rõ ràng"
+      "すべての行動を振り返り",
+      "正確な時点と原因を特定",
+      "明確な証拠を提示"
     ],
-    "cap4_heading": "Báo cáo đa cấp",
+    "cap4_heading": "多階層レポート",
     "cap4_items": [
-      "Nhân viên - Team Lead - Manager - BOD",
-      "Xem đúng thứ họ cần theo cấp bậc",
-      "100% tự động hoá"
+      "従業員 - チームリーダー - マネージャー - 経営層",
+      "役職に応じて必要な情報を表示",
+      "100％自動化"
     ],
-    "image_alt": "Business professional analyzing data and charts"
+    "image_alt": "データとグラフを分析するビジネスパーソン"
   },
   "why_real_data": {
-    "badge": "Thách thức",
-    "title_part1": "Tại sao cần",
-    "title_highlight": "dữ liệu thật",
-    "title_part2": "để quản lý đội ngũ từ xa?",
-    "subtitle": "Khi làm việc từ xa, thiếu dữ liệu thật khiến quản lý trở nên mù mờ và dựa vào \"cảm tính\"",
-    "block1_heading": "1. Tăng tính minh bạch vận hành",
-    "block1_problem_label": "Khi làm remote/hybrid, leader khó biết:",
+    "badge": "課題",
+    "title_part1": "なぜ",
+    "title_highlight": "実データ",
+    "title_part2": "がリモートチーム管理に必要なのか？",
+    "subtitle": "リモートワークでは、実データがないと管理が曖昧になり、「感覚」に頼ってしまいます。",
+    "block1_heading": "1. 運営の透明性を高める",
+    "block1_problem_label": "リモート／ハイブリッドでは、リーダーは次のことを把握しづらくなります：",
     "block1_problems": [
-      "Team có đang làm việc thật không",
-      "Có bị kẹt ở task nào không",
-      "Có đang phối hợp hiệu quả không"
+      "チームが実際に働いているか",
+      "どこかのタスクで行き詰まっていないか",
+      "効果的に連携できているか"
     ],
-    "block1_solution_label": "Dữ liệu thật giúp:",
+    "block1_solution_label": "実データがあれば：",
     "block1_solutions": [
-      "Xác nhận sự hiện diện thực tế",
-      "Giảm tình trạng \"online nhưng không làm\"",
-      "Tăng accountability tự nhiên"
+      "実際の稼働を確認できる",
+      "「オンラインだが働いていない」状態を減らせる",
+      "自然に当事者意識が高まる"
     ],
-    "block1_note": "<1>Đặc biệt quan trọng với:</1> Team outsource, Night shift, Freelancer, Junior",
-    "block2_heading": "2. Phát hiện sớm vấn đề hiệu suất",
-    "block2_intro": "Nhiều vấn đề không nằm ở KPI cuối tháng mà nằm ở <1>behavior hàng ngày:</1>",
+    "block1_note": "<1>特に重要な対象：</1>アウトソースチーム、夜勤、フリーランス、ジュニア",
+    "block2_heading": "2. パフォーマンス問題の早期発見",
+    "block2_intro": "多くの問題は月末のKPIではなく、<1>日々の行動</1>に表れます：",
     "block2_signals": [
-      "Mất tập trung liên tục",
-      "Bỏ máy nhiều lần",
-      "Làm việc riêng trong giờ",
-      "Stress/burnout dần dần",
-      "Team không giao tiếp",
-      "Dev active keyboard rất ít",
-      "Thường xuyên rời bàn làm việc",
-      "Họp nhưng không tập trung"
+      "継続的な集中力の欠如",
+      "頻繁な離席",
+      "勤務時間中の私用",
+      "徐々に進むストレス／バーンアウト",
+      "チーム内のコミュニケーション不足",
+      "開発者のキーボード操作が極端に少ない",
+      "頻繁に席を離れる",
+      "会議中に集中していない"
     ],
-    "block2_ai_note": "<1>AI phát hiện pattern bất thường</1> sớm hơn nhiều so với báo cáo cuối tháng",
-    "block3_heading": "3. Bảo mật dữ liệu",
-    "block3_teams_label": "Đặc biệt với các đội ngũ:",
-    "block3_teams": ["Outsourcing", "Fintech", "Healthcare", "AI Training", "Crypto"],
-    "block3_help_label": "Hitek Work giúp:",
+    "block2_ai_note": "<1>AIが異常なパターンを検知</1>し、月末の報告よりずっと早く気づけます",
+    "block3_heading": "3. データセキュリティ",
+    "block3_teams_label": "特に次のチームに重要です：",
+    "block3_teams": ["アウトソーシング", "フィンテック", "ヘルスケア", "AIトレーニング", "暗号資産"],
+    "block3_help_label": "Hitek Work は次を実現します：",
     "block3_helps": [
-      "Cảnh báo khi nhân sự gây rò rỉ dữ liệu",
-      "Truy vết tìm ra nguyên nhân của sự cố",
-      "Gây dựng niềm tin cho khách hàng"
+      "従業員によるデータ漏洩を警告",
+      "インシデントの原因を追跡",
+      "顧客からの信頼を構築"
     ]
   },
   "cta": {
-    "badge": "Bắt đầu",
-    "title": "Hitek Work giúp bạn quản trị bằng dữ liệu thật",
-    "subtitle": "Xem live demo để khám phá một giải pháp hoàn toàn khác biệt",
-    "primary_btn": "Yêu cầu Live Demo",
-    "trust1": "Minh bạch",
-    "trust2": "Bằng chứng theo thời gian",
-    "trust3": "Bảo mật dữ liệu"
+    "badge": "はじめる",
+    "title": "Hitek Work は実データによる経営を支援します",
+    "subtitle": "ライブデモで、まったく新しいソリューションをご体験ください",
+    "primary_btn": "ライブデモを申し込む",
+    "trust1": "透明性",
+    "trust2": "時系列の証拠",
+    "trust3": "データセキュリティ"
   }
 }

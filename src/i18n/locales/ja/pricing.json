@@ -1,146 +1,146 @@
 {
   "header": {
-    "title": "Bảng giá Hitek Work",
-    "subtitle": "Chọn gói phù hợp với quy mô và nhu cầu của doanh nghiệp bạn"
+    "title": "Hitek Work の料金プラン",
+    "subtitle": "貴社の規模とニーズに合ったプランをお選びください"
   },
-  "popular_badge": "Phổ biến nhất",
+  "popular_badge": "一番人気",
   "plans": [
     {
-      "name": "Miễn phí",
+      "name": "無料",
       "price": "0₫",
-      "period": "/tháng",
-      "description": "Dùng thử cơ bản",
+      "period": "/月",
+      "description": "基本的なお試し",
       "features": [
-        "Tối đa 5 nhân viên",
-        "Quản lý task cơ bản",
-        "Báo cáo tuần",
-        "Lưu trữ 1GB",
-        "Hỗ trợ email"
+        "最大5名",
+        "基本的なタスク管理",
+        "週次レポート",
+        "1GB ストレージ",
+        "メールサポート"
       ],
-      "buttonText": "Bắt đầu miễn phí"
+      "buttonText": "無料で始める"
     },
     {
-      "name": "Tiêu chuẩn",
+      "name": "スタンダード",
       "price": "99,000₫",
-      "period": "/người/tháng",
-      "description": "Cho team nhỏ",
+      "period": "/人/月",
+      "description": "小規模チーム向け",
       "features": [
-        "Tối đa 20 nhân viên",
-        "Quản lý dự án đầy đủ",
-        "Báo cáo hàng ngày",
-        "Timeline hoạt động",
-        "Lưu trữ 50GB",
-        "Hỗ trợ qua chat"
+        "最大20名",
+        "プロジェクト管理フル機能",
+        "日次レポート",
+        "活動タイムライン",
+        "50GB ストレージ",
+        "チャットサポート"
       ],
-      "buttonText": "Dùng ngay"
+      "buttonText": "今すぐ使う"
     },
     {
-      "name": "Chuyên nghiệp",
+      "name": "プロフェッショナル",
       "price": "199,000₫",
-      "period": "/người/tháng",
-      "description": "Phù hợp doanh nghiệp",
+      "period": "/人/月",
+      "description": "企業に最適",
       "features": [
-        "Không giới hạn nhân viên",
-        "AI đo lường hiệu suất",
-        "Báo cáo real-time",
-        "Bảo mật dữ liệu nâng cao",
-        "Chống copy USB",
-        "Lưu trữ 500GB",
-        "Hỗ trợ ưu tiên"
+        "人数無制限",
+        "AIによる生産性測定",
+        "リアルタイムレポート",
+        "高度なデータセキュリティ",
+        "USBコピー防止",
+        "500GB ストレージ",
+        "優先サポート"
       ],
-      "buttonText": "Dùng ngay"
+      "buttonText": "今すぐ使う"
     },
     {
-      "name": "Doanh nghiệp",
-      "price": "Liên hệ",
+      "name": "エンタープライズ",
+      "price": "お問い合わせ",
       "period": "",
-      "description": "Giải pháp tùy chỉnh",
+      "description": "カスタムソリューション",
       "features": [
-        "Tất cả tính năng Pro",
-        "Tích hợp tùy chỉnh",
-        "Quản lý tài khoản chuyên trách",
-        "Triển khai on-premise",
+        "プロの全機能",
+        "カスタム連携",
+        "専任アカウントマネージャー",
+        "オンプレミス導入",
         "SLA 99.9%",
-        "Lưu trữ không giới hạn",
-        "Hỗ trợ điện thoại 24/7"
+        "無制限ストレージ",
+        "24時間365日の電話サポート"
       ],
-      "buttonText": "Liên hệ ngay"
+      "buttonText": "お問い合わせ"
     }
   ],
   "comparison": {
-    "title": "So sánh chi tiết các gói",
-    "feature_col": "Tính năng",
+    "title": "プランの詳細比較",
+    "feature_col": "機能",
     "categories": [
       {
-        "category": "Quản lý công việc",
+        "category": "業務管理",
         "features": [
-          "Tạo & gán task",
-          "Quản lý dự án",
-          "Timeline & Gantt chart",
-          "Dependencies task",
-          "Custom workflows"
+          "タスクの作成・割り当て",
+          "プロジェクト管理",
+          "タイムライン＆ガントチャート",
+          "タスクの依存関係",
+          "カスタムワークフロー"
         ]
       },
       {
-        "category": "Báo cáo & Phân tích",
+        "category": "レポート＆分析",
         "features": [
-          "Báo cáo tuần",
-          "Báo cáo hàng ngày",
-          "Báo cáo real-time",
-          "Phân tích AI",
-          "Báo cáo tùy chỉnh"
+          "週次レポート",
+          "日次レポート",
+          "リアルタイムレポート",
+          "AI分析",
+          "カスタムレポート"
         ]
       },
       {
-        "category": "Bảo mật",
+        "category": "セキュリティ",
         "features": [
-          "Bảo mật cơ bản",
-          "Chống copy USB",
-          "Truy vết file",
-          "Nhật ký kiểm toán",
-          "SSO & SAML"
+          "基本セキュリティ",
+          "USBコピー防止",
+          "ファイル追跡",
+          "監査ログ",
+          "SSO＆SAML"
         ]
       },
       {
-        "category": "Hỗ trợ",
+        "category": "サポート",
         "features": [
-          "Hỗ trợ qua email",
-          "Hỗ trợ qua chat",
-          "Hỗ trợ ưu tiên",
-          "Hỗ trợ điện thoại 24/7",
-          "Quản lý tài khoản chuyên trách"
+          "メールサポート",
+          "チャットサポート",
+          "優先サポート",
+          "24時間365日の電話サポート",
+          "専任アカウントマネージャー"
         ]
       }
     ]
   },
   "faq": {
-    "title": "Câu hỏi thường gặp",
+    "title": "よくある質問",
     "items": [
       {
-        "question": "Tôi có thể dùng thử miễn phí không?",
-        "answer": "Có! Gói Miễn phí của chúng tôi cho phép bạn dùng thử các tính năng cơ bản với tối đa 5 nhân viên. Không cần thẻ tín dụng để đăng ký."
+        "question": "無料で試せますか？",
+        "answer": "はい！無料プランでは最大5名まで基本機能をお試しいただけます。登録にクレジットカードは不要です。"
       },
       {
-        "question": "Tôi có thể nâng cấp hoặc hạ cấp gói bất cứ lúc nào không?",
-        "answer": "Có, bạn có thể thay đổi gói dịch vụ bất cứ lúc nào. Chúng tôi sẽ tính phí theo tỷ lệ cho thời gian sử dụng còn lại."
+        "question": "プランはいつでもアップグレード・ダウングレードできますか？",
+        "answer": "はい、いつでもプランを変更できます。残りの利用期間に応じて日割りで精算いたします。"
       },
       {
-        "question": "Phương thức thanh toán nào được chấp nhận?",
-        "answer": "Chúng tôi chấp nhận thanh toán qua thẻ tín dụng/ghi nợ, chuyển khoản ngân hàng, và ví điện tử (Momo, ZaloPay). Đối với gói Doanh nghiệp, chúng tôi hỗ trợ thanh toán theo hóa đơn."
+        "question": "どのような支払い方法に対応していますか？",
+        "answer": "クレジット／デビットカード、銀行振込、電子ウォレット（Momo、ZaloPay）に対応しています。エンタープライズプランでは請求書払いにも対応します。"
       },
       {
-        "question": "Dữ liệu của tôi có an toàn không?",
-        "answer": "Tất cả dữ liệu được mã hóa end-to-end và lưu trữ trên server tại Việt Nam. Chúng tôi tuân thủ các tiêu chuẩn bảo mật quốc tế như ISO 27001 và GDPR."
+        "question": "データは安全ですか？",
+        "answer": "すべてのデータはエンドツーエンドで暗号化され、ベトナム国内のサーバーに保管されます。ISO 27001 や GDPR などの国際的なセキュリティ基準に準拠しています。"
       },
       {
-        "question": "Tôi có thể hủy bất cứ lúc nào không?",
-        "answer": "Có, bạn có thể hủy subscription bất cứ lúc nào. Dữ liệu của bạn sẽ được giữ lại trong 30 ngày sau khi hủy để bạn có thể xuất ra nếu cần."
+        "question": "いつでも解約できますか？",
+        "answer": "はい、いつでもサブスクリプションを解約できます。解約後30日間はデータを保持し、必要に応じてエクスポートできます。"
       }
     ]
   },
   "bottom_cta": {
-    "text": "Vẫn còn thắc mắc? Chúng tôi sẵn sàng tư vấn miễn phí",
-    "schedule": "Đặt lịch tư vấn",
-    "try_free": "Dùng thử miễn phí"
+    "text": "ご不明な点はありますか？無料でご相談を承ります",
+    "schedule": "相談を予約する",
+    "try_free": "無料トライアル"
   }
 }
