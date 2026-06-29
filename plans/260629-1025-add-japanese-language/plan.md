@@ -18,7 +18,7 @@ qua `:lang()` CSS. Chi tiết quyết định: xem [spec.md](./spec.md) + `CONTE
 | ID | Task | Type | Blocked by | Est | File ownership |
 |----|------|------|-----------|-----|----------------|
 | 01 | ✅ Wire `ja` as Supported Language | AFK | — | M | `config.ts`, `LanguageSwitcher.tsx`, `useSEOMeta.ts`, `RootRedirect.tsx`, tạo `locales/ja/*.json` |
-| 02 | Japanese font rendering (`:lang()`) | AFK | — | S | `index.html`, `theme.css` |
+| 02 | ✅ Japanese font rendering (`:lang()`) | AFK | — | S | `index.html`, `theme.css` |
 | 03 | Dịch shared + Home + SEO | AFK | 01 | M | `ja/common.json`, `ja/seo.json`, `ja/home.json` |
 | 04 | Dịch 4 trang còn lại (pricing giữ VND) | AFK | 01 | M | `ja/current-state.json`, `ja/demo.json`, `ja/pricing.json`, `ja/about.json` |
 | 05 | Mở rộng sitemap.xml cho `ja` | AFK | — | S | `public/sitemap.xml` |

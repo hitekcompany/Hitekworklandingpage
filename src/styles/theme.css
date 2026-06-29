@@ -1,7 +1,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --font-sans: "Noto Sans", "Noto Sans KR", system-ui, -apple-system, sans-serif;
+  --font-sans: "Noto Sans", system-ui, -apple-system, sans-serif;
   --font-size: 16px;
   --background: #ffffff;
   --foreground: oklch(0.145 0 0);
@@ -40,6 +40,18 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+}
+
+/* Per-language CJK font (Han unification: Kanji JP vs Hanja KO share Unicode
+   but differ in glyph shape). Redefine --font-sans per :lang() so the correct
+   CJK font wins for both inherited font-family and font-sans utilities.
+   Relies on document.documentElement.lang set by useSEOMeta. */
+:lang(ja) {
+  --font-sans: "Noto Sans JP", "Noto Sans", system-ui, -apple-system, sans-serif;
+}
+
+:lang(ko) {
+  --font-sans: "Noto Sans KR", "Noto Sans", system-ui, -apple-system, sans-serif;
 }
 
 .dark {

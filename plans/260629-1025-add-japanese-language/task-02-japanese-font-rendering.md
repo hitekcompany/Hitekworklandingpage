@@ -1,15 +1,15 @@
 ---
 task: 02
 title: Japanese font rendering (Noto Sans JP + :lang CSS)
-status: pending
+status: done
 type: AFK
 blocked_by: []
 effort: S
 human_estimate_hours: 1
 ai_estimate_hours: 0.2
-actual_hours: null
+actual_hours: 0.1
 created: 2026-06-29
-completed: null
+completed: 2026-06-29
 ---
 
 # Task 02: Japanese font rendering (Noto Sans JP + `:lang()` CSS)
@@ -89,5 +89,11 @@ Hangul vẫn dùng `Noto Sans KR`; trang vi/en không đổi.
 - Giữ `display=swap` + `preconnect` như link hiện tại.
 
 ## Execution log (filled during /feature-execute)
+
+- 2026-06-29 — Read: index.html, src/styles/theme.css, CONTEXT.md (Font Stack)
+- 2026-06-29 — Implementation: index.html load Noto Sans JP; theme.css base --font-sans → Latin/VN only; add :lang(ja)/:lang(ko) redefining --font-sans (robust vs Han unification + font-sans utilities)
+- 2026-06-29 — Verify: grep Noto+Sans+JP + :lang(ja)/:lang(ko) — PASS (GREP_OK)
+- 2026-06-29 — Verify: `pnpm build` — PASS (built in 2.50s)
+- 2026-06-29 — Behavioral (computed font-family /ja/ vs /ko/) — DEFERRED to final consolidated Playwright QA
 
 ## Escalation report (filled only if blocked)
