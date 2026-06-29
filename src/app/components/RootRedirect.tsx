@@ -9,6 +9,7 @@ function resolveLanguage(): Lang {
 
   const nav = typeof navigator !== "undefined" ? navigator.language.toLowerCase() : "";
   if (nav.startsWith("ko")) return "ko";
+  if (nav.startsWith("ja")) return "ja";
   if (nav.startsWith("en")) return "en";
   if (nav.startsWith("vi")) return "vi";
 

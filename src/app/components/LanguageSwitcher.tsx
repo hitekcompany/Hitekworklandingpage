@@ -13,6 +13,7 @@ const ENDONYM_MAP: Record<Lang, string> = {
   vi: "Tiếng Việt",
   en: "English",
   ko: "한국어",
+  ja: "日本語",
 };
 
 function resolveLang(pathname: string, i18nLang: string): Lang {

@@ -26,7 +26,15 @@ import koPricing from "./locales/ko/pricing.json";
 import koAbout from "./locales/ko/about.json";
 import koSeo from "./locales/ko/seo.json";
 
-export const SUPPORTED_LANGUAGES = ["vi", "en", "ko"] as const;
+import jaCommon from "./locales/ja/common.json";
+import jaHome from "./locales/ja/home.json";
+import jaCurrentState from "./locales/ja/current-state.json";
+import jaDemo from "./locales/ja/demo.json";
+import jaPricing from "./locales/ja/pricing.json";
+import jaAbout from "./locales/ja/about.json";
+import jaSeo from "./locales/ja/seo.json";
+
+export const SUPPORTED_LANGUAGES = ["vi", "en", "ko", "ja"] as const;
 export type Lang = (typeof SUPPORTED_LANGUAGES)[number];
 export const DEFAULT_LANGUAGE: Lang = "vi";
 
@@ -67,6 +75,15 @@ const resources = {
     pricing: koPricing,
     about: koAbout,
     seo: koSeo,
+  },
+  ja: {
+    common: jaCommon,
+    home: jaHome,
+    "current-state": jaCurrentState,
+    demo: jaDemo,
+    pricing: jaPricing,
+    about: jaAbout,
+    seo: jaSeo,
   },
 };
 

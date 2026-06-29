@@ -1,0 +1,82 @@
+{
+  "timeline": {
+    "section_badge": "Timeline",
+    "section_title": "Hành trình phát triển",
+    "section_subtitle": "Từ một ý tưởng đến nền tảng quản lý công việc được hàng nghìn doanh nghiệp tin dùng",
+    "items": [
+      {
+        "year": "2019",
+        "title": "Yêu cầu thực tế",
+        "description": "Trong quá trình triển khai dịch vụ gia công phần mềm cho thị trường quốc tế, đội ngũ Hitek thường xuyên nhận được câu hỏi từ khách hàng về cách chúng tôi đảm bảo tính minh bạch cũng như cam kết hiệu suất làm việc của nhân sự."
+      },
+      {
+        "year": "2020",
+        "title": "Tìm ra câu trả lời",
+        "description": "Chúng tôi nhận thấy khoảng cách địa lý giữa khách hàng quốc tế và đội ngũ Hitek tại Việt Nam là một rào cản lớn về mặt niềm tin và quản trị. Từ đó, Hitek bắt đầu xây dựng một nền tảng cho phép khách hàng có thể quản lý và theo dõi vendor từ xa một cách trực quan, minh bạch và sát với thực tế nhất — như thể họ đang làm việc trực tiếp cùng đội ngũ của chúng tôi."
+      },
+      {
+        "year": "2024",
+        "title": "Hoàn thiện sản phẩm và sử dụng nội bộ",
+        "description": "Trong suốt 5 năm tiếp theo, chúng tôi liên tục phát triển, cải tiến và tối ưu hệ thống nhằm đáp ứng nhu cầu báo cáo và đảm bảo tính minh bạch cho khách hàng. Với tinh thần \"làm thật\" và \"cam kết thật\", Hitek chia sẻ toàn bộ dữ liệu hình ảnh và văn bản liên quan đến hoạt động làm việc của từng nhân sự theo thời gian thực."
+      },
+      {
+        "year": "2025-Nay",
+        "title": "Tích hợp AI và Chia sẻ",
+        "description": "Từ năm 2025, làn sóng AI đã mở ra những bước tiến vượt bậc về hiệu suất và khả năng đổi mới. Nắm bắt xu hướng đó, Hitek tích hợp AI vào hệ thống để phân tích dữ liệu hoạt động của người dùng, dự đoán hiệu suất làm việc và tự động tạo báo cáo dành cho cấp quản lý hoặc khách hàng. Chúng tôi tin rằng đây là thời điểm phù hợp để lan tỏa giá trị của giải pháp này, góp phần xây dựng niềm tin cho khách hàng quốc tế khi hợp tác từ xa cùng các tài năng công nghệ tại Việt Nam."
+      }
+    ]
+  },
+  "values": {
+    "section_badge": "Giá trị cốt lõi",
+    "section_title": "Sứ mệnh & Giá trị",
+    "section_subtitle": "Những giá trị cốt lõi định hướng mọi hoạt động và quyết định của chúng tôi",
+    "items": [
+      {
+        "title": "Sứ mệnh",
+        "description": "Đồng hành cùng doanh nghiệp Việt Nam trong việc tối ưu năng suất làm việc, nâng cao tính bảo mật dữ liệu và xây dựng niềm tin bền vững với khách hàng."
+      },
+      {
+        "title": "Tầm nhìn",
+        "description": "Trở thành nền tảng quản lý công việc hàng đầu tại Việt Nam, góp phần nâng cao niềm tin của khách hàng quốc tế đối với nguồn nhân lực Việt Nam và thúc đẩy kết nối thương mại toàn cầu."
+      },
+      {
+        "title": "Giá trị cốt lõi",
+        "description": "Không ngừng đổi mới sáng tạo, vận hành minh bạch, đảm bảo bảo mật tối đa và luôn lấy khách hàng làm trọng tâm trong mọi quyết định phát triển."
+      }
+    ]
+  },
+  "culture": {
+    "section_badge": "Văn hóa & Con người",
+    "section_title": "Văn hóa & Con người",
+    "section_subtitle": "Đội ngũ tài năng và văn hóa làm việc tạo nên sự khác biệt của Hitek Work",
+    "items": [
+      {
+        "title": "Đội ngũ đa dạng",
+        "description": "Hơn 100 chuyên gia công nghệ, thiết kế và kinh doanh từ nhiều lĩnh vực, cùng nhau xây dựng sản phẩm tốt nhất."
+      },
+      {
+        "title": "Đổi mới không ngừng",
+        "description": "Chúng tôi liên tục nghiên cứu và áp dụng công nghệ mới nhất để mang đến trải nghiệm vượt trội cho khách hàng."
+      },
+      {
+        "title": "Bảo mật tuyệt đối",
+        "description": "An toàn dữ liệu là ưu tiên hàng đầu. Giải pháp của chúng tôi bao gồm cơ chế On-Premise, đảm bảo dữ liệu được lưu trữ nội bộ tại hệ thống của khách hàng."
+      },
+      {
+        "title": "Tăng trưởng bền vững",
+        "description": "Chúng tôi xây dựng mối quan hệ lâu dài với khách hàng, cùng nhau phát triển và thành công."
+      }
+    ]
+  },
+  "team_image": {
+    "badge": "Đội ngũ của chúng tôi",
+    "title": "Đội ngũ Hitek Work",
+    "subtitle": "Chúng tôi là một team đa dạng, sáng tạo và luôn hướng đến việc mang lại giá trị tốt nhất cho khách hàng."
+  },
+  "cta": {
+    "badge": "Bắt đầu",
+    "title": "Sẵn sàng chuyển đổi số\ncùng Hitek Work?",
+    "subtitle": "Hãy để chúng tôi đồng hành cùng doanh nghiệp của bạn trong hành trình tối ưu hiệu suất và bảo mật dữ liệu.",
+    "contact_button": "Liên hệ chúng tôi ngay"
+  }
+}

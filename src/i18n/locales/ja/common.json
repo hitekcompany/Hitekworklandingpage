@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "solution": "Giải pháp",
+    "features": "Tính năng",
+    "about": "Về chúng tôi"
+  },
+  "cta": {
+    "request_demo": "Yêu cầu Demo",
+    "try_free": "Dùng thử miễn phí",
+    "subscribe": "Đăng ký"
+  },
+  "header": {
+    "logo_alt": "Hitek Work",
+    "toggle_menu": "Mở/đóng menu"
+  },
+  "switcher": {
+    "aria_label": "Chuyển ngôn ngữ"
+  },
+  "footer": {
+    "dev_center": {
+      "title": "Development Center",
+      "address": "Lầu 6, Tòa nhà Hải Âu, 39B Trường Sơn, P. Tân Sơn Nhì, Q. Tân Bình, TP. Hồ Chí Minh, Việt Nam"
+    },
+    "offices": {
+      "title": "Văn phòng đại diện",
+      "korea": "Hàn Quốc",
+      "japan": "Nhật Bản"
+    },
+    "social": {
+      "title": "Theo dõi chúng tôi",
+      "newsletter_pitch": "Đăng ký để nhận những tin tức mới nhất về sản phẩm và các ưu đãi hấp dẫn từ Hitek Work"
+    },
+    "copyright": "Copyright © 2026 Hitek Software JSC"
+  }
+}

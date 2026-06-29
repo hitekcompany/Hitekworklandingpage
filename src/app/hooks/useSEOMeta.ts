@@ -10,6 +10,7 @@ const LOCALE_MAP: Record<Lang, string> = {
   vi: "vi_VN",
   en: "en_US",
   ko: "ko_KR",
+  ja: "ja_JP",
 };
 
 const PAGE_PATH: Record<SEOPageKey, string> = {
