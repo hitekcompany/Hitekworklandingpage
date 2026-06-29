@@ -7,6 +7,7 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/" />
   </url>
 
@@ -15,6 +16,7 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/" />
   </url>
 
@@ -23,6 +25,16 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/" />
   </url>
 
@@ -31,6 +43,7 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/current-state" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/current-state" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/current-state" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/current-state" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/current-state" />
   </url>
 
@@ -39,6 +52,7 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/current-state" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/current-state" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/current-state" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/current-state" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/current-state" />
   </url>
 
@@ -47,6 +61,16 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/current-state" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/current-state" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/current-state" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/current-state" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/current-state" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ja/current-state</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/current-state" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/current-state" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/current-state" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/current-state" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/current-state" />
   </url>
 
@@ -55,6 +79,7 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/demo" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/demo" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/demo" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/demo" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/demo" />
   </url>
 
@@ -63,6 +88,7 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/demo" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/demo" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/demo" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/demo" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/demo" />
   </url>
 
@@ -71,6 +97,16 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/demo" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/demo" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/demo" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/demo" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/demo" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ja/demo</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/demo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/demo" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/demo" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/demo" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/demo" />
   </url>
 
@@ -79,6 +115,7 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/pricing" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/pricing" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/pricing" />
   </url>
 
@@ -87,6 +124,7 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/pricing" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/pricing" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/pricing" />
   </url>
 
@@ -95,6 +133,16 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/pricing" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/pricing" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/pricing" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/pricing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/pricing" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ja/pricing</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/pricing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/pricing" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/pricing" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/pricing" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/pricing" />
   </url>
 
@@ -103,6 +151,7 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/about" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/about" />
   </url>
 
@@ -111,6 +160,7 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/about" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/about" />
   </url>
 
@@ -119,6 +169,16 @@
     <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/about" />
     <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/about" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/about" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ja/about</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/about" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/about" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/about" />
   </url>
 

@@ -1,6 +1,6 @@
 ---
 title: Bổ sung tiếng Nhật (ja) vào tính năng đa ngôn ngữ
-status: pending
+status: done
 created: 2026-06-29
 spec: ./spec.md
 total_tasks: 5
@@ -21,7 +21,7 @@ qua `:lang()` CSS. Chi tiết quyết định: xem [spec.md](./spec.md) + `CONTE
 | 02 | ✅ Japanese font rendering (`:lang()`) | AFK | — | S | `index.html`, `theme.css` |
 | 03 | ✅ Dịch shared + Home + SEO | AFK | 01 | M | `ja/common.json`, `ja/seo.json`, `ja/home.json` |
 | 04 | ✅ Dịch 4 trang còn lại (pricing giữ VND) | AFK | 01 | M | `ja/current-state.json`, `ja/demo.json`, `ja/pricing.json`, `ja/about.json` |
-| 05 | Mở rộng sitemap.xml cho `ja` | AFK | — | S | `public/sitemap.xml` |
+| 05 | ✅ Mở rộng sitemap.xml cho `ja` | AFK | — | S | `public/sitemap.xml` |
 
 Tổng: 5 tasks · 3 M + 2 S · 100% AFK · ~9h human / ~1.4h AI.
 File ownership KHÔNG chồng lấn → 02 và 05 có thể chạy song song với critical path.

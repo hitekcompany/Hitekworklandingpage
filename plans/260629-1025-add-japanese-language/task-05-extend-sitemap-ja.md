@@ -1,15 +1,15 @@
 ---
 task: 05
 title: Mở rộng static sitemap.xml cho `ja`
-status: pending
+status: done
 type: AFK
 blocked_by: []
 effort: S
 human_estimate_hours: 1
 ai_estimate_hours: 0.2
-actual_hours: null
+actual_hours: 0.1
 created: 2026-06-29
-completed: null
+completed: 2026-06-29
 ---
 
 # Task 05: Mở rộng static sitemap.xml cho `ja`
@@ -85,5 +85,10 @@ Mỗi block sau khi xong có 5 alternate: vi, en, ko, **ja**, x-default(=vi).
   đọc/diff.
 
 ## Execution log (filled during /feature-execute)
+
+- 2026-06-29 — Read: public/sitemap.xml (pattern), useSEOMeta page list
+- 2026-06-29 — Implementation: rewrote sitemap.xml → 20 url blocks (5 pages × 4 langs); every block has vi/en/ko/ja alternates + x-default=vi; added 5 /ja/* blocks
+- 2026-06-29 — Verify: loc count=20, hreflang ja=20, ja loc=5, XML_OK — PASS
+- 2026-06-29 — Verify: `pnpm build` — PASS (built in 2.50s)
 
 ## Escalation report (filled only if blocked)
