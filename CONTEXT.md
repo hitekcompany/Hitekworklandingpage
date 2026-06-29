@@ -6,7 +6,7 @@ KHÔNG chứa implementation details, KHÔNG chứa spec.
 ## Terms
 
 **Supported Languages**:
-Tập 3 ngôn ngữ mà landing page Hitek Work hỗ trợ ở Phase 1: Tiếng Việt (`vi`), Tiếng Anh (`en`), Tiếng Hàn (`ko`). Mã ngôn ngữ tuân theo BCP-47 (ISO 639-1).
+Tập ngôn ngữ mà landing page Hitek Work hỗ trợ: Tiếng Việt (`vi`), Tiếng Anh (`en`), Tiếng Hàn (`ko`), Tiếng Nhật (`ja`). Mã ngôn ngữ tuân theo BCP-47 (ISO 639-1). `ja` thêm ở Phase 2 (additive — không đổi `vi` default, không đổi coverage 5 trang × 7 namespace).
 _Avoid_: "languages" (mơ hồ), "locales" (sẽ define riêng nếu cần phân biệt language vs region)
 
 **Default Language**:
@@ -42,7 +42,7 @@ UI component cho phép user chuyển ngôn ngữ thủ công. Placement: **cực
 Trigger hiển thị **endonym + caret** của ngôn ngữ đang chọn: `Tiếng Việt ▾`, `English ▾`, `한국어 ▾`. KHÔNG dùng flag icon (W3C i18n best practice: cờ = quốc gia, không phải ngôn ngữ). Dropdown mở thấy 3 row endonym, row active có dấu ✓ phía bên phải. Component implementation tận dụng `DropdownMenu` từ shadcn/ui (`src/app/components/ui/dropdown-menu.tsx`) để consistent với design system hiện có.
 
 **Endonym**:
-Tên gọi của ngôn ngữ bằng chính ngôn ngữ đó. Mapping cố định trong project: `vi → "Tiếng Việt"`, `en → "English"`, `ko → "한국어"`.
+Tên gọi của ngôn ngữ bằng chính ngôn ngữ đó. Mapping cố định trong project: `vi → "Tiếng Việt"`, `en → "English"`, `ko → "한국어"`, `ja → "日本語"`.
 
 **i18n Stack**:
 Bộ thư viện chuẩn của project cho đa ngôn ngữ: `i18next` (core engine) + `react-i18next` (hook `useTranslation`, component `<Trans>`) + `i18next-browser-languagedetector` (auto-detect `navigator.language`). Tất cả truy cập translation phải đi qua hook/component của stack này — KHÔNG truy cập trực tiếp dictionary object.
@@ -72,7 +72,10 @@ File `public/sitemap.xml` viết tay liệt kê tích descartes (5 pages × 3 Su
 Phase 1 dùng client-side `useEffect` manipulate `document.title`/`document.head` (không SSR). Chấp nhận risk Google bot index chậm hơn + crawler non-Google (Bing/social) có thể miss meta dynamic. Pre-render/SSG defer Phase 2 nếu Search Console báo coverage issue.
 
 **Translation Source**:
-Phase 1 toàn bộ bản dịch en/ko sinh từ AI (Claude/GPT-4) dịch trực tiếp từ source language file (`vi/`). KHÔNG có native human translation trước khi deploy Phase 1. Risk biết trước: tone, idiomatic expression, B2B SaaS terminology có thể chưa polished.
+Toàn bộ bản dịch en/ko/ja sinh từ AI (Claude/GPT-4) dịch trực tiếp từ source language file (`vi/`). KHÔNG có native human translation trước khi deploy. Risk biết trước: tone, idiomatic expression, B2B SaaS terminology có thể chưa polished. Với `ja` risk cao hơn do keigo (kính ngữ) + thuật ngữ B2B → cần native JA review ở Phase 1.5.
+
+**Politeness Register**:
+Cấp độ lịch sự bắt buộc cho các ngôn ngữ có hệ kính ngữ, đưa vào prompt dịch AI để toàn site nhất quán: `ja` dùng です・ます調 (teineigo — lịch sự chuẩn B2B, kính ngữ nhẹ ở CTA), `ko` dùng 존댓말 (formal register). KHÔNG dùng 敬語 đầy đủ (ja) hay thể plain.
 
 **Native Review (Phase 1.5)**:
 Sau khi deploy Phase 1, sẽ có native English + native Korean reviewer chỉnh sửa AI draft translation. Review chỉ sửa text trong `en/*.json` và `ko/*.json` — không động code. Mỗi key tự update khi i18next reload translation (hoặc redeploy). KHÔNG block Phase 1 launch.
@@ -81,4 +84,4 @@ Sau khi deploy Phase 1, sẽ có native English + native Korean reviewer chỉnh
 Big-bang Phase 1: extract toàn bộ hardcoded text 30+ components sang `vi/*.json` → AI dịch sang `en/`, `ko/` → deploy 3 ngôn ngữ cùng lúc. KHÔNG incremental (vì site chưa release, không có user hiện hữu cần smooth migration).
 
 **Font Stack**:
-Load `Noto Sans` + `Noto Sans KR` từ Google Fonts trong `index.html` (weights 400, 500, 700), preconnect tới `fonts.googleapis.com`. Tailwind `--font-sans` chain: `"Noto Sans", "Noto Sans KR", system-ui, sans-serif`. Browser tự pick glyph theo Unicode range — Latin/Vietnamese dùng Noto Sans, Hangul dùng Noto Sans KR. Áp dụng cho mọi ngôn ngữ (không lazy load theo lang).
+Load `Noto Sans` + `Noto Sans KR` + `Noto Sans JP` từ Google Fonts trong `index.html` (weights 400, 500, 700), preconnect tới `fonts.googleapis.com`. Base `--font-sans` chain: `"Noto Sans", system-ui, -apple-system, sans-serif` (Latin/Vietnamese). Vì Kanji (Hán tự) JP và Hanja KO chung mã Unicode nhưng khác glyph (Han unification), KHÔNG để chung 1 chain — dùng CSS `:lang()` để mỗi ngôn ngữ pick đúng font CJK: `:lang(ja)` → ưu tiên `"Noto Sans JP"`, `:lang(ko)` → ưu tiên `"Noto Sans KR"`. Tận dụng `document.documentElement.lang` mà `useSEOMeta` đã set. Load tất cả font (không lazy load theo lang).
