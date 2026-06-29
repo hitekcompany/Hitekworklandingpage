@@ -1,35 +1,35 @@
 {
   "nav": {
-    "home": "Trang chủ",
-    "solution": "Giải pháp",
-    "features": "Tính năng",
-    "about": "Về chúng tôi"
+    "home": "ホーム",
+    "solution": "ソリューション",
+    "features": "機能",
+    "about": "会社概要"
   },
   "cta": {
-    "request_demo": "Yêu cầu Demo",
-    "try_free": "Dùng thử miễn phí",
-    "subscribe": "Đăng ký"
+    "request_demo": "デモを申し込む",
+    "try_free": "無料トライアル",
+    "subscribe": "登録する"
   },
   "header": {
     "logo_alt": "Hitek Work",
-    "toggle_menu": "Mở/đóng menu"
+    "toggle_menu": "メニューを開く／閉じる"
   },
   "switcher": {
-    "aria_label": "Chuyển ngôn ngữ"
+    "aria_label": "言語を切り替える"
   },
   "footer": {
     "dev_center": {
-      "title": "Development Center",
-      "address": "Lầu 6, Tòa nhà Hải Âu, 39B Trường Sơn, P. Tân Sơn Nhì, Q. Tân Bình, TP. Hồ Chí Minh, Việt Nam"
+      "title": "開発センター",
+      "address": "ベトナム・ホーチミン市タンビン区タンソンニー、チュオンソン通り39B ハイアウビル6階"
     },
     "offices": {
-      "title": "Văn phòng đại diện",
-      "korea": "Hàn Quốc",
-      "japan": "Nhật Bản"
+      "title": "海外拠点",
+      "korea": "韓国",
+      "japan": "日本"
     },
     "social": {
-      "title": "Theo dõi chúng tôi",
-      "newsletter_pitch": "Đăng ký để nhận những tin tức mới nhất về sản phẩm và các ưu đãi hấp dẫn từ Hitek Work"
+      "title": "フォローする",
+      "newsletter_pitch": "Hitek Work の最新の製品情報やお得なご優待を受け取るには、ご登録ください。"
     },
     "copyright": "Copyright © 2026 Hitek Software JSC"
   }

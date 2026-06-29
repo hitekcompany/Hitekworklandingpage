@@ -1,22 +1,22 @@
 {
   "home": {
-    "title": "Hitek Work — Quản lý năng suất từ xa dựa trên dữ liệu thật",
-    "description": "Công cụ số 1 giúp doanh nghiệp gây dựng sự tin tưởng cho đội ngũ làm việc từ xa. Minh bạch theo thời gian thực, AI cảnh báo, báo cáo cho từng cấp."
+    "title": "Hitek Work — 実データに基づくリモート生産性管理",
+    "description": "リモートチームへの信頼を築く No.1 ツール。リアルタイムの透明性、AIアラート、役職別レポートを提供します。"
   },
   "current-state": {
-    "title": "Giải pháp quản lý làm việc từ xa — Hitek Work",
-    "description": "Khắc phục mặt trái của báo cáo thủ công, công cụ rời rạc. Khám phá vì sao đội ngũ từ xa cần một hệ thống dữ liệu thật để vận hành hiệu quả."
+    "title": "リモートワーク管理ソリューション — Hitek Work",
+    "description": "手作業のレポートやバラバラなツールの弊害を解消します。リモートチームに実データ基盤のシステムが必要な理由をご紹介します。"
   },
   "demo": {
-    "title": "Tính năng — Hitek Work nền tảng quản lý năng suất bằng dữ liệu thật",
-    "description": "Timeline thời gian thực, AI nhận diện hoạt động, nhắc nhở nhân viên, truy vết sự cố, báo cáo đa cấp. Đăng ký Live Demo ngay."
+    "title": "機能 — 実データで生産性を管理するプラットフォーム Hitek Work",
+    "description": "リアルタイムのタイムライン、AIによる活動認識、従業員へのリマインド、インシデント追跡、多階層レポート。今すぐライブデモにお申し込みください。"
   },
   "pricing": {
-    "title": "Bảng giá — Hitek Work",
-    "description": "Chính sách giá linh hoạt cho mọi quy mô đội ngũ. Tham khảo gói phù hợp và yêu cầu báo giá chi tiết."
+    "title": "料金プラン — Hitek Work",
+    "description": "あらゆる規模のチームに対応する柔軟な料金体系。最適なプランをご確認のうえ、詳しいお見積もりをご依頼ください。"
   },
   "about": {
-    "title": "Về Hitek Work — Doanh nghiệp công nghệ Việt phục vụ đội ngũ từ xa",
-    "description": "Hitek Software JSC — đơn vị phát triển Hitek Work, nền tảng quản lý làm việc từ xa dựa trên dữ liệu thật. Văn phòng tại Việt Nam, Hàn Quốc, Nhật Bản."
+    "title": "Hitek Work について — リモートチームを支えるベトナムのテクノロジー企業",
+    "description": "Hitek Software JSC は、実データに基づくリモートワーク管理プラットフォーム Hitek Work を開発しています。拠点はベトナム、韓国、日本にあります。"
   }
 }

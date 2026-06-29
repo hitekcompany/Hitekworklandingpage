@@ -1,15 +1,15 @@
 ---
 task: 03
 title: Dịch shared chrome + Home + SEO sang Japanese
-status: pending
+status: done
 type: AFK
 blocked_by: [01]
 effort: M
 human_estimate_hours: 2
 ai_estimate_hours: 0.3
-actual_hours: null
+actual_hours: 0.3
 created: 2026-06-29
-completed: null
+completed: 2026-06-29
 ---
 
 # Task 03: Dịch shared chrome + Home + SEO sang Japanese
@@ -88,5 +88,12 @@ bằng tiếng Nhật (seo.json chứa meta cho cả 5 trang).
 - Rủi ro chất lượng ~80-85% (keigo + B2B) — chấp nhận, native review Phase 1.5.
 
 ## Execution log (filled during /feature-execute)
+
+- 2026-06-29 — Read: vi/{common,seo,home}.json (source), ko/{common,home}.json (slot reference), CONTEXT.md
+- 2026-06-29 — Implementation: translate ja/common.json, ja/seo.json, ja/home.json to Japanese (です・ます調); preserved keys + `<1>` slot in hero.title; kept brand/copyright; localized address + office labels (韓国/日本)
+- 2026-06-29 — Verify: parity 3/3 `MISSING [] EXTRA []` — PASS
+- 2026-06-29 — Verify: JP_CHARS home True; slot count vi==ja OK — PASS
+- 2026-06-29 — Verify: `pnpm build` — PASS (built in 2.34s)
+- 2026-06-29 — Behavioral (Playwright /ja/ render + title) — DEFERRED to final consolidated QA
 
 ## Escalation report (filled only if blocked)

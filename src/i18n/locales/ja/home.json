@@ -1,67 +1,67 @@
 {
   "hero": {
-    "title": "Quản lý năng suất từ xa dựa trên <1>dữ liệu thật</1>",
-    "title_before": "Quản lý năng suất từ xa dựa trên",
-    "title_highlight": "dữ liệu thật",
-    "subtitle": "Công cụ số 1 để gây dựng sự tin tưởng cho các đội ngũ làm việc cách xa nhau",
-    "cta_demo": "Yêu cầu Demo",
+    "title": "実データに基づく<1>リモート生産性管理</1>",
+    "title_before": "実データに基づく",
+    "title_highlight": "リモート生産性管理",
+    "subtitle": "離れて働くチームの信頼を築く No.1 ツールです",
+    "cta_demo": "デモを申し込む",
     "benefits": {
-      "transparency": "Minh bạch theo thời gian thực",
-      "ai_alert": "AI cảnh báo & bảo mật",
-      "reports": "Báo cáo cho từng cấp"
+      "transparency": "リアルタイムの透明性",
+      "ai_alert": "AIアラート＆セキュリティ",
+      "reports": "役職別レポート"
     },
     "dashboard": {
-      "performance": "Hiệu suất",
-      "security": "Bảo mật",
-      "ai_analysis": "Phân tích AI"
+      "performance": "パフォーマンス",
+      "security": "セキュリティ",
+      "ai_analysis": "AI分析"
     }
   },
   "pillars": {
-    "section_title": "4 trụ cột của Hitek Work",
-    "section_subtitle": "Nền tảng giúp doanh nghiệp quản lý hiệu quả đội ngũ từ xa",
+    "section_title": "Hitek Work の4つの柱",
+    "section_subtitle": "企業がリモートチームを効率的に管理するためのプラットフォームです",
     "items": [
       {
-        "title": "Giúp doanh nghiệp minh bạch hiệu suất",
-        "valueSentence": "Thấy tiến độ & mức độ tập trung từng nhân sự. Từ đó có kế hoạch khen thưởng hoặc đào tạo tương ứng.",
+        "title": "企業のパフォーマンスを可視化します",
+        "valueSentence": "各メンバーの進捗と集中度を把握できます。それをもとに、表彰や育成の計画を立てられます。",
         "features": [
-          "Timeline hoạt động theo thời gian thật",
-          "Screenshot thông minh theo phút",
-          "Báo cáo chỉ số tập trung theo hành vi"
+          "リアルタイムの活動タイムライン",
+          "分単位のスマートスクリーンショット",
+          "行動に基づく集中度指標レポート"
         ]
       },
       {
-        "title": "AI bảo mật & cảnh báo sớm",
-        "valueSentence": "AI phát hiện bất thường sớm để xử lý trước khi thành rủi ro.",
+        "title": "AIセキュリティと早期アラート",
+        "valueSentence": "AIが異常を早期に検知し、リスクになる前に対処できます。",
         "features": [
-          "AI nhận diện làm việc thật / Phân loại hoạt động",
-          "AI cảnh báo hiệu suất thấp",
-          "AI phát hiện tool lạ / web không an toàn"
+          "AIによる実作業の認識／活動の分類",
+          "低パフォーマンスのAIアラート",
+          "不審なツール／安全でないサイトの検知"
         ]
       },
       {
-        "title": "Truy vết sự cố",
-        "valueSentence": "Lần ngược theo thời gian để tìm đúng lúc – đúng nguồn.",
+        "title": "インシデント追跡",
+        "valueSentence": "時間をさかのぼり、正確な時点と原因を特定します。",
         "features": [
-          "Xem lại toàn bộ hành vi",
-          "Tìm đúng thời điểm – đúng nguồn",
-          "Đưa ra bằng chứng rõ ràng"
+          "すべての行動を振り返り",
+          "正確な時点と原因を特定",
+          "明確な証拠を提示"
         ]
       },
       {
-        "title": "Báo cáo đa cấp",
-        "valueSentence": "Mỗi cấp xem đúng thứ họ cần để ra quyết định nhanh và thống nhất.",
+        "title": "多階層レポート",
+        "valueSentence": "各階層が必要な情報だけを確認し、迅速で一貫した意思決定ができます。",
         "features": [
-          "Nhân viên – Team Lead – Manager – BOD",
-          "Xem đúng thứ họ cần theo cấp bậc",
-          "100% tự động hóa"
+          "従業員 – チームリーダー – マネージャー – 経営層",
+          "役職に応じて必要な情報を表示",
+          "100％自動化"
         ]
       }
     ]
   },
   "bottom_cta": {
-    "badge": "Bắt đầu",
-    "headline": "Sẵn sàng cho cuộc cách mạng về năng suất làm việc?",
-    "subheadline": "Đặt lịch live demo ngay để khám phá một giải pháp hoàn toàn khác biệt.",
-    "cta_primary": "Yêu cầu Live Demo"
+    "badge": "はじめる",
+    "headline": "生産性革命の準備はできていますか？",
+    "subheadline": "今すぐライブデモをご予約いただき、まったく新しいソリューションを体験してください。",
+    "cta_primary": "ライブデモを申し込む"
   }
 }
