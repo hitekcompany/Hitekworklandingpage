@@ -3,7 +3,8 @@
     "home": "Home",
     "solution": "Solution",
     "features": "Features",
-    "about": "About Us"
+    "about": "About Us",
+    "download": "Download"
   },
   "cta": {
     "request_demo": "Request a Demo",
@@ -30,6 +31,12 @@
     "social": {
       "title": "Follow Us",
       "newsletter_pitch": "Subscribe to receive the latest product news and exclusive offers from Hitek Work"
+    },
+    "links": {
+      "title": "Links",
+      "policy": "Privacy Policy",
+      "faq": "FAQ",
+      "download": "Download"
     },
     "copyright": "Copyright © 2026 Hitek Software JSC"
   }

@@ -1,15 +1,15 @@
 ---
 task: 05
 title: Wiring nav + footer (Header "Tải về" + Footer cột "Liên kết")
-status: pending
+status: done
 type: AFK
 blocked_by: [task-02, task-03, task-04]
 effort: S
 human_estimate_hours: 1
 ai_estimate_hours: 0.2
-actual_hours: null
+actual_hours: 0.4
 created: 2026-07-13
-completed: null
+completed: 2026-07-13
 ---
 
 # Task 05: Wiring nav + footer
@@ -95,6 +95,23 @@ mới; bấm link → vào đúng trang, đúng ngôn ngữ.
 
 ## Docs-mismatch log (filled during /feature-execute)
 
+- Footer trước đây KHÔNG resolve lang (chỉ Header có `buildHref`) — phải thêm
+  lang-resolution + `linkTo()` vào Footer để link giữ URL Locale Prefix. Phát
+  hiện lúc Step 3.
+
 ## Execution log (filled during /feature-execute)
+
+- 2026-07-13 — Read: common.json × 4, Header.tsx (navItems), Footer.tsx (grid);
+  conventions/fe-checklist in context
+- 2026-07-13 — Implementation: thêm `nav.download` + `footer.links.{title,policy,
+  faq,download}` vào common.json × 4 locale; Header `navItems` thêm "Tải về" →
+  download (render cả desktop + mobile menu); Footer thêm lang-resolution +
+  `linkTo()` + cột "Liên kết" (react-router Link × 3, grid 3→4 cột)
+- 2026-07-13 — Verify: common parity 4 locale — PASS; `pnpm build` — ✓ 2.85s — PASS
+- 2026-07-13 — fe-playwright: preview → `/ko/` — nav có "다운로드" → `/ko/download`;
+  footer 3 link (개인정보 처리방침→/ko/policy, 자주 묻는 질문→/ko/faq, 다운로드→/ko/
+  download) đúng Locale Prefix; **real click footer Policy → điều hướng `/ko/
+  policy`, title đúng**; demo CTA → monitor-staging demo (task-01 re-confirm).
+  Evidence: `.scratch/footer-links-ko.png` — PASS
 
 ## Escalation report (filled only if blocked)

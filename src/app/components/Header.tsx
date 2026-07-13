@@ -12,6 +12,7 @@ const navItems = [
   { labelKey: "nav.solution", path: "current-state" },
   { labelKey: "nav.features", path: "demo" },
   { labelKey: "nav.about", path: "about" },
+  { labelKey: "nav.download", path: "download" },
   // { labelKey: "nav.pricing", path: "pricing" },
 ];
 

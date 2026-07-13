@@ -1,6 +1,6 @@
 ---
 title: Marketing Pages — Policy / FAQ / Download (hạng mục B)
-status: pending
+status: done
 created: 2026-07-13
 spec: ./spec.md
 total_tasks: 5
@@ -21,7 +21,7 @@ nút Demo. Repo: React + Vite + i18next, 4 locale vi/en/ko/ja. Không BE/DB.
 | [02](./task-02-policy-page.md) ✅ | Trang Policy (12 mục, i18n, SEO) | AFK | — | M | 2.5h / 0.4h |
 | [03](./task-03-faq-page.md) ✅ | Trang FAQ (6 nhóm accordion, i18n, SEO) | AFK | — | M | 2h / 0.4h |
 | [04](./task-04-download-page.md) ✅ | Trang Download (4 nút OS, config, frame-first, SEO) | AFK | — | M | 2h / 0.4h |
-| [05](./task-05-nav-footer-wiring.md) | Wiring nav + footer | AFK | 02,03,04 | S | 1h / 0.2h |
+| [05](./task-05-nav-footer-wiring.md) ✅ | Wiring nav + footer | AFK | 02,03,04 | S | 1h / 0.2h |
 
 **Tổng:** ~8.5h human (~1.6h AI-assist). 5 AFK, 0 HITL.
 

@@ -5,14 +5,28 @@ import {
   Mail,
   MapPin,
 } from "lucide-react";
+import { Link, useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
+import {
+  DEFAULT_LANGUAGE,
+  SUPPORTED_LANGUAGES,
+  type Lang,
+} from "../../i18n/config";
 
 export function Footer() {
-  const { t } = useTranslation("common");
+  const { t, i18n } = useTranslation("common");
+  const location = useLocation();
+  const first = location.pathname.split("/")[1];
+  const lang = ((SUPPORTED_LANGUAGES as readonly string[]).includes(first)
+    ? first
+    : (SUPPORTED_LANGUAGES as readonly string[]).includes(i18n.language)
+      ? i18n.language
+      : DEFAULT_LANGUAGE) as Lang;
+  const linkTo = (path: string) => `/${lang}/${path}`;
   return (
     <footer className="bg-[#1a1a1a] text-white">
       <div className="max-w-[1440px] mx-auto px-6 lg:px-12 py-12 lg:py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Development Center */}
           <div>
             <h3 className="text-lg font-bold mb-6">
@@ -119,6 +133,39 @@ export function Footer() {
 >
   {t("cta.subscribe")}
 </button>  </div>
+          </div>
+
+          {/* Liên kết */}
+          <div>
+            <h3 className="text-lg font-bold mb-6">
+              {t("footer.links.title")}
+            </h3>
+            <ul className="space-y-3 text-gray-300 text-sm">
+              <li>
+                <Link
+                  to={linkTo("policy")}
+                  className="hover:text-[#1e4bbf] transition-colors"
+                >
+                  {t("footer.links.policy")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={linkTo("faq")}
+                  className="hover:text-[#1e4bbf] transition-colors"
+                >
+                  {t("footer.links.faq")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={linkTo("download")}
+                  className="hover:text-[#1e4bbf] transition-colors"
+                >
+                  {t("footer.links.download")}
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
 
