@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
-import { WireframeButton } from "./WireframeButton";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { DEMO_LIVE_URL } from "../config";
 import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES, type Lang } from "../../i18n/config";
 import logoNgang from "../../imports/logo-ngang.png";
 
@@ -77,22 +77,26 @@ export function Header() {
           {/* Desktop: Switcher + CTAs */}
           <div className="hidden lg:flex items-center gap-6">
             <LanguageSwitcher />
-            <WireframeButton
-              variant="primary"
-              className="text-sm"
+            <a
+              href={DEMO_LIVE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 active:scale-95 shadow-md bg-[#1e4bbf] text-white hover:bg-[#1e40af] shadow-[#1e4bbf]/30 text-sm"
             >
               {t("cta.request_demo")}
-            </WireframeButton>
+            </a>
           </div>
 
           {/* Mobile: Hamburger + CTA */}
           <div className="flex lg:hidden items-center gap-4">
-            <WireframeButton
-              variant="primary"
-              className="text-sm px-5 py-2.5"
+            <a
+              href={DEMO_LIVE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full font-semibold transition-all hover:scale-105 active:scale-95 shadow-md bg-[#1e4bbf] text-white hover:bg-[#1e40af] shadow-[#1e4bbf]/30 text-sm px-5 py-2.5"
             >
               {t("cta.request_demo")}
-            </WireframeButton>
+            </a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 hover:bg-neutral-100 rounded-lg transition-colors"

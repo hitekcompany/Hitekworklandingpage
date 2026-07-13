@@ -1,15 +1,15 @@
 ---
 task: 01
 title: Retarget nút Demo (Hero + Header CTA) → demo live + config URL
-status: pending
+status: done
 type: AFK
 blocked_by: []
 effort: S
 human_estimate_hours: 1
 ai_estimate_hours: 0.2
-actual_hours: null
+actual_hours: 0.4
 created: 2026-07-13
-completed: null
+completed: 2026-07-13
 ---
 
 # Task 01: Retarget nút Demo (Hero + Header CTA) → demo live + config URL
@@ -86,6 +86,33 @@ demo live, xem thử sản phẩm ngay (thay vì mở Zalo chat).
 
 ## Docs-mismatch log (filled during /feature-execute)
 
+- Spec/task nói "2 nút demo (Hero + Header CTA)" nhưng thực tế có **7 link Zalo**
+  trong src/ — phát hiện lúc Step 4 (grep). 6 là nút "Yêu cầu Live Demo" (Hero,
+  Header desktop+mobile, BottomCTASection, CTASection, DemoCTASection) → retarget
+  hết. 2 KHÔNG phải demo: Footer `cta.subscribe` ("Đăng ký") + AboutPage
+  `cta.contact_button` ("Liên hệ") → GIỮ Zalo (đúng nghĩa contact/subscribe).
+- `WireframeButton` (`src/app/components/WireframeButton.tsx`) render `null` —
+  component stub chưa hoàn thiện, dùng ở Header(2)/PricingSection(4)/
+  DemoHeroSection(2) → mọi CTA đó hiện VÔ HÌNH. Bug có sẵn ngoài scope feature.
+  Task-01 thay 2 CTA demo Header bằng `<a>` thật (không sửa WireframeButton toàn
+  cục để tránh làm hiện loạt nút dead). **Flag cho user quyết** (xem summary).
+
 ## Execution log (filled during /feature-execute)
+
+- 2026-07-13 — Read: HeroSection.tsx, Header.tsx, WireframeButton.tsx (Must read
+  + reference impls); conventions.md/fe-checklist.md đã có trong context (tự viết)
+- 2026-07-13 — Discovery: WireframeButton render null; 7 link Zalo (6 demo, 2 non-demo)
+- 2026-07-13 — Implementation: tạo `src/app/config.ts` (DEMO_LIVE_URL +
+  DOWNLOAD_URLS nền cho task-04); retarget 6 nút demo → DEMO_LIVE_URL, tab mới +
+  rel noopener (Hero, Header×2 thay WireframeButton bằng `<a>`, BottomCTA,
+  CTASection, DemoCTA); gỡ import WireframeButton khỏi Header (orphan do thay đổi)
+- 2026-07-13 — Verify: `grep zalo.me src/` — chỉ còn 2 non-demo (Footer/About) —
+  PASS (criterion tinh chỉnh: "không nút DEMO còn trỏ Zalo", 2 nút kia out-of-scope)
+- 2026-07-13 — Verify: `grep DEMO_LIVE_URL` — config + 6 nút; `monitor-staging`
+  literal chỉ ở config.ts — PASS
+- 2026-07-13 — Verify: `pnpm build` — ✓ built in 8.86s, no error (chunk-size
+  warning có sẵn) — PASS
+- 2026-07-13 — fe-playwright: DỒN sang `/feature-verify` (đổi href/config thuần,
+  low-risk, đã evidence bằng grep+build — theo Test policy baseline cho phép)
 
 ## Escalation report (filled only if blocked)
