@@ -85,3 +85,26 @@ Big-bang Phase 1: extract toàn bộ hardcoded text 30+ components sang `vi/*.js
 
 **Font Stack**:
 Load `Noto Sans` + `Noto Sans KR` + `Noto Sans JP` từ Google Fonts trong `index.html` (weights 400, 500, 700), preconnect tới `fonts.googleapis.com`. Base `--font-sans` chain: `"Noto Sans", system-ui, -apple-system, sans-serif` (Latin/Vietnamese). Vì Kanji (Hán tự) JP và Hanja KO chung mã Unicode nhưng khác glyph (Han unification), KHÔNG để chung 1 chain — dùng CSS `:lang()` để mỗi ngôn ngữ pick đúng font CJK: `:lang(ja)` → ưu tiên `"Noto Sans JP"`, `:lang(ko)` → ưu tiên `"Noto Sans KR"`. Tận dụng `document.documentElement.lang` mà `useSEOMeta` đã set. Load tất cả font (không lazy load theo lang).
+
+## Marketing Pages — Policy / FAQ / Download (grilling 2026-07-13, hạng mục B marketing flow)
+
+**Marketing Pages (hạng mục B)**:
+3 trang mới thêm vào landing cho họp Demo 17/07: **Policy** (Chính sách Bảo mật), **FAQ**, **Download**. Mỗi trang = 1 route `/:lang/{policy|faq|download}` + 1 page component + 1 Translation Namespace mới (`policy`/`faq`/`download`) × 4 Supported Languages. Nội dung nguồn (tiếng Việt) do BA giao qua Google Doc; en/ko/ja sinh theo Translation Source (AI dịch). **KHÔNG làm Cookies** (banner lẫn trang) — drop khỏi scope.
+_Avoid_: "3 trang landing" trống → dùng "Marketing Pages"; đừng gộp Cookies vào (đã drop).
+
+**Policy Page**:
+Trang Chính sách Bảo mật Hitek Work, 12 mục theo Luật 91/2025/QH15 + NĐ 356/2025/NĐ-CP. Text render **as-is** theo bản BA giao (thì khẳng định). Một số cam kết (auto-delete 30/90 ngày, xóa theo yêu cầu 20 ngày, cascade xóa khi nghỉ, consent opt-in) hiện CHƯA enforce ở sản phẩm — feature "Luật bảo vệ thông tin user" implement **song song** để backing các cam kết này. HTTPS + RBAC phân quyền đã có thật. Câu chữ nằm trong i18n JSON nên đổi được không cần sửa code.
+
+**FAQ Page**:
+Trang câu hỏi thường gặp, 7 nhóm (Getting Started, Cách ghi nhận hoạt động, Đồng ý & Quyền riêng tư, Quản lý & Phân quyền, Cài đặt, Tài khoản & Đăng nhập). Tham khảo UI teamlogger. Doc gốc thiếu "Section 5" (nhảy 4→6) — render đúng những gì có.
+
+**Download Page**:
+Trang tải Desktop App. **4 nút tải** theo OS/kiến trúc: **Windows · macOS (Intel x64) · macOS (Apple Silicon arm64) · Linux** (không universal binary — build ra file riêng). **File cài host trên server** (KHÔNG Google Drive), link tải để trong **config/env** (dựng khung trước, thay URL khi hạng mục D build xong — 2 việc không block nhau). Mỗi nút kèm dòng "chọn bản này nếu máy bạn là...". Kèm hướng dẫn bỏ qua cảnh báo "unknown publisher" (Windows) / "unidentified developer" (macOS) vì Hitek build unsigned.
+_Avoid_: link Google Drive share (đã loại — qua trang cảnh báo Google); "chưa có Linux build" (doc cũ — nay đã có bản Linux).
+
+**Page Placement (chốt 2026-07-13)**:
+Policy + FAQ → thêm **cột "Liên kết" trong Footer** (utility/legal pages). Download → thêm vào **Header nav** (nổi bật, conversion) + echo footer. Header nav hiện 4 item (Home/Solution/Features/About) không nhét thêm Policy/FAQ để tránh chật.
+
+**Demo Button Target (chốt 2026-07-13)**:
+2 nút demo (Hero + Header CTA "Yêu cầu Demo") BỎ link Zalo (`zalo.me/84777505030`) → trỏ **demo live CMS** `https://monitor-staging.hitek.com.vn/demo`, mở **tab mới** (`target="_blank"`), URL trong config/env để dễ đổi.
+_Avoid_: giữ link Zalo (đã loại).
