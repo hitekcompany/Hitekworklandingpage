@@ -1,0 +1,90 @@
+{
+  "title": "Chính sách Bảo mật — Hitek Work",
+  "updated": "Cập nhật lần cuối: 13/07/2026. Được xây dựng theo Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định 356/2025/NĐ-CP.",
+  "sections": [
+    {
+      "title": "Chính sách này bao gồm gì?",
+      "paragraphs": [
+        "Chính sách này áp dụng cho cách Hitek Work xử lý thông tin cá nhân thu thập qua website và ứng dụng máy tính do Hitek Work phát hành. Trong ứng dụng, Hitek Work theo dõi hiệu suất làm việc theo hai cách: Active — chỉ đếm số lần thao tác chuột và bàn phím, không ghi lại nội dung bạn gõ; và AI evaluation — chụp màn hình định kỳ, AI chỉ nhận diện bạn đang dùng phần mềm gì để phân loại \"đang làm việc / không làm việc\", không đọc nội dung hiển thị trên màn hình.",
+        "Chính sách này không áp dụng cho hoạt động của các công ty mà Hitek Work không sở hữu hoặc kiểm soát, cũng như các website của bên thứ ba được liên kết từ website của chúng tôi.",
+        "Về vai trò: với dữ liệu thu qua website, Hitek Work là bên kiểm soát dữ liệu; với dữ liệu giám sát nhân viên bên trong sản phẩm, doanh nghiệp sử dụng là bên kiểm soát còn Hitek Work là bên xử lý."
+      ]
+    },
+    {
+      "title": "Thu thập và sử dụng thông tin cá nhân",
+      "paragraphs": [
+        "Bạn có thể truy cập website của Hitek Work mà không cần tiết lộ bất kỳ thông tin cá nhân nào. Tuy nhiên, chúng tôi cần một số thông tin cá nhân nếu bạn muốn sử dụng dịch vụ (đăng ký dùng thử hoặc cài đặt ứng dụng).",
+        "Khi cần, thông tin này có thể bao gồm thông tin liên hệ cá nhân và/hoặc thông tin liên hệ của công ty bạn. Chúng tôi dùng thông tin này để phản hồi yêu cầu, cung cấp dịch vụ bạn yêu cầu, thiết lập tài khoản và liên hệ với bạn về dịch vụ đã đăng ký.",
+        "Chúng tôi thu thập theo từng mục đích cụ thể; bạn có thể đồng ý cho từng mục đích và không bị buộc phải đồng ý toàn bộ."
+      ]
+    },
+    {
+      "title": "Thu thập và sử dụng thông tin phi cá nhân",
+      "paragraphs": [
+        "Hitek Work tự động nhận và ghi lại thông tin phi cá nhân trong nhật ký máy chủ từ trình duyệt của bạn, gồm địa chỉ IP, thông tin cookie và trang bạn yêu cầu. Chúng tôi có thể dùng thông tin này để phục vụ các yêu cầu dịch vụ của bạn, và không gắn dữ liệu phi cá nhân này với thông tin cá nhân đã thu thập."
+      ]
+    },
+    {
+      "title": "Chia sẻ và tiết lộ thông tin",
+      "paragraphs": [
+        "Mọi quyền đối với dữ liệu thu từ doanh nghiệp (đăng ký để giám sát nhân viên) và từ nhân viên (ghi nhận thời gian và ảnh chụp màn hình sau khi chấp nhận lời mời của doanh nghiệp) thuộc về doanh nghiệp sử dụng lao động.",
+        "Hitek Work chỉ tiết lộ thông tin cá nhân của bạn trong các trường hợp sau:"
+      ],
+      "bullets": [
+        "Bạn đồng ý rõ ràng cho việc chia sẻ nhằm một mục đích cụ thể;",
+        "Chúng tôi phải tuân theo lệnh của cơ quan có thẩm quyền, quyết định của tòa án hoặc quy trình pháp lý khác."
+      ],
+      "paragraphsAfter": [
+        "Chúng tôi không bán dữ liệu cá nhân."
+      ]
+    },
+    {
+      "title": "Sự đồng ý",
+      "paragraphs": [
+        "Nếu bạn không đồng ý với việc thu thập, sử dụng hoặc tiết lộ thông tin cá nhân như nêu trong chính sách này, vui lòng không cung cấp thông tin cá nhân cho chúng tôi. Nếu bạn đã cung cấp thông tin và không còn đồng ý, vui lòng liên hệ với chúng tôi để rút lại sự đồng ý bất cứ lúc nào."
+      ]
+    },
+    {
+      "title": "Bảo mật",
+      "paragraphs": [
+        "Chúng tôi áp dụng nhiều lớp bảo vệ cho dữ liệu:"
+      ],
+      "bullets": [
+        "Mã hóa: dữ liệu ảnh chụp màn hình được mã hóa khi truyền (HTTPS).",
+        "Phân quyền truy cập: quản lý chỉ xem được nhân viên trong phạm vi mình phụ trách; mỗi vai trò chỉ truy cập đúng phần cần thiết.",
+        "Tự động xóa: dữ liệu được xóa tự động sau thời hạn lưu trữ (AI evaluation: 30 ngày và Active: 90 ngày).",
+        "Kiểm soát hạ tầng: tường lửa, giám sát truy cập bất thường và các biện pháp bảo vệ hệ thống."
+      ]
+    },
+    {
+      "title": "Quyền của chủ thể dữ liệu",
+      "paragraphs": [
+        "Bạn có các quyền: được biết về việc xử lý; đồng ý hoặc không đồng ý; truy cập; chỉnh sửa; xóa; hạn chế hoặc phản đối xử lý; rút lại sự đồng ý; yêu cầu cung cấp dữ liệu của mình; và khiếu nại, tố cáo, khởi kiện khi bị xâm phạm. Liên hệ chúng tôi để thực hiện các quyền này."
+      ]
+    },
+    {
+      "title": "Thời hạn lưu trữ",
+      "paragraphs": [
+        "Chúng tôi chỉ lưu thông tin liên hệ trong thời gian cần thiết cho mục đích đã nêu, và xóa khi bạn yêu cầu (trong vòng 20 ngày). Với dữ liệu sản phẩm: AI evaluation lưu 30 ngày, Active lưu 90 ngày, và dữ liệu người lao động được xóa khi chấm dứt hợp đồng."
+      ]
+    },
+    {
+      "title": "Chuyển dữ liệu ra nước ngoài",
+      "paragraphs": [
+        "Với dữ liệu cá nhân, chúng tôi chỉ chuyển ra nước ngoài khi có cơ sở hợp pháp và tuân theo quy định về chuyển dữ liệu xuyên biên giới."
+      ]
+    },
+    {
+      "title": "Thông báo khi có sự cố dữ liệu",
+      "paragraphs": [
+        "Nếu xảy ra sự cố rò rỉ ảnh hưởng đến dữ liệu của bạn, chúng tôi thông báo cho bạn và cơ quan có thẩm quyền theo quy định."
+      ]
+    },
+    {
+      "title": "Thay đổi chính sách",
+      "paragraphs": [
+        "Hitek Work có thể sửa đổi chính sách này theo thời gian, kèm thông báo trước cho người dùng đã đăng ký; các phiên bản cũ được lưu lại. Vui lòng xem lại chính sách định kỳ. Nếu thay đổi làm phát sinh mục đích xử lý mới, chúng tôi sẽ xin lại sự đồng ý của bạn."
+      ]
+    }
+  ]
+}

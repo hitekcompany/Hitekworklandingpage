@@ -9,6 +9,7 @@ import { CurrentStatePage } from "./pages/CurrentStatePage";
 import { PricingPage } from "./pages/PricingPage";
 import { DemoPage } from "./pages/DemoPage";
 import { AboutPage } from "./pages/AboutPage";
+import { PolicyPage } from "./pages/PolicyPage";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
               <Route path="pricing" element={<PricingPage />} />
               <Route path="demo" element={<DemoPage />} />
               <Route path="about" element={<AboutPage />} />
+              <Route path="policy" element={<PolicyPage />} />
             </Route>
             <Route path="*" element={<RootRedirect />} />
           </Routes>

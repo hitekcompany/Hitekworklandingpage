@@ -18,5 +18,9 @@
   "about": {
     "title": "About Hitek Work — Vietnamese Tech Company Serving Remote Teams",
     "description": "Hitek Software JSC — developer of Hitek Work, a real-data platform for remote workforce management. Offices in Vietnam, Korea, and Japan."
+  },
+  "policy": {
+    "title": "Privacy Policy — Hitek Work",
+    "description": "How Hitek Work collects, uses, and protects personal information under Law 91/2025 and Decree 356/2025. Encryption, access control, automatic data deletion."
   }
 }

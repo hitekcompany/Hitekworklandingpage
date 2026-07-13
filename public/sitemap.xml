@@ -182,4 +182,40 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/about" />
   </url>
 
+  <url>
+    <loc>https://work.hitek.com.vn/vi/policy</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/policy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/policy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/policy" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/en/policy</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/policy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/policy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/policy" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ko/policy</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/policy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/policy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/policy" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ja/policy</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/policy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/policy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/policy" />
+  </url>
+
 </urlset>

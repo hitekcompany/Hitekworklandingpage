@@ -2,7 +2,13 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE, type Lang } from "../../i18n/config";
 
-export type SEOPageKey = "home" | "current-state" | "demo" | "pricing" | "about";
+export type SEOPageKey =
+  | "home"
+  | "current-state"
+  | "demo"
+  | "pricing"
+  | "about"
+  | "policy";
 
 const BASE_URL = "https://work.hitek.com.vn";
 
@@ -19,6 +25,7 @@ const PAGE_PATH: Record<SEOPageKey, string> = {
   demo: "demo",
   pricing: "pricing",
   about: "about",
+  policy: "policy",
 };
 
 function setOrCreateMeta(

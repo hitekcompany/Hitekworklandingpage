@@ -47,6 +47,11 @@ Tầng nào bỏ qua phải log rõ lý do, không im lặng skip.
 | Verify | Command | Expect |
 |---|---|---|
 | Key parity 4 locale | `node check-i18n-keys.mjs` | 0 missing/extra key |
+
+> ⚠️ `check-i18n-keys.mjs` chỉ scan key dùng trong `<Trans>` (từ `trans-keys.txt`)
+> và CHỈ vi/en/ko (không ja) — KHÔNG cover key `t()` / namespace mới dùng
+> `returnObjects`. Với page dùng `t()`: verify parity 4 locale bằng script so cấu
+> trúc JSON + render thật qua Playwright (đủ 4 locale). Xem task-02 execution log.
 | t() usage hợp lệ | `node check-t-keys.mjs` | mọi key dùng trong `.tsx` có trong locale |
 | Namespace đăng ký | grep namespace mới trong `src/i18n/config.ts` | có trong `NAMESPACES` + `resources` × 4 locale |
 

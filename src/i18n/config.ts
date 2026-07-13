@@ -9,6 +9,7 @@ import viDemo from "./locales/vi/demo.json";
 import viPricing from "./locales/vi/pricing.json";
 import viAbout from "./locales/vi/about.json";
 import viSeo from "./locales/vi/seo.json";
+import viPolicy from "./locales/vi/policy.json";
 
 import enCommon from "./locales/en/common.json";
 import enHome from "./locales/en/home.json";
@@ -17,6 +18,7 @@ import enDemo from "./locales/en/demo.json";
 import enPricing from "./locales/en/pricing.json";
 import enAbout from "./locales/en/about.json";
 import enSeo from "./locales/en/seo.json";
+import enPolicy from "./locales/en/policy.json";
 
 import koCommon from "./locales/ko/common.json";
 import koHome from "./locales/ko/home.json";
@@ -25,6 +27,7 @@ import koDemo from "./locales/ko/demo.json";
 import koPricing from "./locales/ko/pricing.json";
 import koAbout from "./locales/ko/about.json";
 import koSeo from "./locales/ko/seo.json";
+import koPolicy from "./locales/ko/policy.json";
 
 import jaCommon from "./locales/ja/common.json";
 import jaHome from "./locales/ja/home.json";
@@ -33,6 +36,7 @@ import jaDemo from "./locales/ja/demo.json";
 import jaPricing from "./locales/ja/pricing.json";
 import jaAbout from "./locales/ja/about.json";
 import jaSeo from "./locales/ja/seo.json";
+import jaPolicy from "./locales/ja/policy.json";
 
 export const SUPPORTED_LANGUAGES = ["vi", "en", "ko", "ja"] as const;
 export type Lang = (typeof SUPPORTED_LANGUAGES)[number];
@@ -46,6 +50,7 @@ export const NAMESPACES = [
   "pricing",
   "about",
   "seo",
+  "policy",
 ] as const;
 
 const resources = {
@@ -57,6 +62,7 @@ const resources = {
     pricing: viPricing,
     about: viAbout,
     seo: viSeo,
+    policy: viPolicy,
   },
   en: {
     common: enCommon,
@@ -66,6 +72,7 @@ const resources = {
     pricing: enPricing,
     about: enAbout,
     seo: enSeo,
+    policy: enPolicy,
   },
   ko: {
     common: koCommon,
@@ -75,6 +82,7 @@ const resources = {
     pricing: koPricing,
     about: koAbout,
     seo: koSeo,
+    policy: koPolicy,
   },
   ja: {
     common: jaCommon,
@@ -84,6 +92,7 @@ const resources = {
     pricing: jaPricing,
     about: jaAbout,
     seo: jaSeo,
+    policy: jaPolicy,
   },
 };
 

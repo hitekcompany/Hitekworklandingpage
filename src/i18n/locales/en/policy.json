@@ -1,0 +1,90 @@
+{
+  "title": "Privacy Policy — Hitek Work",
+  "updated": "Last updated: 13/07/2026. Built in accordance with the Personal Data Protection Law No. 91/2025/QH15 and Decree No. 356/2025/ND-CP.",
+  "sections": [
+    {
+      "title": "What does this policy cover?",
+      "paragraphs": [
+        "This policy applies to how Hitek Work handles personal information collected through the website and the desktop application published by Hitek Work. Within the application, Hitek Work measures work performance in two ways: Active — it only counts mouse and keyboard actions and does not record what you type; and AI evaluation — it takes periodic screenshots, and the AI only recognizes which software you are using to classify \"working / not working\", without reading the content shown on your screen.",
+        "This policy does not apply to the activities of companies that Hitek Work does not own or control, nor to third-party websites linked from our website.",
+        "On roles: for data collected through the website, Hitek Work is the data controller; for the employee-monitoring data inside the product, the customer organization is the controller and Hitek Work is the processor."
+      ]
+    },
+    {
+      "title": "Collection and use of personal information",
+      "paragraphs": [
+        "You can visit the Hitek Work website without disclosing any personal information. However, we need some personal information if you wish to use the service (registering for a trial or installing the application).",
+        "Where needed, this information may include your personal contact details and/or your company's contact details. We use this information to respond to requests, provide the service you request, set up your account, and contact you about the service you registered for.",
+        "We collect for each specific purpose; you may consent to each purpose and are not required to consent to all of them."
+      ]
+    },
+    {
+      "title": "Collection and use of non-personal information",
+      "paragraphs": [
+        "Hitek Work automatically receives and records non-personal information in server logs from your browser, including your IP address, cookie information, and the page you requested. We may use this information to serve your service requests, and we do not link this non-personal data with the personal information collected."
+      ]
+    },
+    {
+      "title": "Sharing and disclosure of information",
+      "paragraphs": [
+        "All rights to data collected from the organization (which registers to monitor employees) and from employees (time records and screenshots after accepting the organization's invitation) belong to the employing organization.",
+        "Hitek Work only discloses your personal information in the following cases:"
+      ],
+      "bullets": [
+        "You explicitly consent to the sharing for a specific purpose;",
+        "We are required to comply with an order of a competent authority, a court decision, or another legal process."
+      ],
+      "paragraphsAfter": [
+        "We do not sell personal data."
+      ]
+    },
+    {
+      "title": "Consent",
+      "paragraphs": [
+        "If you do not agree with the collection, use, or disclosure of personal information as described in this policy, please do not provide personal information to us. If you have already provided information and no longer consent, please contact us to withdraw your consent at any time."
+      ]
+    },
+    {
+      "title": "Security",
+      "paragraphs": [
+        "We apply multiple layers of protection to the data:"
+      ],
+      "bullets": [
+        "Encryption: screenshot data is encrypted in transit (HTTPS).",
+        "Access control: managers can only view employees within their scope of responsibility; each role only accesses the parts it needs.",
+        "Automatic deletion: data is deleted automatically after the retention period (AI evaluation: 30 days and Active: 90 days).",
+        "Infrastructure control: firewalls, monitoring of abnormal access, and other system protection measures."
+      ]
+    },
+    {
+      "title": "Rights of the data subject",
+      "paragraphs": [
+        "You have the rights to: be informed about the processing; give or withhold consent; access; rectify; delete; restrict or object to processing; withdraw consent; request a copy of your data; and complain, denounce, or take legal action when your rights are infringed. Contact us to exercise these rights."
+      ]
+    },
+    {
+      "title": "Retention period",
+      "paragraphs": [
+        "We only keep contact information for as long as necessary for the stated purpose, and delete it upon your request (within 20 days). For product data: AI evaluation is kept for 30 days, Active for 90 days, and employee data is deleted upon termination of employment."
+      ]
+    },
+    {
+      "title": "Cross-border data transfer",
+      "paragraphs": [
+        "For personal data, we only transfer it abroad when there is a lawful basis and in compliance with regulations on cross-border data transfer."
+      ]
+    },
+    {
+      "title": "Notification of data incidents",
+      "paragraphs": [
+        "If a breach occurs that affects your data, we will notify you and the competent authority as required by law."
+      ]
+    },
+    {
+      "title": "Changes to this policy",
+      "paragraphs": [
+        "Hitek Work may amend this policy from time to time, with prior notice to registered users; previous versions are retained. Please review the policy periodically. If a change introduces a new processing purpose, we will ask for your consent again."
+      ]
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 ---
 task: 02
 title: Trang Policy (12 mục, i18n 4 locale, SEO)
-status: pending
+status: done
 type: AFK
 blocked_by: []
 effort: M
 human_estimate_hours: 2.5
 ai_estimate_hours: 0.4
-actual_hours: null
+actual_hours: 0.8
 created: 2026-07-13
-completed: null
+completed: 2026-07-13
 ---
 
 # Task 02: Trang Policy (Chính sách Bảo mật)
@@ -107,6 +107,28 @@ description), extend `SEOPageKey` + `PAGE_PATH` trong `useSEOMeta.ts`, gọi
 
 ## Docs-mismatch log (filled during /feature-execute)
 
+- `check-i18n-keys.mjs` chỉ scan `<Trans>` keys (từ `trans-keys.txt`), CHỈ vi/en/ko
+  (không ja), KHÔNG scan `t()` keys — phát hiện lúc Step 4. → parity của namespace
+  mới (dùng `t()` + returnObjects) KHÔNG được checker cover. Bù bằng script parity
+  tự viết (so cấu trúc 4 locale) + Playwright render thật.
+
 ## Execution log (filled during /feature-execute)
+
+- 2026-07-13 — Read: App.tsx, i18n/config.ts, useSEOMeta.ts, seo.json,
+  sitemap.xml, HomePage.tsx (reference impls); conventions/fe-checklist in context
+- 2026-07-13 — Implementation: transcribe nội dung Policy (11 mục) từ Google Doc
+  BA → `vi/policy.json`; dịch `en/ko/ja` (ko 존댓말, ja です・ます調); đăng ký namespace
+  `policy` × 4 locale trong config.ts; thêm SEO `policy` × 4 locale (seo.json);
+  extend `SEOPageKey` + `PAGE_PATH` (useSEOMeta.ts); tạo `PolicyPage.tsx`
+  (data-driven, returnObjects sections); thêm route `/:lang/policy` (App.tsx);
+  thêm 4 URL policy vào sitemap.xml
+- 2026-07-13 — Verify: parity script — 4 locale cùng structure — PASS
+- 2026-07-13 — Verify: sitemap `<loc>.../policy` = 4 — PASS
+- 2026-07-13 — Verify: `check-i18n-keys.mjs` — "ALL exist" no regression — PASS
+- 2026-07-13 — Verify: `pnpm build` — ✓ built in 8.34s, no error — PASS
+- 2026-07-13 — fe-playwright: preview :4173 → `/vi/policy` render lang=vi, h1 đúng,
+  11 section (1→11), 18 đoạn + 6 bullet; `/ko/policy` lang=ko, title + section
+  tiếng Hàn đúng; console chỉ favicon 404 (benign). Evidence: `.scratch/policy-ko.png`
+  — PASS
 
 ## Escalation report (filled only if blocked)

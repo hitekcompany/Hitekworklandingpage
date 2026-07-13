@@ -18,7 +18,7 @@ nút Demo. Repo: React + Vite + i18next, 4 locale vi/en/ko/ja. Không BE/DB.
 | Task | Title | Type | Blocked by | Effort | Human / AI |
 |------|-------|------|-----------|--------|------------|
 | [01](./task-01-retarget-demo-button.md) ✅ | Retarget nút Demo → demo live + config URL | AFK | — | S | 1h / 0.2h |
-| [02](./task-02-policy-page.md) | Trang Policy (12 mục, i18n, SEO) | AFK | — | M | 2.5h / 0.4h |
+| [02](./task-02-policy-page.md) ✅ | Trang Policy (12 mục, i18n, SEO) | AFK | — | M | 2.5h / 0.4h |
 | [03](./task-03-faq-page.md) | Trang FAQ (7 nhóm accordion, i18n, SEO) | AFK | — | M | 2h / 0.4h |
 | [04](./task-04-download-page.md) | Trang Download (4 nút OS, config, frame-first, SEO) | AFK | — | M | 2h / 0.4h |
 | [05](./task-05-nav-footer-wiring.md) | Wiring nav + footer | AFK | 02,03,04 | S | 1h / 0.2h |

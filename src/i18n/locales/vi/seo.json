@@ -18,5 +18,9 @@
   "about": {
     "title": "Về Hitek Work — Doanh nghiệp công nghệ Việt phục vụ đội ngũ từ xa",
     "description": "Hitek Software JSC — đơn vị phát triển Hitek Work, nền tảng quản lý làm việc từ xa dựa trên dữ liệu thật. Văn phòng tại Việt Nam, Hàn Quốc, Nhật Bản."
+  },
+  "policy": {
+    "title": "Chính sách Bảo mật — Hitek Work",
+    "description": "Cách Hitek Work thu thập, sử dụng và bảo vệ thông tin cá nhân theo Luật 91/2025 và Nghị định 356/2025. Mã hóa, phân quyền, tự động xóa dữ liệu."
   }
 }
