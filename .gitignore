@@ -60,3 +60,6 @@ trans-keys.txt
 t-keys-raw.txt
 ko-*.png
 ko-*.md
+
+# feature-workflow scratch (evidence, temp files)
+plans/**/.scratch/
