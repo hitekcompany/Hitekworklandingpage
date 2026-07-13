@@ -1,11 +1,18 @@
 {
   "title": "Privacy Policy — Hitek Work",
   "updated": "Last updated: 13/07/2026. Built in accordance with the Personal Data Protection Law No. 91/2025/QH15 and Decree No. 356/2025/ND-CP.",
+  "tocLabel": "On this page",
   "sections": [
     {
       "title": "What does this policy cover?",
       "paragraphs": [
-        "This policy applies to how Hitek Work handles personal information collected through the website and the desktop application published by Hitek Work. Within the application, Hitek Work measures work performance in two ways: Active — it only counts mouse and keyboard actions and does not record what you type; and AI evaluation — it takes periodic screenshots, and the AI only recognizes which software you are using to classify \"working / not working\", without reading the content shown on your screen.",
+        "This policy applies to how Hitek Work handles personal information collected through the website and the desktop application published by Hitek Work. Within the application, Hitek Work measures work performance in two ways:"
+      ],
+      "bullets": [
+        "Active — it only counts mouse and keyboard actions and does not record what you type.",
+        "AI evaluation — it takes periodic screenshots, and the AI only recognizes which software you are using to classify \"working / not working\", without reading the content shown on your screen."
+      ],
+      "paragraphsAfter": [
         "This policy does not apply to the activities of companies that Hitek Work does not own or control, nor to third-party websites linked from our website.",
         "On roles: for data collected through the website, Hitek Work is the data controller; for the employee-monitoring data inside the product, the customer organization is the controller and Hitek Work is the processor."
       ]
@@ -14,7 +21,15 @@
       "title": "Collection and use of personal information",
       "paragraphs": [
         "You can visit the Hitek Work website without disclosing any personal information. However, we need some personal information if you wish to use the service (registering for a trial or installing the application).",
-        "Where needed, this information may include your personal contact details and/or your company's contact details. We use this information to respond to requests, provide the service you request, set up your account, and contact you about the service you registered for.",
+        "Where needed, this information may include your personal contact details and/or your company's contact details. We use this information to:"
+      ],
+      "bullets": [
+        "Respond to your requests.",
+        "Provide the service you request.",
+        "Set up your account.",
+        "Contact you about the service you registered for."
+      ],
+      "paragraphsAfter": [
         "We collect for each specific purpose; you may consent to each purpose and are not required to consent to all of them."
       ]
     },
@@ -59,7 +74,21 @@
     {
       "title": "Rights of the data subject",
       "paragraphs": [
-        "You have the rights to: be informed about the processing; give or withhold consent; access; rectify; delete; restrict or object to processing; withdraw consent; request a copy of your data; and complain, denounce, or take legal action when your rights are infringed. Contact us to exercise these rights."
+        "You have the following rights:"
+      ],
+      "bullets": [
+        "To be informed about the processing of data.",
+        "To give or withhold consent.",
+        "To access your data.",
+        "To rectify data.",
+        "To delete data.",
+        "To restrict or object to processing.",
+        "To withdraw consent.",
+        "To request a copy of your data.",
+        "To complain, denounce, or take legal action when your rights are infringed."
+      ],
+      "paragraphsAfter": [
+        "Contact us to exercise these rights."
       ]
     },
     {

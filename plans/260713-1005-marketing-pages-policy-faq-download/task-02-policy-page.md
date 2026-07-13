@@ -131,4 +131,15 @@ description), extend `SEOPageKey` + `PAGE_PATH` trong `useSEOMeta.ts`, gọi
   tiếng Hàn đúng; console chỉ favicon 404 (benign). Evidence: `.scratch/policy-ko.png`
   — PASS
 
+## Post-verify enhancement (user feedback 2026-07-13)
+
+- User feedback: Policy "tuồng luột", không chia sub-point. → **Mức 2**: (1) TOC
+  đầu trang (11 anchor `#section-N`), (2) badge số + divider mỗi mục, (3) tách 3
+  đoạn liệt kê thành bullet — §1 (2 phương thức Active/AI), §2 (4 mục đích), §8
+  (9 quyền); giữ nguyên câu chữ pháp lý BA, chỉ đổi trình bày prose→bullet, (4)
+  bold nhãn lead-in bullet (Active / Mã hóa / ...). `policy.json` × 4 locale
+  restructured (parity giữ) + `PolicyPage.tsx` rewrite. Verify: parity OK, build
+  OK, Playwright vi — TOC 11, badge 11, **21 bullet**, bold nhãn đúng. Evidence:
+  `.scratch/policy-v2-vi.png`.
+
 ## Escalation report (filled only if blocked)

@@ -1,11 +1,18 @@
 {
   "title": "Chính sách Bảo mật — Hitek Work",
   "updated": "Cập nhật lần cuối: 13/07/2026. Được xây dựng theo Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định 356/2025/NĐ-CP.",
+  "tocLabel": "Nội dung chính",
   "sections": [
     {
       "title": "Chính sách này bao gồm gì?",
       "paragraphs": [
-        "Chính sách này áp dụng cho cách Hitek Work xử lý thông tin cá nhân thu thập qua website và ứng dụng máy tính do Hitek Work phát hành. Trong ứng dụng, Hitek Work theo dõi hiệu suất làm việc theo hai cách: Active — chỉ đếm số lần thao tác chuột và bàn phím, không ghi lại nội dung bạn gõ; và AI evaluation — chụp màn hình định kỳ, AI chỉ nhận diện bạn đang dùng phần mềm gì để phân loại \"đang làm việc / không làm việc\", không đọc nội dung hiển thị trên màn hình.",
+        "Chính sách này áp dụng cho cách Hitek Work xử lý thông tin cá nhân thu thập qua website và ứng dụng máy tính do Hitek Work phát hành. Trong ứng dụng, Hitek Work theo dõi hiệu suất làm việc theo hai cách:"
+      ],
+      "bullets": [
+        "Active — chỉ đếm số lần thao tác chuột và bàn phím, không ghi lại nội dung bạn gõ.",
+        "AI evaluation — chụp màn hình định kỳ, AI chỉ nhận diện bạn đang dùng phần mềm gì để phân loại \"đang làm việc / không làm việc\", không đọc nội dung hiển thị trên màn hình."
+      ],
+      "paragraphsAfter": [
         "Chính sách này không áp dụng cho hoạt động của các công ty mà Hitek Work không sở hữu hoặc kiểm soát, cũng như các website của bên thứ ba được liên kết từ website của chúng tôi.",
         "Về vai trò: với dữ liệu thu qua website, Hitek Work là bên kiểm soát dữ liệu; với dữ liệu giám sát nhân viên bên trong sản phẩm, doanh nghiệp sử dụng là bên kiểm soát còn Hitek Work là bên xử lý."
       ]
@@ -14,7 +21,15 @@
       "title": "Thu thập và sử dụng thông tin cá nhân",
       "paragraphs": [
         "Bạn có thể truy cập website của Hitek Work mà không cần tiết lộ bất kỳ thông tin cá nhân nào. Tuy nhiên, chúng tôi cần một số thông tin cá nhân nếu bạn muốn sử dụng dịch vụ (đăng ký dùng thử hoặc cài đặt ứng dụng).",
-        "Khi cần, thông tin này có thể bao gồm thông tin liên hệ cá nhân và/hoặc thông tin liên hệ của công ty bạn. Chúng tôi dùng thông tin này để phản hồi yêu cầu, cung cấp dịch vụ bạn yêu cầu, thiết lập tài khoản và liên hệ với bạn về dịch vụ đã đăng ký.",
+        "Khi cần, thông tin này có thể bao gồm thông tin liên hệ cá nhân và/hoặc thông tin liên hệ của công ty bạn. Chúng tôi dùng thông tin này để:"
+      ],
+      "bullets": [
+        "Phản hồi yêu cầu của bạn.",
+        "Cung cấp dịch vụ bạn yêu cầu.",
+        "Thiết lập tài khoản.",
+        "Liên hệ với bạn về dịch vụ đã đăng ký."
+      ],
+      "paragraphsAfter": [
         "Chúng tôi thu thập theo từng mục đích cụ thể; bạn có thể đồng ý cho từng mục đích và không bị buộc phải đồng ý toàn bộ."
       ]
     },
@@ -59,7 +74,21 @@
     {
       "title": "Quyền của chủ thể dữ liệu",
       "paragraphs": [
-        "Bạn có các quyền: được biết về việc xử lý; đồng ý hoặc không đồng ý; truy cập; chỉnh sửa; xóa; hạn chế hoặc phản đối xử lý; rút lại sự đồng ý; yêu cầu cung cấp dữ liệu của mình; và khiếu nại, tố cáo, khởi kiện khi bị xâm phạm. Liên hệ chúng tôi để thực hiện các quyền này."
+        "Bạn có các quyền sau đây:"
+      ],
+      "bullets": [
+        "Được biết về việc xử lý dữ liệu.",
+        "Đồng ý hoặc không đồng ý.",
+        "Truy cập dữ liệu của mình.",
+        "Chỉnh sửa dữ liệu.",
+        "Xóa dữ liệu.",
+        "Hạn chế hoặc phản đối việc xử lý.",
+        "Rút lại sự đồng ý.",
+        "Yêu cầu cung cấp dữ liệu của mình.",
+        "Khiếu nại, tố cáo, khởi kiện khi bị xâm phạm."
+      ],
+      "paragraphsAfter": [
+        "Liên hệ chúng tôi để thực hiện các quyền này."
       ]
     },
     {
