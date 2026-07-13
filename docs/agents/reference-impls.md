@@ -18,6 +18,15 @@ feature mới, READ những file này trước để follow pattern đã establi
 |---|---|---|
 | Trang mỏng compose sections | `src/app/pages/HomePage.tsx` | gọi `useSEOMeta('home')` + render section components |
 | Trang nhiều section | `src/app/pages/DemoPage.tsx`, `CurrentStatePage.tsx` | precedent cho trang dài nhiều khối |
+| **Trang content data-driven (i18n `returnObjects`)** | `src/app/pages/PolicyPage.tsx` | render mảng `sections` từ 1 namespace qua `t('sections',{returnObjects:true})` — pattern cho trang văn bản dài |
+| **Trang FAQ (accordion reuse)** | `src/app/pages/FaqPage.tsx` | map `groups`→`ui/accordion` (type=single collapsible), 1 Accordion/nhóm |
+| **Trang có nút hành động + config URL** | `src/app/pages/DownloadPage.tsx` | đọc URL ngoài từ `src/app/config.ts`, frame-first (URL rỗng → disabled) |
+
+> **Thêm 1 trang localized mới = 6 chạm** (checklist rút từ feature marketing-pages):
+> (1) `src/i18n/locales/{4 locale}/{ns}.json` · (2) đăng ký namespace trong
+> `src/i18n/config.ts` (import + NAMESPACES + resources × 4) · (3) `{Name}Page.tsx` ·
+> (4) route trong `src/app/App.tsx` · (5) SEO: `seo.json` × 4 + `SEOPageKey`/`PAGE_PATH`
+> trong `useSEOMeta.ts` · (6) `public/sitemap.xml` (4 URL + hreflang).
 
 ## i18n
 

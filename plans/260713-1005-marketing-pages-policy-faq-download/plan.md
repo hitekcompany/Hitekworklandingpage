@@ -74,7 +74,7 @@ nút Demo. Repo: React + Vite + i18next, 4 locale vi/en/ko/ja. Không BE/DB.
 ## Links
 
 - Spec: [spec.md](./spec.md)
-- Verification: (sẽ tạo bởi `/feature-verify` sau execute)
+- Verification: [verification-report.md](./verification-report.md) — **21 PASS / 0 FAIL** (12 tổ hợp trang×locale + SEO + FE compliance)
 
 ## Next step
 
