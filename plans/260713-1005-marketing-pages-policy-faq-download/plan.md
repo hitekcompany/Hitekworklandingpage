@@ -76,8 +76,26 @@ nút Demo. Repo: React + Vite + i18next, 4 locale vi/en/ko/ja. Không BE/DB.
 - Spec: [spec.md](./spec.md)
 - Verification: [verification-report.md](./verification-report.md) — **21 PASS / 0 FAIL** (12 tổ hợp trang×locale + SEO + FE compliance)
 
-## Next step
+## ⏳ Pending post-deploy — Download links (chờ hạng mục D)
 
-`/feature-execute` để AFK loop chạy tasks (theo ordering: 01 bất kỳ lúc nào →
-02 → 03 → 04 tuần tự → 05 cuối). Nhớ chạy ở đúng repo landing + activate skill
-`frontend-development` ở main loop cho mỗi task FE.
+Trang Download đang render nút **"Sắp có"** (`DOWNLOAD_URLS` rỗng). Khi host xong
+4 file cài lên server → điền URL. **Chốt cách A (Vercel env) — làm sau khi host.**
+
+> ⚠️ Vite env là **build-time** (nhúng lúc `vite build`), KHÔNG đọc runtime →
+> set env trên Vercel xong PHẢI **redeploy** mới ăn.
+
+Vercel → Project Settings → Environment Variables, thêm 4 biến rồi redeploy:
+```
+VITE_DOWNLOAD_WINDOWS=https://<host>/HitekWork-Windows.exe
+VITE_DOWNLOAD_MAC_INTEL=https://<host>/HitekWork-mac-intel.dmg
+VITE_DOWNLOAD_MAC_SILICON=https://<host>/HitekWork-mac-arm64.dmg
+VITE_DOWNLOAD_LINUX=https://<host>/HitekWork.AppImage
+```
+Đọc ở `src/app/config.ts` (`DOWNLOAD_URLS`). Nút tự chuyển "Sắp có" → "Tải về",
+KHÔNG cần sửa code. (Cách B thay thế: sửa thẳng default trong `config.ts` rồi commit.)
+
+## Feature status
+
+**DONE + verified (21 PASS).** 5 task + 2 refinement (label "Desktop App", Policy
+Mức 2 restructure). Branch `feature/marketing-pages-policy-faq-download` chưa merge
+— merge `main` = Vercel auto-deploy `work.hitek.com.vn`.
