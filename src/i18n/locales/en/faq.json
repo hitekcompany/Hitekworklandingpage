@@ -1,0 +1,140 @@
+{
+  "title": "Frequently Asked Questions",
+  "subtitle": "Common questions about how Hitek Work operates, privacy, and access control.",
+  "groups": [
+    {
+      "title": "Getting started with Hitek Work",
+      "items": [
+        {
+          "q": "What is Hitek Work?",
+          "a": "Hitek Work is productivity-measurement and work-monitoring software for remote teams. It records activity levels and analyzes screenshots to help managers understand how effectively the team is working — in a transparent way that complies with Vietnamese law."
+        },
+        {
+          "q": "What do I need to get started?",
+          "a": "Contact us to obtain an organization account on the CMS (web version), then install the Desktop App on each employee's machine. Once an employee logs in and confirms consent to monitoring, recording begins."
+        },
+        {
+          "q": "How do I install the Desktop App?",
+          "a": "Download the Desktop App from the download page, install it on the employee's machine, and sign in with the account provided. The app runs in the background and starts recording after the employee gives consent."
+        },
+        {
+          "q": "What are the limits of the free version?",
+          "a": "The free version supports teams of up to 20 people. Beyond 20, you need to move to a paid plan."
+        },
+        {
+          "q": "Which operating systems does HW support?",
+          "a": "The Desktop App supports both macOS and Windows; the management CMS runs in a web browser."
+        }
+      ]
+    },
+    {
+      "title": "How HW records activity",
+      "items": [
+        {
+          "q": "What is \"Active (mouse/keyboard actions)\"? Does it record what I type?",
+          "a": "Active only counts the frequency of mouse and keyboard actions (the number of actions) to estimate the level of activity. HW does not record what you type, nor which specific keys are pressed."
+        },
+        {
+          "q": "What is \"AI evaluation (screenshot analysis)\"? Does the AI read my screen content?",
+          "a": "AI evaluation takes periodic screenshots, and the AI only recognizes which software/application is running to classify the working / not-working status. The AI does not read or extract the content on your screen. The original image still captures the full screen, but it is protected with encryption, restricted to authorized viewers, and automatically deleted after 30 days."
+        },
+        {
+          "q": "How often are screenshots taken?",
+          "a": "HW takes screenshots periodically during working hours. (The exact interval is configured per organization.)"
+        },
+        {
+          "q": "How long is data stored?",
+          "a": "Screenshots are kept for 30 days; Active data for 90 days. After the period, data is deleted automatically. Employee data is also deleted upon termination of employment."
+        },
+        {
+          "q": "Can I pause the app during a break?",
+          "a": "Yes. Employees can pause the app during breaks; while paused, HW stops recording activity and taking screenshots."
+        },
+        {
+          "q": "Does HW monitor outside working hours?",
+          "a": "HW records during working hours / while the app is running. Employees can pause it themselves when taking a break."
+        }
+      ]
+    },
+    {
+      "title": "Consent & Privacy",
+      "items": [
+        {
+          "q": "Do employees have to consent before being monitored?",
+          "a": "Yes. HW uses an active opt-in consent mechanism: an employee must choose Accept or Decline for each item before proceeding — nothing is pre-selected, and silence or inaction is not treated as consent. If they do not consent to an item, that item is not recorded."
+        },
+        {
+          "q": "How many types of consent are there?",
+          "a": "Employees confirm consent for each item separately — one for Active (mouse/keyboard actions) and one for AI evaluation (screenshot analysis) — using two buttons, Decline and Accept. Employees choose each item, not \"accept all\"."
+        },
+        {
+          "q": "Can I withdraw my consent?",
+          "a": "Yes, at any time. When you withdraw consent, HW stops processing the corresponding part immediately."
+        },
+        {
+          "q": "Can HW see my private content (messages, passwords)?",
+          "a": "No. Active only counts action frequency; AI evaluation only recognizes which software is running. HW does not read what you type or extract screen content."
+        },
+        {
+          "q": "Is the data encrypted?",
+          "a": "Yes — encrypted both in transit and at rest, especially screenshots."
+        },
+        {
+          "q": "Is my data deleted when I leave the company?",
+          "a": "Yes. Upon termination of employment, the employee's personal data is deleted."
+        },
+        {
+          "q": "Which laws does HW comply with?",
+          "a": "HW is designed in accordance with Vietnam's personal data protection laws (Law 91/2025 and Decree 356/2025), because the monitored individuals are Vietnamese employees."
+        }
+      ]
+    },
+    {
+      "title": "Management & Access control",
+      "items": [
+        {
+          "q": "What can a manager see?",
+          "a": "On a need-to-know basis: each manager can only see data for the team they are responsible for, not other teams."
+        },
+        {
+          "q": "Who can view screenshots?",
+          "a": "Only authorized roles can view them, and only within their own team. Viewing is restricted and logged."
+        },
+        {
+          "q": "What roles are there?",
+          "a": "HW has 4 roles: Admin — full control over everything. Manager — full control over tasks, projects, and screenshots, can create tasks and view the activity of all employees in the projects they manage. Staff — view assigned projects/tasks and their own personal activity. Auditor — view all projects, tasks, and the activity of all employees."
+        },
+        {
+          "q": "How do I add or remove an employee?",
+          "a": "Administrators add or remove employees in the CMS; when removed, related data is handled according to the retention and deletion policy."
+        }
+      ]
+    },
+    {
+      "title": "Settings",
+      "items": [
+        {
+          "q": "Can I change the data retention period?",
+          "a": "Default retention policy: screenshots 30 days, Active 90 days. Adjustments are configured per organization and must align with the policy disclosed to employees."
+        },
+        {
+          "q": "Can I delete screenshots manually?",
+          "a": "Employees can delete their own screenshots manually. Screenshots are also deleted automatically after 30 days."
+        }
+      ]
+    },
+    {
+      "title": "Account & Sign-in",
+      "items": [
+        {
+          "q": "What if I forget my password?",
+          "a": "Contact your administrator to have it reset."
+        },
+        {
+          "q": "How are sign-in permissions handled?",
+          "a": "Sign-in rights and access scope are tied to the role assigned to each person."
+        }
+      ]
+    }
+  ]
+}

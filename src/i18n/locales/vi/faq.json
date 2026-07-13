@@ -1,0 +1,140 @@
+{
+  "title": "Câu hỏi thường gặp",
+  "subtitle": "Những thắc mắc phổ biến về cách Hitek Work hoạt động, quyền riêng tư và phân quyền.",
+  "groups": [
+    {
+      "title": "Bắt đầu với Hitek Work",
+      "items": [
+        {
+          "q": "Hitek Work là gì?",
+          "a": "Hitek Work là phần mềm đo lường năng suất và giám sát làm việc cho đội ngũ từ xa. HW ghi nhận mức độ hoạt động và phân tích ảnh chụp màn hình để giúp quản lý biết đội đang làm việc hiệu quả tới đâu — theo cách minh bạch và tuân thủ luật Việt Nam."
+        },
+        {
+          "q": "Cần gì để bắt đầu?",
+          "a": "Liên hệ với chúng tôi để có tài khoản tổ chức trên CMS (bản web), rồi cài Desktop App lên máy của từng nhân viên. Nhân viên đăng nhập và xác nhận đồng ý giám sát là bắt đầu ghi nhận."
+        },
+        {
+          "q": "Cài Desktop App như thế nào?",
+          "a": "Tải Desktop App từ trang tải về, cài lên máy nhân viên, đăng nhập bằng tài khoản được cấp. App chạy nền và bắt đầu ghi nhận sau khi nhân viên đồng ý."
+        },
+        {
+          "q": "Bản miễn phí có giới hạn gì?",
+          "a": "Bản miễn phí dùng cho đội tối đa 20 người. Vượt 20 người thì cần chuyển sang gói trả phí."
+        },
+        {
+          "q": "HW hỗ trợ hệ điều hành nào?",
+          "a": "Desktop App hỗ trợ cả macOS và Windows; CMS quản lý chạy trên trình duyệt web."
+        }
+      ]
+    },
+    {
+      "title": "Cách HW ghi nhận hoạt động",
+      "items": [
+        {
+          "q": "\"Active (thao tác chuột/phím)\" là gì? Có ghi lại nội dung tôi gõ không?",
+          "a": "Active chỉ đếm tần suất thao tác chuột và bàn phím (số lần thao tác) để ước lượng mức độ hoạt động. HW không ghi lại nội dung bạn gõ, cũng không ghi phím cụ thể nào được nhấn."
+        },
+        {
+          "q": "\"AI evaluation (phân tích screenshot)\" là gì? AI có đọc nội dung màn hình không?",
+          "a": "AI evaluation chụp màn hình định kỳ, và AI chỉ nhận diện phần mềm/ứng dụng đang chạy để phân loại trạng thái làm việc / không làm việc. AI không đọc, không trích xuất nội dung trên màn hình. Ảnh gốc vẫn chụp toàn màn hình, nhưng được bảo vệ bằng mã hóa, giới hạn người xem và tự xóa sau 30 ngày."
+        },
+        {
+          "q": "Screenshot chụp bao lâu một lần?",
+          "a": "HW chụp màn hình định kỳ trong giờ làm. (Chu kỳ cụ thể cấu hình theo tổ chức.)"
+        },
+        {
+          "q": "Dữ liệu được lưu trong bao lâu?",
+          "a": "Ảnh chụp màn hình lưu 30 ngày; dữ liệu Active lưu 90 ngày. Sau thời hạn, dữ liệu tự xóa. Dữ liệu nhân viên cũng bị xóa khi chấm dứt lao động."
+        },
+        {
+          "q": "Tôi có thể tạm dừng dùng app trong lúc nghỉ giải lao không?",
+          "a": "Có. Nhân viên có thể tạm dừng app trong thời gian nghỉ; khi tạm dừng, HW ngừng ghi nhận hoạt động và chụp màn hình."
+        },
+        {
+          "q": "HW có giám sát ngoài giờ làm không?",
+          "a": "HW ghi nhận trong thời gian làm việc/khi app đang chạy. Nhân viên chủ động được việc tạm dừng khi nghỉ."
+        }
+      ]
+    },
+    {
+      "title": "Đồng ý & Quyền riêng tư",
+      "items": [
+        {
+          "q": "Nhân viên có phải đồng ý trước khi bị giám sát không?",
+          "a": "Có. HW dùng cơ chế đồng ý chủ động (opt-in): nhân viên bắt buộc phải chọn Đồng ý hoặc Từ chối cho từng mục thì mới đi tiếp được — không có lựa chọn nào được chọn sẵn, và việc im lặng/không thao tác không được coi là đồng ý. Không đồng ý thì không ghi nhận mục đó."
+        },
+        {
+          "q": "Có mấy loại đồng ý?",
+          "a": "Nhân viên xác nhận đồng ý cho từng mục riêng — một cho Active (thao tác chuột/phím), một cho AI evaluation (phân tích screenshot) — bằng hai nút Từ chối và Đồng ý. Nhân viên chọn từng mục, không phải \"đồng ý tất cả\"."
+        },
+        {
+          "q": "Tôi rút lại đồng ý được không?",
+          "a": "Được, bất cứ lúc nào. Khi rút đồng ý, HW dừng xử lý phần tương ứng ngay."
+        },
+        {
+          "q": "HW có xem được nội dung riêng tư của tôi (tin nhắn, mật khẩu) không?",
+          "a": "Không. Active chỉ đếm tần suất thao tác; AI evaluation chỉ nhận diện phần mềm đang chạy. HW không đọc nội dung gõ, không trích nội dung màn hình."
+        },
+        {
+          "q": "Dữ liệu có được mã hóa không?",
+          "a": "Có — mã hóa cả khi truyền và khi lưu trữ, đặc biệt với ảnh chụp màn hình."
+        },
+        {
+          "q": "Dữ liệu của tôi có bị xóa khi nghỉ việc không?",
+          "a": "Có. Khi chấm dứt lao động, dữ liệu cá nhân của nhân viên được xóa."
+        },
+        {
+          "q": "HW tuân thủ luật nào?",
+          "a": "HW được thiết kế theo pháp luật bảo vệ dữ liệu cá nhân của Việt Nam (Luật 91/2025 và Nghị định 356/2025), vì người bị giám sát là người lao động Việt Nam."
+        }
+      ]
+    },
+    {
+      "title": "Quản lý & Phân quyền",
+      "items": [
+        {
+          "q": "Quản lý (manager) thấy được gì?",
+          "a": "Theo nguyên tắc need-to-know: mỗi quản lý chỉ thấy dữ liệu của đội mình phụ trách, không thấy đội khác."
+        },
+        {
+          "q": "Ai xem được ảnh chụp màn hình?",
+          "a": "Chỉ những vai trò được phân quyền mới xem được, và trong phạm vi đội mình. Việc xem được giới hạn và ghi nhận."
+        },
+        {
+          "q": "Có những vai trò (role) nào?",
+          "a": "HW có 4 vai trò: Admin — toàn quyền với mọi thứ. Manager — toàn quyền với task, project, ảnh chụp màn hình, tạo task và xem hoạt động của mọi nhân viên trong các project mình quản lý. Staff — xem project/task được giao và hoạt động cá nhân của chính mình. Auditor — xem mọi project, task và hoạt động của tất cả nhân viên."
+        },
+        {
+          "q": "Thêm hoặc xóa nhân viên như thế nào?",
+          "a": "Quản trị viên thêm/xóa nhân viên trong CMS; khi xóa, dữ liệu liên quan được xử lý theo chính sách lưu trữ và xóa."
+        }
+      ]
+    },
+    {
+      "title": "Cài đặt",
+      "items": [
+        {
+          "q": "Đổi thời gian lưu dữ liệu (retention)?",
+          "a": "Chính sách lưu trữ mặc định: screenshot 30 ngày, Active 90 ngày. Việc điều chỉnh cấu hình theo tổ chức và phải phù hợp chính sách đã công bố với nhân viên."
+        },
+        {
+          "q": "Xóa ảnh chụp màn hình thủ công?",
+          "a": "Nhân viên có thể xóa ảnh chụp màn hình của mình thủ công. Ảnh cũng tự xóa sau 30 ngày."
+        }
+      ]
+    },
+    {
+      "title": "Tài khoản & Đăng nhập",
+      "items": [
+        {
+          "q": "Quên mật khẩu thì làm sao?",
+          "a": "Liên hệ quản trị viên để được cấp lại."
+        },
+        {
+          "q": "Phân quyền đăng nhập?",
+          "a": "Quyền đăng nhập và phạm vi truy cập gắn với vai trò được cấp cho từng người."
+        }
+      ]
+    }
+  ]
+}

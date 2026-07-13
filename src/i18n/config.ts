@@ -10,6 +10,7 @@ import viPricing from "./locales/vi/pricing.json";
 import viAbout from "./locales/vi/about.json";
 import viSeo from "./locales/vi/seo.json";
 import viPolicy from "./locales/vi/policy.json";
+import viFaq from "./locales/vi/faq.json";
 
 import enCommon from "./locales/en/common.json";
 import enHome from "./locales/en/home.json";
@@ -19,6 +20,7 @@ import enPricing from "./locales/en/pricing.json";
 import enAbout from "./locales/en/about.json";
 import enSeo from "./locales/en/seo.json";
 import enPolicy from "./locales/en/policy.json";
+import enFaq from "./locales/en/faq.json";
 
 import koCommon from "./locales/ko/common.json";
 import koHome from "./locales/ko/home.json";
@@ -28,6 +30,7 @@ import koPricing from "./locales/ko/pricing.json";
 import koAbout from "./locales/ko/about.json";
 import koSeo from "./locales/ko/seo.json";
 import koPolicy from "./locales/ko/policy.json";
+import koFaq from "./locales/ko/faq.json";
 
 import jaCommon from "./locales/ja/common.json";
 import jaHome from "./locales/ja/home.json";
@@ -37,6 +40,7 @@ import jaPricing from "./locales/ja/pricing.json";
 import jaAbout from "./locales/ja/about.json";
 import jaSeo from "./locales/ja/seo.json";
 import jaPolicy from "./locales/ja/policy.json";
+import jaFaq from "./locales/ja/faq.json";
 
 export const SUPPORTED_LANGUAGES = ["vi", "en", "ko", "ja"] as const;
 export type Lang = (typeof SUPPORTED_LANGUAGES)[number];
@@ -51,6 +55,7 @@ export const NAMESPACES = [
   "about",
   "seo",
   "policy",
+  "faq",
 ] as const;
 
 const resources = {
@@ -63,6 +68,7 @@ const resources = {
     about: viAbout,
     seo: viSeo,
     policy: viPolicy,
+    faq: viFaq,
   },
   en: {
     common: enCommon,
@@ -73,6 +79,7 @@ const resources = {
     about: enAbout,
     seo: enSeo,
     policy: enPolicy,
+    faq: enFaq,
   },
   ko: {
     common: koCommon,
@@ -83,6 +90,7 @@ const resources = {
     about: koAbout,
     seo: koSeo,
     policy: koPolicy,
+    faq: koFaq,
   },
   ja: {
     common: jaCommon,
@@ -93,6 +101,7 @@ const resources = {
     about: jaAbout,
     seo: jaSeo,
     policy: jaPolicy,
+    faq: jaFaq,
   },
 };
 

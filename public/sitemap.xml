@@ -218,4 +218,40 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/policy" />
   </url>
 
+  <url>
+    <loc>https://work.hitek.com.vn/vi/faq</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/faq" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/en/faq</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/faq" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ko/faq</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/faq" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ja/faq</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/faq" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/faq" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/faq" />
+  </url>
+
 </urlset>

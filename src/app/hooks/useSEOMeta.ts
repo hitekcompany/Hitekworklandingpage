@@ -8,7 +8,8 @@ export type SEOPageKey =
   | "demo"
   | "pricing"
   | "about"
-  | "policy";
+  | "policy"
+  | "faq";
 
 const BASE_URL = "https://work.hitek.com.vn";
 
@@ -26,6 +27,7 @@ const PAGE_PATH: Record<SEOPageKey, string> = {
   pricing: "pricing",
   about: "about",
   policy: "policy",
+  faq: "faq",
 };
 
 function setOrCreateMeta(

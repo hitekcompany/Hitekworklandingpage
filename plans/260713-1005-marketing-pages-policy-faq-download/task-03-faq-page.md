@@ -1,15 +1,15 @@
 ---
 task: 03
 title: Trang FAQ (7 nhóm accordion, i18n 4 locale, SEO)
-status: pending
+status: done
 type: AFK
 blocked_by: []
 effort: M
 human_estimate_hours: 2
 ai_estimate_hours: 0.4
-actual_hours: null
+actual_hours: 0.6
 created: 2026-07-13
-completed: null
+completed: 2026-07-13
 ---
 
 # Task 03: Trang FAQ
@@ -95,6 +95,23 @@ nhóm → mảng Q&A), en/ko/ja AI dịch. Đăng ký trong `config.ts`.
 
 ## Docs-mismatch log (filled during /feature-execute)
 
+- Spec nói "7 nhóm" nhưng doc FAQ thực tế chỉ **6 nhóm** (đánh số 1,2,3,4,6,7 —
+  thiếu nhóm 5). Render đúng 6 nhóm có, KHÔNG bịa nhóm 5.
+
 ## Execution log (filled during /feature-execute)
+
+- 2026-07-13 — Read: ui/accordion.tsx (reuse), reference impls (config, useSEOMeta,
+  App, sitemap); conventions/fe-checklist in context
+- 2026-07-13 — Implementation: transcribe FAQ 6 nhóm / 26 Q&A từ Google Doc BA →
+  `vi/faq.json`; dịch en/ko/ja (ko 존댓말, ja です・ます調); đăng ký namespace `faq` ×
+  4 locale (config.ts); SEO `faq` × 4 (seo.json) + SEOPageKey/PAGE_PATH; tạo
+  `FaqPage.tsx` reuse `ui/accordion` (type=single collapsible, 1 Accordion/nhóm);
+  route `/:lang/faq`; sitemap 4 URL faq
+- 2026-07-13 — Verify: faq parity 4 locale — PASS; sitemap `/faq` = 4 — PASS
+- 2026-07-13 — Verify: `pnpm build` — ✓ built in 2.98s — PASS
+- 2026-07-13 — fe-playwright: preview :4173 → `/en/faq` lang=en, 6 nhóm, 26
+  accordion item; **real click "What is Hitek Work?" → state open, answer hiện**;
+  console 2 error = clutch.co badge iframe X-Frame-Options (component có sẵn,
+  benign). Evidence: `.scratch/faq-en.png` — PASS
 
 ## Escalation report (filled only if blocked)

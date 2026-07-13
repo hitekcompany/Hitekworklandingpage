@@ -22,5 +22,9 @@
   "policy": {
     "title": "Privacy Policy — Hitek Work",
     "description": "How Hitek Work collects, uses, and protects personal information under Law 91/2025 and Decree 356/2025. Encryption, access control, automatic data deletion."
+  },
+  "faq": {
+    "title": "FAQ — Hitek Work",
+    "description": "Answers about Hitek Work: how activity is recorded, privacy, monitoring consent, access control, and data retention."
   }
 }

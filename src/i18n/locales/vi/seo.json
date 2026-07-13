@@ -22,5 +22,9 @@
   "policy": {
     "title": "Chính sách Bảo mật — Hitek Work",
     "description": "Cách Hitek Work thu thập, sử dụng và bảo vệ thông tin cá nhân theo Luật 91/2025 và Nghị định 356/2025. Mã hóa, phân quyền, tự động xóa dữ liệu."
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp — Hitek Work",
+    "description": "Giải đáp các thắc mắc về Hitek Work: cách ghi nhận hoạt động, quyền riêng tư, đồng ý giám sát, phân quyền và lưu trữ dữ liệu."
   }
 }
