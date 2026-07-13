@@ -11,6 +11,7 @@ import { DemoPage } from "./pages/DemoPage";
 import { AboutPage } from "./pages/AboutPage";
 import { PolicyPage } from "./pages/PolicyPage";
 import { FaqPage } from "./pages/FaqPage";
+import { DownloadPage } from "./pages/DownloadPage";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
               <Route path="about" element={<AboutPage />} />
               <Route path="policy" element={<PolicyPage />} />
               <Route path="faq" element={<FaqPage />} />
+              <Route path="download" element={<DownloadPage />} />
             </Route>
             <Route path="*" element={<RootRedirect />} />
           </Routes>

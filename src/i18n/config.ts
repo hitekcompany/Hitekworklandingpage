@@ -11,6 +11,7 @@ import viAbout from "./locales/vi/about.json";
 import viSeo from "./locales/vi/seo.json";
 import viPolicy from "./locales/vi/policy.json";
 import viFaq from "./locales/vi/faq.json";
+import viDownload from "./locales/vi/download.json";
 
 import enCommon from "./locales/en/common.json";
 import enHome from "./locales/en/home.json";
@@ -21,6 +22,7 @@ import enAbout from "./locales/en/about.json";
 import enSeo from "./locales/en/seo.json";
 import enPolicy from "./locales/en/policy.json";
 import enFaq from "./locales/en/faq.json";
+import enDownload from "./locales/en/download.json";
 
 import koCommon from "./locales/ko/common.json";
 import koHome from "./locales/ko/home.json";
@@ -31,6 +33,7 @@ import koAbout from "./locales/ko/about.json";
 import koSeo from "./locales/ko/seo.json";
 import koPolicy from "./locales/ko/policy.json";
 import koFaq from "./locales/ko/faq.json";
+import koDownload from "./locales/ko/download.json";
 
 import jaCommon from "./locales/ja/common.json";
 import jaHome from "./locales/ja/home.json";
@@ -41,6 +44,7 @@ import jaAbout from "./locales/ja/about.json";
 import jaSeo from "./locales/ja/seo.json";
 import jaPolicy from "./locales/ja/policy.json";
 import jaFaq from "./locales/ja/faq.json";
+import jaDownload from "./locales/ja/download.json";
 
 export const SUPPORTED_LANGUAGES = ["vi", "en", "ko", "ja"] as const;
 export type Lang = (typeof SUPPORTED_LANGUAGES)[number];
@@ -56,6 +60,7 @@ export const NAMESPACES = [
   "seo",
   "policy",
   "faq",
+  "download",
 ] as const;
 
 const resources = {
@@ -69,6 +74,7 @@ const resources = {
     seo: viSeo,
     policy: viPolicy,
     faq: viFaq,
+    download: viDownload,
   },
   en: {
     common: enCommon,
@@ -80,6 +86,7 @@ const resources = {
     seo: enSeo,
     policy: enPolicy,
     faq: enFaq,
+    download: enDownload,
   },
   ko: {
     common: koCommon,
@@ -91,6 +98,7 @@ const resources = {
     seo: koSeo,
     policy: koPolicy,
     faq: koFaq,
+    download: koDownload,
   },
   ja: {
     common: jaCommon,
@@ -102,6 +110,7 @@ const resources = {
     seo: jaSeo,
     policy: jaPolicy,
     faq: jaFaq,
+    download: jaDownload,
   },
 };
 

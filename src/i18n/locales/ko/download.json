@@ -1,0 +1,52 @@
+{
+  "title": "Hitek Work 데스크톱 앱 다운로드",
+  "subtitle": "직원 기기에 데스크톱 앱을 설치하여 시간과 활동 기록을 시작하십시오. 사용 중인 운영체제에 맞는 버전을 선택하세요.",
+  "comingSoon": "곧 제공 예정",
+  "download": "다운로드",
+  "buttons": {
+    "windows": {
+      "label": "Windows",
+      "hint": ".exe 파일 — 대부분의 Windows 10/11 기기에서 작동합니다."
+    },
+    "macIntel": {
+      "label": "macOS (Intel)",
+      "hint": "Mac에 Intel 칩이 탑재된 경우 선택하세요(보통 2020년 이전 모델)."
+    },
+    "macSilicon": {
+      "label": "macOS (Apple Silicon)",
+      "hint": "Mac에 Apple M1/M2/M3 칩이 탑재된 경우 선택하세요(보통 2020년 이후 모델)."
+    },
+    "linux": {
+      "label": "Linux",
+      "hint": ".AppImage 파일 — 대부분의 64비트 Linux 배포판에서 실행됩니다."
+    }
+  },
+  "instructions": {
+    "title": "설치 및 경고 우회",
+    "intro": "Hitek에서 배포한 앱은 게시자 인증서로 코드 서명되어 있지 않으므로, 처음 설치할 때 운영체제가 경고를 표시할 수 있습니다. 정상적인 현상이며, 아래 단계에 따라 계속 진행하세요.",
+    "windows": {
+      "title": "Windows",
+      "steps": [
+        "다운로드한 .exe 파일을 엽니다. \"Windows의 PC 보호\" 창(SmartScreen)이 나타나면 \"추가 정보\"를 클릭합니다.",
+        "\"실행\"을 클릭하여 설치를 계속합니다.",
+        "설치 관리자를 끝까지 따른 후, 발급된 계정으로 로그인합니다."
+      ]
+    },
+    "mac": {
+      "title": "macOS (Intel 및 Apple Silicon)",
+      "steps": [
+        "다운로드한 .dmg 파일을 열고 Hitek Work를 응용 프로그램 폴더로 드래그합니다.",
+        "앱을 처음 실행합니다. macOS가 \"개발자를 확인할 수 없어 열 수 없습니다\"라고 표시하면 시스템 설정 > 개인정보 보호 및 보안으로 이동합니다.",
+        "보안 섹션까지 스크롤하여 Hitek Work 관련 경고 옆의 \"확인 없이 열기\"를 클릭한 후 확인합니다."
+      ]
+    },
+    "linux": {
+      "title": "Linux",
+      "steps": [
+        ".AppImage 파일을 다운로드한 후 실행 권한을 부여합니다: 마우스 오른쪽 클릭 > 속성 > 권한 > \"프로그램으로 실행 허용\"을 체크합니다(또는 chmod +x 파일이름.AppImage 명령을 실행).",
+        "더블 클릭하여 열거나, 터미널에서 ./파일이름.AppImage를 실행합니다.",
+        "발급된 계정으로 로그인하여 시작합니다."
+      ]
+    }
+  }
+}

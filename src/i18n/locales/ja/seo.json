@@ -26,5 +26,9 @@
   "faq": {
     "title": "よくある質問 — Hitek Work",
     "description": "Hitek Work に関するご案内：活動記録の仕組み、プライバシー、モニタリング同意、アクセス権限、データ保管。"
+  },
+  "download": {
+    "title": "ダウンロード — Hitek Work",
+    "description": "Windows、macOS（Intel/Apple Silicon）、Linux 版 Hitek Work デスクトップアプリのダウンロード。各 OS のインストール手順付き。"
   }
 }

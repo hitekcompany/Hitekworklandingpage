@@ -26,5 +26,9 @@
   "faq": {
     "title": "FAQ — Hitek Work",
     "description": "Answers about Hitek Work: how activity is recorded, privacy, monitoring consent, access control, and data retention."
+  },
+  "download": {
+    "title": "Download — Hitek Work",
+    "description": "Download the Hitek Work desktop app for Windows, macOS (Intel/Apple Silicon), and Linux. Includes install instructions for each OS."
   }
 }

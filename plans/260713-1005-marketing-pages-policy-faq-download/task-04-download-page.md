@@ -1,15 +1,15 @@
 ---
 task: 04
 title: Trang Download (4 nút OS + hướng dẫn unsigned, config URL, frame-first, SEO)
-status: pending
+status: done
 type: AFK
 blocked_by: []
 effort: M
 human_estimate_hours: 2
 ai_estimate_hours: 0.4
-actual_hours: null
+actual_hours: 0.6
 created: 2026-07-13
-completed: null
+completed: 2026-07-13
 ---
 
 # Task 04: Trang Download
@@ -108,6 +108,24 @@ gọi `useSEOMeta('download')`, thêm URL `/{lang}/download` × 4 locale vào si
 
 ## Docs-mismatch log (filled during /feature-execute)
 
+- (none) — `DOWNLOAD_URLS` config đã đặt sẵn ở task-01, dùng lại đúng như plan.
+
 ## Execution log (filled during /feature-execute)
+
+- 2026-07-13 — Read: config.ts (DOWNLOAD_URLS từ task-01), reference impls,
+  lucide icons; conventions/fe-checklist in context
+- 2026-07-13 — Implementation: soạn nội dung Download (4 nút OS + hint + hướng dẫn
+  unsigned 3 OS) → `vi/download.json`; dịch en/ko/ja; đăng ký namespace `download`
+  × 4 (config.ts); SEO `download` × 4 + SEOPageKey/PAGE_PATH; tạo `DownloadPage.tsx`
+  (4 nút map DOWNLOAD_URLS, frame-first: URL rỗng → "Sắp có" disabled; 3 khối
+  hướng dẫn returnObjects); route `/:lang/download`; sitemap 4 URL download
+- 2026-07-13 — Verify: download parity 4 locale — PASS; sitemap `/download` = 4;
+  tổng sitemap = 32 URL (8 trang × 4 locale) — PASS
+- 2026-07-13 — Verify: `pnpm build` — ✓ built in 3.49s — PASS
+- 2026-07-13 — fe-playwright: preview :4173 → `/ja/download` lang=ja, title Nhật,
+  4 nút OS (Windows/macIntel/macSilicon/Linux), **cả 4 = "近日提供予定" disabled**
+  (frame-first, URL rỗng → 0 download link), 3 khối hướng dẫn × 3 bước = 9. Khi
+  hạng mục D có file → điền DOWNLOAD_URLS/env, nút tự thành link tải. Evidence:
+  `.scratch/download-ja.png` — PASS
 
 ## Escalation report (filled only if blocked)

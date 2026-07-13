@@ -1,0 +1,52 @@
+{
+  "title": "Download the Hitek Work Desktop App",
+  "subtitle": "Install the Desktop App on employees' machines to start recording time and activity. Choose the build that matches your operating system.",
+  "comingSoon": "Coming soon",
+  "download": "Download",
+  "buttons": {
+    "windows": {
+      "label": "Windows",
+      "hint": ".exe file — works on most Windows 10/11 machines."
+    },
+    "macIntel": {
+      "label": "macOS (Intel)",
+      "hint": "Choose this if your Mac has an Intel chip (usually models before 2020)."
+    },
+    "macSilicon": {
+      "label": "macOS (Apple Silicon)",
+      "hint": "Choose this if your Mac has an Apple M1/M2/M3 chip (usually models from 2020 on)."
+    },
+    "linux": {
+      "label": "Linux",
+      "hint": ".AppImage file — runs on most 64-bit Linux distributions."
+    }
+  },
+  "instructions": {
+    "title": "Install & bypass warnings",
+    "intro": "Apps published by Hitek are not code-signed with a publisher certificate, so your operating system may show a warning on first install. This is expected — follow the steps below to continue.",
+    "windows": {
+      "title": "Windows",
+      "steps": [
+        "Open the downloaded .exe file. If a \"Windows protected your PC\" window (SmartScreen) appears, click \"More info\".",
+        "Click \"Run anyway\" to continue the installation.",
+        "Follow the installer to completion, then sign in with the account provided."
+      ]
+    },
+    "mac": {
+      "title": "macOS (Intel & Apple Silicon)",
+      "steps": [
+        "Open the downloaded .dmg file and drag Hitek Work into the Applications folder.",
+        "Open the app for the first time; if macOS says it \"cannot be opened because the developer cannot be verified\", go to System Settings > Privacy & Security.",
+        "Scroll to the Security section, click \"Open Anyway\" next to the warning about Hitek Work, then confirm."
+      ]
+    },
+    "linux": {
+      "title": "Linux",
+      "steps": [
+        "After downloading the .AppImage file, make it executable: right-click > Properties > Permissions > check \"Allow executing file as program\" (or run chmod +x your-file.AppImage).",
+        "Double-click to open, or run ./your-file.AppImage from a terminal.",
+        "Sign in with the account provided to get started."
+      ]
+    }
+  }
+}

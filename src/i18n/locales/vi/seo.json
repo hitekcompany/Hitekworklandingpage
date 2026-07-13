@@ -26,5 +26,9 @@
   "faq": {
     "title": "Câu hỏi thường gặp — Hitek Work",
     "description": "Giải đáp các thắc mắc về Hitek Work: cách ghi nhận hoạt động, quyền riêng tư, đồng ý giám sát, phân quyền và lưu trữ dữ liệu."
+  },
+  "download": {
+    "title": "Tải Hitek Work Desktop App",
+    "description": "Tải ứng dụng Hitek Work cho Windows, macOS (Intel/Apple Silicon) và Linux. Kèm hướng dẫn cài đặt từng hệ điều hành."
   }
 }

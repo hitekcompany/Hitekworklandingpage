@@ -254,4 +254,40 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/faq" />
   </url>
 
+  <url>
+    <loc>https://work.hitek.com.vn/vi/download</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/download" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/download" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/en/download</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/download" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/download" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ko/download</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/download" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/download" />
+  </url>
+
+  <url>
+    <loc>https://work.hitek.com.vn/ja/download</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://work.hitek.com.vn/vi/download" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://work.hitek.com.vn/en/download" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://work.hitek.com.vn/ko/download" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://work.hitek.com.vn/ja/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://work.hitek.com.vn/vi/download" />
+  </url>
+
 </urlset>

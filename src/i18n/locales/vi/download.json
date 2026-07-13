@@ -1,0 +1,52 @@
+{
+  "title": "Tải Hitek Work Desktop App",
+  "subtitle": "Cài Desktop App lên máy nhân viên để bắt đầu ghi nhận thời gian và hoạt động. Chọn bản phù hợp với hệ điều hành của bạn.",
+  "comingSoon": "Sắp có",
+  "download": "Tải về",
+  "buttons": {
+    "windows": {
+      "label": "Windows",
+      "hint": "File .exe — dùng cho hầu hết máy Windows 10/11."
+    },
+    "macIntel": {
+      "label": "macOS (Intel)",
+      "hint": "Chọn bản này nếu máy Mac của bạn dùng chip Intel (thường là máy trước 2020)."
+    },
+    "macSilicon": {
+      "label": "macOS (Apple Silicon)",
+      "hint": "Chọn bản này nếu máy Mac của bạn dùng chip Apple M1/M2/M3 (thường là máy từ 2020)."
+    },
+    "linux": {
+      "label": "Linux",
+      "hint": "File .AppImage — chạy trên hầu hết bản phân phối Linux 64-bit."
+    }
+  },
+  "instructions": {
+    "title": "Cài đặt & bỏ qua cảnh báo",
+    "intro": "Ứng dụng do Hitek phát hành chưa ký số nhà phát hành, nên hệ điều hành có thể hiện cảnh báo khi cài lần đầu. Đây là điều bình thường — làm theo hướng dẫn bên dưới để tiếp tục.",
+    "windows": {
+      "title": "Windows",
+      "steps": [
+        "Mở file .exe vừa tải. Nếu hiện cửa sổ \"Windows đã bảo vệ PC của bạn\" (SmartScreen), bấm \"Thông tin thêm\" (More info).",
+        "Bấm \"Vẫn chạy\" (Run anyway) để tiếp tục cài đặt.",
+        "Làm theo trình cài đặt cho đến khi hoàn tất, rồi đăng nhập bằng tài khoản được cấp."
+      ]
+    },
+    "mac": {
+      "title": "macOS (Intel & Apple Silicon)",
+      "steps": [
+        "Mở file .dmg vừa tải và kéo Hitek Work vào thư mục Applications.",
+        "Mở app lần đầu; nếu macOS báo \"không thể mở vì nhà phát triển chưa được xác minh\", vào System Settings > Privacy & Security.",
+        "Cuộn xuống mục Security, bấm \"Open Anyway\" (Vẫn mở) bên cạnh dòng cảnh báo về Hitek Work, rồi xác nhận."
+      ]
+    },
+    "linux": {
+      "title": "Linux",
+      "steps": [
+        "Sau khi tải file .AppImage, cấp quyền chạy: chuột phải > Properties > Permissions > tích \"Allow executing file as program\" (hoặc chạy lệnh chmod +x tên-file.AppImage).",
+        "Nhấp đúp để mở, hoặc chạy ./tên-file.AppImage từ terminal.",
+        "Đăng nhập bằng tài khoản được cấp để bắt đầu."
+      ]
+    }
+  }
+}
