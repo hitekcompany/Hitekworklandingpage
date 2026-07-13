@@ -4,7 +4,7 @@
     "solution": "ソリューション",
     "features": "機能",
     "about": "会社概要",
-    "download": "ダウンロード"
+    "download": "Desktop App"
   },
   "cta": {
     "request_demo": "デモを申し込む",
@@ -36,7 +36,7 @@
       "title": "リンク",
       "policy": "プライバシーポリシー",
       "faq": "よくある質問",
-      "download": "ダウンロード"
+      "download": "Desktop App"
     },
     "copyright": "Copyright © 2026 Hitek Software JSC"
   }

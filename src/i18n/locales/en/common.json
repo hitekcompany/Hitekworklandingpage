@@ -4,7 +4,7 @@
     "solution": "Solution",
     "features": "Features",
     "about": "About Us",
-    "download": "Download"
+    "download": "Desktop App"
   },
   "cta": {
     "request_demo": "Request a Demo",
@@ -36,7 +36,7 @@
       "title": "Links",
       "policy": "Privacy Policy",
       "faq": "FAQ",
-      "download": "Download"
+      "download": "Desktop App"
     },
     "copyright": "Copyright © 2026 Hitek Software JSC"
   }
