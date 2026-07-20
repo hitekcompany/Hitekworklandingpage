@@ -1,9 +1,9 @@
 import { Sparkles, Star, Rocket } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { DEMO_LIVE_URL } from '../config';
+import { demoLiveUrl } from '../config';
 
 export function BottomCTASection() {
-  const { t } = useTranslation('home');
+  const { t, i18n } = useTranslation('home');
 
   return (
     <section className="relative py-12 lg:py-20">
@@ -52,7 +52,7 @@ export function BottomCTASection() {
               <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
                 {/* Primary Button */}
                 <a
-                  href={DEMO_LIVE_URL}
+                  href={demoLiveUrl(i18n.language)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group w-full sm:w-auto bg-white text-[#1e4bbf] font-bold text-base md:text-lg px-10 py-5 rounded-2xl shadow-2xl hover:shadow-3xl hover:bg-white/90 transition-all duration-300 hover:scale-105 hover:-translate-y-1"

@@ -1,9 +1,9 @@
 import { Check, TrendingUp, Shield, BarChart3, Sparkles, Star, Rocket, Brain } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { DEMO_LIVE_URL } from '../config';
+import { demoLiveUrl } from '../config';
 
 export function HeroSection() {
-  const { t } = useTranslation('home');
+  const { t, i18n } = useTranslation('home');
 
   return (
     <section id="home" className="relative overflow-hidden">
@@ -42,7 +42,7 @@ export function HeroSection() {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={DEMO_LIVE_URL}
+                href={demoLiveUrl(i18n.language)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-10 py-5 rounded-2xl font-bold text-lg text-white bg-gradient-to-r from-[#1e4bbf] to-indigo-600 hover:from-[#1640a8] hover:to-indigo-700 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-[#1e4bbf]/30 text-center"

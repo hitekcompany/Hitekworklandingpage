@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { DEMO_LIVE_URL } from "../config";
+import { demoLiveUrl } from "../config";
 import { DEFAULT_LANGUAGE, SUPPORTED_LANGUAGES, type Lang } from "../../i18n/config";
 import logoNgang from "../../imports/logo-ngang.png";
 
@@ -79,7 +79,7 @@ export function Header() {
           <div className="hidden lg:flex items-center gap-6">
             <LanguageSwitcher />
             <a
-              href={DEMO_LIVE_URL}
+              href={demoLiveUrl(lang)}
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-full font-semibold transition-all hover:scale-105 active:scale-95 shadow-md bg-[#1e4bbf] text-white hover:bg-[#1e40af] shadow-[#1e4bbf]/30 text-sm"
@@ -91,7 +91,7 @@ export function Header() {
           {/* Mobile: Hamburger + CTA */}
           <div className="flex lg:hidden items-center gap-4">
             <a
-              href={DEMO_LIVE_URL}
+              href={demoLiveUrl(lang)}
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full font-semibold transition-all hover:scale-105 active:scale-95 shadow-md bg-[#1e4bbf] text-white hover:bg-[#1e40af] shadow-[#1e4bbf]/30 text-sm px-5 py-2.5"

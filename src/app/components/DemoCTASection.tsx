@@ -1,9 +1,9 @@
 import { useTranslation, Trans } from 'react-i18next';
 import { Shield, Clock, TrendingUp, Sparkles, Star, Rocket } from 'lucide-react';
-import { DEMO_LIVE_URL } from '../config';
+import { demoLiveUrl } from '../config';
 
 export function DemoCTASection() {
-  const { t } = useTranslation('demo');
+  const { t, i18n } = useTranslation('demo');
   return (
     <section id="demo-cta" className="relative py-12 lg:py-20">
       <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
@@ -56,7 +56,7 @@ export function DemoCTASection() {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-5 justify-center items-center mb-8">
                 <a
-                  href={DEMO_LIVE_URL}
+                  href={demoLiveUrl(i18n.language)}
                   target="_blank"
                   rel="noopener noreferrer"
                   rel="noopener noreferrer"
