@@ -1,119 +1,582 @@
 {
-  "title": "Privacy Policy — Hitek Work",
-  "updated": "Last updated: 13/07/2026. Built in accordance with the Personal Data Protection Law No. 91/2025/QH15 and Decree No. 356/2025/ND-CP.",
+  "title": "Personal Data Protection Policy",
+  "updated": "Version updated on 22/07/2026. Issued in accordance with the Personal Data Protection Law No. 91/2025/QH15 and its implementing regulations.",
   "tocLabel": "On this page",
+  "preamble": [
+    "This Personal Data Protection Policy (the \"PD Protection Policy\") is issued by Hitek Software Joint Stock Company (\"HITEK\") to explain how HITEK collects, uses, provides, transfers, and carries out other processing activities regarding your Personal Data through the Hitek Work software provided by HITEK.",
+    "This Policy describes the purposes and means of processing Personal Data and delineates the roles and responsibilities of HITEK and the Customer, in their respective capacities as Personal Data Controller, Personal Data Processor, or Controller-cum-Processor of Personal Data, depending on the context. HITEK undertakes to fully perform the legal obligations and responsibilities corresponding to its role under the Personal Data Protection Law No. 91/2025/QH15 and its implementing regulations."
+  ],
   "sections": [
     {
-      "title": "What does this policy cover?",
-      "paragraphs": [
-        "This policy applies to how Hitek Work handles personal information collected through the website and the desktop application published by Hitek Work. Within the application, Hitek Work measures work performance in two ways:"
+      "title": "Definitions",
+      "clauses": [
+        {
+          "label": "1.1",
+          "heading": "Customer:",
+          "text": "means an organization, enterprise, or individual that approaches, explores, registers, enters into a contract, uses, or is otherwise involved in the course of using HITEK's product. Within the scope of this Policy, the Customer is at the same time the employer of the Employees and the party that directly operates the product."
+        },
+        {
+          "label": "1.2",
+          "heading": "Employee/End User:",
+          "text": "means an individual granted access by the Customer to use the product and whose work activity is recorded by the product."
+        },
+        {
+          "label": "1.3",
+          "heading": "Data Subject:",
+          "text": "means an individual reflected by the Personal Data. Within the scope of this Policy, Data Subjects include:",
+          "bullets": [
+            "The Customer's contact persons: individuals who are representatives, administrators, or technical points of contact of the Customer in its relationship with HITEK;",
+            "The Customer's Employees under Article 1.2;",
+            "Other related individuals: individuals whose Personal Data is entered, created, or displayed by Employees in the course of using the Product, including but not limited to: customers, partners, and personnel of third parties."
+          ],
+          "after": [
+            "Unless the context otherwise requires, provisions applicable to the \"Customer\" shall be understood to apply correspondingly to the \"Data Subject\"."
+          ]
+        },
+        {
+          "label": "1.4",
+          "heading": "Product:",
+          "text": "means the Hitek Work software and related services provided by HITEK, including the desktop application, mobile application, administration interface, analytics and reporting modules, updates, and accompanying documentation."
+        },
+        {
+          "label": "1.5",
+          "heading": "Personal Data (PD):",
+          "text": "means digital data or information in another form that identifies or helps to identify a specific individual, comprising Basic Personal Data and Sensitive Personal Data. Personal Data, once de-identified, is no longer Personal Data."
+        },
+        {
+          "label": "1.6",
+          "heading": "Basic Personal Data:",
+          "text": "means data reflecting common personal and background characteristics, including: surname, middle name, and given name; date of birth; gender; place of residence and contact address; nationality; the individual's image; phone number and personal identification number; digital account information; and other information associated with a specific individual as prescribed by law in effect from time to time."
+        },
+        {
+          "label": "1.7",
+          "heading": "Sensitive Personal Data:",
+          "text": "means data associated with an individual's privacy which, if infringed, would directly affect the individual's lawful rights and interests, including: health status; political, religious, and belief views; information about private life, personal secrets, and family secrets; biometric data; the individual's location; bank account, financial, and credit information; data tracking behavior in cyberspace; and other data prescribed by law as being of a special nature."
+        },
+        {
+          "label": "1.8",
+          "heading": "Monitoring Data:",
+          "text": "means Personal Data arising from and created during the Employee's use of the Product, reflecting work activity and productivity evaluation results."
+        },
+        {
+          "label": "1.9",
+          "heading": "Commercial and support data:",
+          "text": "means Personal Data actively provided by the Customer to HITEK for the purposes of the contractual relationship and technical support, as detailed in Article 3.1."
+        },
+        {
+          "label": "1.10",
+          "heading": "Processing of Personal Data:",
+          "text": "means an activity affecting Personal Data, including one or more of the following: collection, analysis, aggregation, encryption, decryption, modification, deletion, destruction, de-identification, provision, disclosure, transfer, and other activities."
+        },
+        {
+          "label": "1.11",
+          "heading": "Personal Data Controller:",
+          "text": "means an organization or individual that decides the purposes and means of processing Personal Data."
+        },
+        {
+          "label": "1.12",
+          "heading": "Personal Data Processor:",
+          "text": "means an organization or individual that processes data on behalf of the Personal Data Controller, through a contract or agreement."
+        },
+        {
+          "label": "1.13",
+          "heading": "Controller-cum-Processor of Personal Data:",
+          "text": "means an organization or individual that simultaneously decides the purposes and means of, and directly processes, Personal Data."
+        }
+      ]
+    },
+    {
+      "title": "Declaration by the Data Subject",
+      "clauses": [
+        {
+          "label": "2.1",
+          "text": "The Customer confirms that it has read, explored, and fully understood its rights and obligations in its capacity as a Data Subject or a party participating in Personal Data processing activities, the types of Personal Data processed, the purposes of processing, and the organizations and individuals authorized to process Personal Data. This PD Protection Policy has effect equivalent to a notice by HITEK to the Customer prior to HITEK carrying out the processing of Personal Data."
+        },
+        {
+          "label": "2.2",
+          "text": "The Customer clearly understands that, by ticking a checkbox, responding with consent through electronic means, signing a document or contract, or actively providing Personal Data in order to continue experiencing or using the product after having been notified by HITEK of this Policy, the Customer has expressed clear, voluntary, and legally grounded consent for HITEK to collect, use, and process Personal Data in accordance with the terms and lawful purposes set out in Article 4 of this Policy."
+        },
+        {
+          "label": "2.3",
+          "text": "By providing the Personal Data of a third party who is a Data Subject, or by allowing such Data Subjects to directly enter, provide, or transfer Personal Data in the course of using the Product, the Customer warrants that it has obtained the valid consent or another appropriate legal basis from the Data Subject for the processing of Personal Data, and confirms that it has notified the Data Subject of the contents of this PD Protection Policy."
+        },
+        {
+          "label": "2.4",
+          "text": "The Customer understands and agrees that, depending on the type of Product and service as well as the specific Personal Data processing activities and flows, the role of each party in the processing of Personal Data is determined in accordance with Article 11 of this Policy and with the written agreements and contracts entered into between the parties."
+        }
+      ]
+    },
+    {
+      "title": "Types of Personal Data processed",
+      "clauses": [
+        {
+          "label": "3.1",
+          "text": "The Personal Data processed by HITEK comprises the data provided by the Customer when exploring, registering, entering into a contract, and using the product:",
+          "items": [
+            {
+              "label": "(i)",
+              "text": "The Basic Personal Data set out in Article 1.6 of this Policy; and"
+            },
+            {
+              "label": "(ii)",
+              "text": "The Sensitive Personal Data set out in Article 1.7 of this Policy."
+            }
+          ]
+        },
+        {
+          "label": "3.2",
+          "text": "Personal Data is processed consistently with the scope of the product and the configuration selected by the Customer."
+        }
+      ]
+    },
+    {
+      "title": "Purposes of processing Personal Data",
+      "intro": [
+        "The Customer agrees that the Personal Data referred to in Article 3.1 may be processed for the following purposes:"
       ],
-      "bullets": [
-        "Active — it only counts mouse and keyboard actions and does not record what you type.",
-        "AI evaluation — it takes periodic screenshots, and the AI only recognizes which software you are using to classify \"working / not working\", without reading the content shown on your screen."
+      "clauses": [
+        {
+          "label": "4.1",
+          "heading": "Deployment and provision of the product to the Customer",
+          "bullets": [
+            "Contacting for consultation, answering queries, providing quotations, and enabling use of the product;",
+            "Carrying out contract-conclusion procedures and managing the performance of rights and obligations under the contract;",
+            "Granting, renewing, and managing software licenses and delivering updates;",
+            "Issuing invoices, reconciling receivables, and fulfilling tax and accounting obligations;",
+            "Sending notices related to account administration, maintenance schedules, updates, and security alerts."
+          ]
+        },
+        {
+          "label": "4.2",
+          "heading": "Customer support, care, and experience management",
+          "bullets": [
+            "Providing technical support, installation and configuration guidance, and usage training; receiving and resolving queries and complaints;",
+            "Collecting feedback and conducting surveys to measure satisfaction and improve the experience."
+          ]
+        },
+        {
+          "label": "4.3",
+          "heading": "Security, legal compliance, and risk management",
+          "bullets": [
+            "Performing legal obligations and responding to lawful requests of competent state authorities;",
+            "Investigating and resolving disputes, complaints, and denunciations relating to the Customer;",
+            "Implementing measures to ensure the safety and security of Personal Data against risks of harm;",
+            "Detecting and preventing fraud, attacks, unauthorized access, and software copyright infringement."
+          ]
+        },
+        {
+          "label": "4.4",
+          "heading": "Improving the quality of the Product",
+          "bullets": [
+            "Compiling statistics and analyzing usage needs to develop new features and improve the technology, interface, and performance of the Product;",
+            "Analyzing on the basis of anonymized or de-identified data in order to improve the accuracy of the analytics modules."
+          ]
+        },
+        {
+          "label": "4.5",
+          "heading": "Communications, marketing, and business development",
+          "bullets": [
+            "Sending newsletters, notices of new versions, and promotional programs regarding HITEK's products;",
+            "Inviting participation in events, product introduction programs, and trade promotion activities;",
+            "Conducting market research and data analysis to guide business development."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Manner of data processing",
+      "clauses": [
+        {
+          "label": "5.1",
+          "heading": "Manner of collection.",
+          "text": "HITEK collects the Personal Data referred to in Article 3.1 through the following channels: directly from the Customer when registering for consultation, registering an account, or using HITEK's website; through direct contact and interaction, whether oral or written, at events, trade promotion programs, the customer care hotline, and the support mailbox; through survey documents and registration forms; through contracts and agreements entered into between the parties; and through cookies and similar technologies on HITEK's website."
+        },
+        {
+          "label": "5.2",
+          "heading": "Manner of storage.",
+          "text": "The Personal Data referred to in Article 3.1 is stored in HITEK's secure database systems, applying technical and organizational measures appropriate to legal requirements to prevent and impede unauthorized access, loss, destruction, alteration, disclosure, or leakage of data. Data may be stored on infrastructure managed by HITEK or provided by a third-party service provider under a lawful contract with HITEK.",
+          "after": [
+            "The Monitoring Data of the Customer's Employees is stored on infrastructure controlled by the Customer. Ensuring the safety of this storage infrastructure is the responsibility of the Personal Data Controller under Article 11.1."
+          ]
+        },
+        {
+          "label": "5.3",
+          "heading": "Provision and transfer of Personal Data.",
+          "items": [
+            {
+              "label": "a)",
+              "text": "The Customer may transfer the Personal Data of its contact persons and related individuals to HITEK for processing in order to provide the product. In this case, the Customer ensures that the transfer has a full legal basis under Article 2.3 or as prescribed by law."
+            },
+            {
+              "label": "b)",
+              "text": "HITEK applies the necessary security measures in accordance with lawful standards when transferring or sharing the Personal Data referred to in Article 3.1 to the organizations and individuals specified in Article 8 or to competent state authorities, and requires the recipient to have corresponding security measures."
+            },
+            {
+              "label": "c)",
+              "text": "Provision of screenshots to the artificial intelligence service provider. AI indicators are generated on the basis of screenshots provided to an artificial intelligence service provider that is a third party selected and directly engaged by the Customer. This provision is decided and carried out by the Customer; the data does not pass through HITEK's systems. In the current version of the product, this data provision is a condition for using the AI feature. Because screenshots may contain Sensitive Personal Data under Article 1.7 or confidential data belonging to the Customer's clients and partners, HITEK recommends that the Customer conduct due diligence on the artificial intelligence service provider before selecting it, in particular regarding the data storage location, the retention period, and the commitment not to use the data to train models. The corresponding obligation is set out in Article 11.1."
+            },
+            {
+              "label": "d)",
+              "text": "The transfer of Personal Data is limited to the correct recipients and includes only the necessary types of data within the scope of Article 3, consistent with each processing purpose under Article 4."
+            },
+            {
+              "label": "e)",
+              "text": "Transferred Personal Data will be processed within the period specified in Article 7 and will be deleted, destroyed, or returned in accordance with Article 5.5 upon expiry of that period, unless the parties agree otherwise or the law requires storage."
+            }
+          ]
+        },
+        {
+          "label": "5.4",
+          "heading": "Manner of encryption.",
+          "text": "HITEK encrypts Personal Data in accordance with encryption standards appropriate to legal requirements during transfer, in order to ensure confidentiality, authenticity, and integrity and to prevent unauthorized access or alteration from the point of collection until the end of the processing."
+        },
+        {
+          "label": "5.5",
+          "heading": "Manner of deletion and destruction of data.",
+          "text": "HITEK deletes and destroys the Personal Data referred to in Article 3.1 in the following cases: (a) the Customer requests deletion or destruction; (b) the Customer withdraws consent to processing; (c) the processing purpose has been fulfilled or is no longer appropriate, or in other cases prescribed by law. Technical logs provided by the Customer when requesting support are deleted after the request has been handled, at the latest within 20 days.",
+          "after": [
+            "Where the law requires HITEK to retain data, or for other lawful reasons in order to protect HITEK's legitimate interests, the Customer agrees and acknowledges that HITEK is entitled to continue to retain and process data to that extent.",
+            "The deletion and destruction of Employees' Monitoring Data is carried out by the Customer on its own infrastructure. HITEK is not able to carry it out on the Customer's behalf."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Security measures and possible consequences",
+      "clauses": [
+        {
+          "label": "6.1",
+          "heading": "Security measures applied by HITEK.",
+          "text": "With respect to the Personal Data referred to in Article 3.1, HITEK applies appropriate technical, physical, and managerial measures, including: binding confidentiality obligations on relevant personnel, and regular security inspection and monitoring."
+        },
+        {
+          "label": "6.2",
+          "heading": "Security measures built into the product.",
+          "text": "HITEK provides within the product the Personal Data protection measures for the Customer to configure and operate, including: access authorization; data encryption; setting of retention periods and an automatic deletion mechanism; and a mechanism for notifying and obtaining the consent of Data Subjects in support of the obligations under Article 11.1.",
+          "after": [
+            "HITEK ensures that the above measures operate as described. The configuration, activation, and operation of these measures are the responsibility of the Personal Data Controller under Article 11.1."
+          ]
+        },
+        {
+          "label": "6.3",
+          "heading": "Undesired consequences and damage that may occur.",
+          "items": [
+            {
+              "label": "a)",
+              "text": "HITEK undertakes to apply appropriate measures to protect Personal Data. However, due to factors inherent in the information technology environment, the Internet, and other objective factors beyond the parties' reasonable control, information security risks may still arise."
+            },
+            {
+              "label": "b)",
+              "text": "Accordingly, HITEK cannot guarantee absolute protection and is not liable in the following cases: (i) hardware or software errors during data processing that cause data loss; (ii) security vulnerabilities beyond HITEK's control that lead to the exposure or leakage of data."
+            },
+            {
+              "label": "c)",
+              "text": "As the Product is operated on infrastructure beyond HITEK's control, HITEK is not liable for: (i) incidents arising from the Customer's infrastructure, configuration, or operating policies; (ii) unauthorized access due to exposure of login credentials or inappropriate authorization; (iii) data processing activities carried out by the Customer beyond the lawful scope; (iv) the data processing conduct of the artificial intelligence service provider selected by the Customer; (v) damage caused by the Customer's failure to apply security patches that HITEK has released and notified."
+            },
+            {
+              "label": "d)",
+              "text": "In the event of an incident involving the loss, exposure, or leakage of Personal Data within the scope of Article 3.1, HITEK is responsible for notifying the competent authorities and the Customer in accordance with the law. With respect to Employees' Monitoring Data, the notification obligation rests with the Personal Data Controller under Article 11.1."
+            }
+          ]
+        },
+        {
+          "label": "6.4",
+          "heading": "Consequences of not consenting or withdrawing consent.",
+          "text": "Where a Data Subject exercises the right to delete, the right to withdraw consent, or the right to restrict or object to data processing, the provision of the product may be affected. Depending on the case, the Data Subject may: (a) be unable to use the product; (b) have certain features restricted; (c) not receive notices and updates about the product; or (d) face other restrictions. Before carrying out the request, the receiving party is responsible for clearly notifying and explaining the consequences or restrictions that may arise."
+        }
+      ]
+    },
+    {
+      "title": "Commencement and termination of Personal Data processing",
+      "clauses": [
+        {
+          "label": "7.1",
+          "heading": "Commencement.",
+          "text": "Personal Data is processed from the time HITEK receives the Customer's Personal Data and has an appropriate legal basis to process it in accordance with the law."
+        },
+        {
+          "label": "7.2",
+          "heading": "Termination.",
+          "text": "HITEK will cease processing Personal Data upon whichever of the following events occurs later: (i) upon the written request of the Data Subject consistent with this Policy; (ii) upon the end of the processing purpose; (iii) as prescribed by law."
+        },
+        {
+          "label": "7.3",
+          "text": "HITEK may store Personal Data even during the provision of the Product or after the termination of the contract with the Customer, in order to perform legal obligations as prescribed by law and/or at the request of competent state authorities."
+        },
+        {
+          "label": "7.4",
+          "text": "The retention period for Employees' Monitoring Data is decided and enforced by the Customer on its own infrastructure."
+        }
+      ]
+    },
+    {
+      "title": "Organizations and individuals participating in Personal Data processing",
+      "clauses": [
+        {
+          "label": "8.1",
+          "text": "Depending on the case, the Customer understands that HITEK may be a Personal Data Controller, a Controller-cum-Processor of Personal Data, or a Personal Data Processor in accordance with Article 11 of this Policy."
+        },
+        {
+          "label": "8.2",
+          "text": "To the extent permitted by law, HITEK may transfer or share the Personal Data referred to in Article 3.1 for the lawful purposes under Article 4 with the following organizations and individuals:",
+          "bullets": [
+            "HITEK's member companies and affiliates;",
+            "Organizations and individuals cooperating with or providing services to HITEK, including but not limited to: consulting, audit, and legal firms; providers of IT infrastructure, storage, email, and customer management; and payment services;",
+            "Any individual or organization that is a representative or authorized party of the Data Subject, acting on the Data Subject's behalf;",
+            "Competent state authorities in accordance with the law."
+          ],
+          "after": [
+            "The parties receiving Personal Data have confidentiality obligations consistent with this Policy and applicable law."
+          ]
+        },
+        {
+          "label": "8.3",
+          "heading": "Third party selected by the Customer.",
+          "text": "The artificial intelligence service provider receiving screenshots under Article 5.3(c) is a third party selected and directly engaged by the Customer. HITEK does not designate, engage, or manage this party. The relationship between the Customer and that provider is governed by the agreement that the Customer directly signs and is outside the scope of this Policy."
+        },
+        {
+          "label": "8.4",
+          "heading": "Cross-border data transfer.",
+          "text": "HITEK does not transfer Employees' Monitoring Data outside the territory of Vietnam. Cross-border data transfers may arise on the Customer's side where: (i) the artificial intelligence service provider referred to in Article 8.3 has infrastructure located outside the territory of Vietnam; (ii) the Customer hosts the system on infrastructure with server regions outside the territory of Vietnam; or (iii) the Customer allows access, report export, or data sharing to organizations or individuals outside the territory of Vietnam. In these cases, the Customer is responsible for complying with the regulations on cross-border transfer of personal data under Law No. 91/2025/QH15 and its implementing regulations, including the obligation to prepare and retain an impact assessment dossier."
+        }
+      ]
+    },
+    {
+      "title": "Rights of the Data Subject",
+      "intro": [
+        "The Data Subject has the following lawful rights as prescribed by law:"
       ],
-      "paragraphsAfter": [
-        "This policy does not apply to the activities of companies that Hitek Work does not own or control, nor to third-party websites linked from our website.",
-        "On roles: for data collected through the website, Hitek Work is the data controller; for the employee-monitoring data inside the product, the customer organization is the controller and Hitek Work is the processor."
+      "clauses": [
+        {
+          "label": "9.1",
+          "heading": "The right to be informed",
+          "text": "about the processing of its Personal Data: the types of data processed, the purposes of processing, the parties participating in the processing, and the rights and obligations of the Data Subject."
+        },
+        {
+          "label": "9.2",
+          "heading": "The right to consent, withdraw consent, restrict, and object to processing.",
+          "text": "The Data Subject has the right to consent to or refuse the processing of Personal Data; it may consent in part or subject to conditions. The Data Subject may withdraw consent and request restriction of or object to the processing. The withdrawal of consent does not affect the lawfulness of processing carried out beforehand."
+        },
+        {
+          "label": "9.3",
+          "heading": "The right to access, view, edit, and request the correction",
+          "text": "of its Personal Data, except where the law provides otherwise."
+        },
+        {
+          "label": "9.4",
+          "heading": "The right to request the provision of data",
+          "text": "in writing with respect to Personal Data that the Personal Data Controller collects and processes."
+        },
+        {
+          "label": "9.5",
+          "heading": "The right to request the deletion of data",
+          "text": "in the following cases: the Data Subject withdraws consent; the data no longer serves the purpose consented to; the data is processed contrary to the purpose or in violation of the law; or the data must be deleted as prescribed by law."
+        },
+        {
+          "label": "9.6",
+          "heading": "Other rights",
+          "text": "as prescribed by law and the relevant agreements."
+        },
+        {
+          "label": "9.7",
+          "heading": "Exercising the rights of the Data Subject.",
+          "text": "With respect to Personal Data for which HITEK is the Controller, the Data Subject sends its request directly to HITEK at contact@hitek.com.vn. With respect to Monitoring Data, the Data Subject contacts its own Personal Data Controller, being the Customer. Any request sent to HITEK in this case will be forwarded by HITEK to the Customer for handling. Upon receiving a valid request, the Personal Data Controller shall carry out the request to the extent possible and within a reasonable period as prescribed by law, and notify the Data Subject of the outcome."
+        }
       ]
     },
     {
-      "title": "Collection and use of personal information",
-      "paragraphs": [
-        "You can visit the Hitek Work website without disclosing any personal information. However, we need some personal information if you wish to use the service (registering for a trial or installing the application).",
-        "Where needed, this information may include your personal contact details and/or your company's contact details. We use this information to:"
+      "title": "Obligations of the Data Subject",
+      "clauses": [
+        {
+          "label": "10.1",
+          "text": "To comply with the legal provisions relating to the processing of its Personal Data."
+        },
+        {
+          "label": "10.2",
+          "text": "To provide and update Personal Data fully, truthfully, and accurately. HITEK secures Personal Data based on the information provided and is not liable for damage arising from inaccurate information or information that is not updated in a timely manner."
+        },
+        {
+          "label": "10.3",
+          "text": "To cooperate with HITEK, the Customer, competent state authorities, or third parties when issues arise that affect the security of Personal Data."
+        },
+        {
+          "label": "10.4",
+          "text": "To protect its own Personal Data; and to give timely notice upon detecting errors, confusion, or suspected infringement of Personal Data."
+        },
+        {
+          "label": "10.5",
+          "text": "To respect and protect the Personal Data of other Data Subjects."
+        },
+        {
+          "label": "10.6",
+          "text": "Other responsibilities as prescribed by law."
+        }
+      ]
+    },
+    {
+      "title": "Rights and obligations of the Controller, the Processor, and the Controller-cum-Processor of Personal Data",
+      "intro": [
+        "HITEK and the Customer understand and agree that, depending on the case and on the type of Product and service as well as the specific PD processing activities and flows, HITEK or the Customer may be a Personal Data Controller, a Controller-cum-Processor of Personal Data, or a Personal Data Processor. Accordingly, the rights and obligations corresponding to each specific role in PD processing activities are provided as follows:"
       ],
-      "bullets": [
-        "Respond to your requests.",
-        "Provide the service you request.",
-        "Set up your account.",
-        "Contact you about the service you registered for."
-      ],
-      "paragraphsAfter": [
-        "We collect for each specific purpose; you may consent to each purpose and are not required to consent to all of them."
+      "clauses": [
+        {
+          "label": "11.1",
+          "heading": "As a Personal Data Controller",
+          "items": [
+            {
+              "label": "a)",
+              "text": "Decide the purposes, means, and scope of processing Personal Data consistently with the Product, the service, and the law; and limit the scope of processing to what is necessary and proportionate to the identified purpose."
+            },
+            {
+              "label": "b)",
+              "text": "Ensure that all Personal Data collected, entered, provided, or transferred to the Personal Data Processor or a third party has been notified and has received valid consent from the Data Subject, except where the law provides otherwise."
+            },
+            {
+              "label": "c)",
+              "text": "Fully notify the Data Subject of the types of Personal Data processed, the purposes and scope of processing, the organizations receiving the data together with the recipient countries, the retention period, the rights of the Data Subject, and the consequences of refusal; and retain evidence of the consent collected."
+            },
+            {
+              "label": "d)",
+              "text": "Conduct due diligence on the organizations and individuals receiving Personal Data before providing or transferring it, including the data storage location, the retention period, and the recipient's data protection measures; enter into agreements containing appropriate Personal Data protection clauses; and ensure that the provision of data does not breach confidentiality commitments established with third parties."
+            },
+            {
+              "label": "e)",
+              "text": "Comply with the legal provisions on cross-border transfer of Personal Data, including the obligation to prepare and retain an impact assessment dossier when a data transfer arises."
+            },
+            {
+              "label": "f)",
+              "text": "Apply appropriate technical and organizational measures to protect the Personal Data under its management, including ensuring the safety of storage and operating infrastructure, establishing access controls on the principle of least privilege, revoking access rights upon personnel changes, and securely managing authentication information."
+            },
+            {
+              "label": "g)",
+              "text": "Establish and enforce retention periods and mechanisms for the deletion and destruction of Personal Data upon expiry of the period or upon fulfillment of the processing purpose."
+            },
+            {
+              "label": "h)",
+              "text": "Require the Personal Data Processor to process Personal Data strictly in accordance with instructions, agreements, and the law."
+            },
+            {
+              "label": "i)",
+              "text": "Notify and provide the Personal Data Processor with guidance consistent with the law in order to promptly handle complaints and carry out the lawful requests of Data Subjects; and designate and publish a point of contact for receiving Data Subjects' requests."
+            },
+            {
+              "label": "j)",
+              "text": "Prepare and retain the Personal Data processing impact assessment dossier as prescribed by law."
+            },
+            {
+              "label": "k)",
+              "text": "Where it knows of or suspects any Personal Data breach, immediately notify the competent state authorities, the Data Subject, and the Personal Data Processor in accordance with the law, and cooperate in providing relevant information to build and implement a response plan to promptly resolve the breach."
+            },
+            {
+              "label": "l)",
+              "text": "Other rights and obligations as prescribed by law."
+            }
+          ]
+        },
+        {
+          "label": "11.2",
+          "heading": "As a Personal Data Processor",
+          "items": [
+            {
+              "label": "a)",
+              "text": "Receive and process Personal Data only at the request and instruction of the Personal Data Controller and for purposes consistent with this Policy."
+            },
+            {
+              "label": "b)",
+              "text": "Ensure the full performance of the rights of Data Subjects at the request and instruction of the Personal Data Controller and consistently with the law."
+            },
+            {
+              "label": "c)",
+              "text": "Apply appropriate managerial, technical, and organizational measures to protect Personal Data, including but not limited to: encrypting Personal Data; ensuring system safety; controlling access; and regularly inspecting and monitoring the effectiveness of the security of the Personal Data processing."
+            },
+            {
+              "label": "d)",
+              "text": "Receive information and cooperate with the Personal Data Controller to resolve the lawful requests of Data Subjects."
+            },
+            {
+              "label": "e)",
+              "text": "If the Personal Data Processor becomes aware that a Personal Data breach is at risk of occurring or has actually occurred, whether or not due to its own fault, it must, as soon as it becomes aware of the information, notify the Personal Data Controller and undertake to cooperate in building and implementing a response plan to promptly resolve the breach."
+            },
+            {
+              "label": "f)",
+              "text": "Delete or return all Personal Data to the Personal Data Controller upon request or upon fulfillment of the processing purpose, or after termination of the agreement or contract for the provision of the Product or service; except where the law requires continued storage."
+            },
+            {
+              "label": "g)",
+              "text": "Other rights and obligations as prescribed by law."
+            }
+          ]
+        },
+        {
+          "label": "11.3",
+          "heading": "As a Controller-cum-Processor of Personal Data",
+          "text": "Where HITEK or the Customer acts as a Controller-cum-Processor of Personal Data, that party is responsible for fully performing the obligations set out in both Clause 11.1 and Clause 11.2 above, and is directly liable to the law and to Data Subjects for its data processing activities."
+        }
       ]
     },
     {
-      "title": "Collection and use of non-personal information",
-      "paragraphs": [
-        "Hitek Work automatically receives and records non-personal information in server logs from your browser, including your IP address, cookie information, and the page you requested. We may use this information to serve your service requests, and we do not link this non-personal data with the personal information collected."
+      "title": "Amendment, supplementation, and replacement of the PD Protection Policy",
+      "clauses": [
+        {
+          "label": "12.1",
+          "text": "HITEK is entitled to amend, supplement, or replace the contents of this PD Protection Policy at any time HITEK deems appropriate."
+        },
+        {
+          "label": "12.2",
+          "text": "HITEK will notify the Customer of the amended contents by one of the following means: in writing, by email, by notice on HITEK's official website, or by another means HITEK deems appropriate. The Customer's continued use of the Product means that the Customer has agreed to the amendments, except where the law requires consent for the changed content."
+        },
+        {
+          "label": "12.3",
+          "text": "Where a change gives rise to HITEK processing Monitoring Data, HITEK will issue a corresponding policy and re-obtain consent before applying it."
+        }
       ]
     },
     {
-      "title": "Sharing and disclosure of information",
-      "paragraphs": [
-        "All rights to data collected from the organization (which registers to monitor employees) and from employees (time records and screenshots after accepting the organization's invitation) belong to the employing organization.",
-        "Hitek Work only discloses your personal information in the following cases:"
-      ],
-      "bullets": [
-        "You explicitly consent to the sharing for a specific purpose;",
-        "We are required to comply with an order of a competent authority, a court decision, or another legal process."
-      ],
-      "paragraphsAfter": [
-        "We do not sell personal data."
+      "title": "Dispute resolution",
+      "clauses": [
+        {
+          "text": "If any dispute arises out of or in connection with the processing of Personal Data, the Customer and HITEK shall first resolve it together through good-faith negotiation. Should negotiation fail, the parties have the right to bring the dispute to a competent court in Vietnam for resolution."
+        }
       ]
     },
     {
-      "title": "Consent",
-      "paragraphs": [
-        "If you do not agree with the collection, use, or disclosure of personal information as described in this policy, please do not provide personal information to us. If you have already provided information and no longer consent, please contact us to withdraw your consent at any time."
+      "title": "Implementation provisions",
+      "clauses": [
+        {
+          "label": "14.1",
+          "text": "This Policy has independent legal effect and binds the parties from the moment the Customer approaches, explores, interacts with, or provides Personal Data to HITEK, or registers for a trial of the Product, regardless of whether the parties have entered into a contract."
+        },
+        {
+          "label": "14.2",
+          "text": "Where HITEK and the Customer formally establish a contract for the provision and use of the Product, this Policy becomes an attached and inseparable part of the commitments and agreements between the parties."
+        },
+        {
+          "label": "14.3",
+          "text": "This Policy prevails in the event of any conflict with other agreements between the Customer and HITEK regarding the processing of Personal Data. For any related request, please contact HITEK at contact@hitek.com.vn."
+        }
       ]
     },
     {
-      "title": "Security",
-      "paragraphs": [
-        "We apply multiple layers of protection to the data:"
-      ],
-      "bullets": [
-        "Encryption: screenshot data is encrypted in transit (HTTPS).",
-        "Access control: managers can only view employees within their scope of responsibility; each role only accesses the parts it needs.",
-        "Automatic deletion: data is deleted automatically after the retention period (AI evaluation: 30 days and Active: 90 days).",
-        "Infrastructure control: firewalls, monitoring of abnormal access, and other system protection measures."
-      ]
-    },
-    {
-      "title": "Rights of the data subject",
-      "paragraphs": [
-        "You have the following rights:"
-      ],
-      "bullets": [
-        "To be informed about the processing of data.",
-        "To give or withhold consent.",
-        "To access your data.",
-        "To rectify data.",
-        "To delete data.",
-        "To restrict or object to processing.",
-        "To withdraw consent.",
-        "To request a copy of your data.",
-        "To complain, denounce, or take legal action when your rights are infringed."
-      ],
-      "paragraphsAfter": [
-        "Contact us to exercise these rights."
-      ]
-    },
-    {
-      "title": "Retention period",
-      "paragraphs": [
-        "We only keep contact information for as long as necessary for the stated purpose, and delete it upon your request (within 20 days). For product data: AI evaluation is kept for 30 days, Active for 90 days, and employee data is deleted upon termination of employment."
-      ]
-    },
-    {
-      "title": "Cross-border data transfer",
-      "paragraphs": [
-        "For personal data, we only transfer it abroad when there is a lawful basis and in compliance with regulations on cross-border data transfer."
-      ]
-    },
-    {
-      "title": "Notification of data incidents",
-      "paragraphs": [
-        "If a breach occurs that affects your data, we will notify you and the competent authority as required by law."
-      ]
-    },
-    {
-      "title": "Changes to this policy",
-      "paragraphs": [
-        "Hitek Work may amend this policy from time to time, with prior notice to registered users; previous versions are retained. Please review the policy periodically. If a change introduces a new processing purpose, we will ask for your consent again."
-      ]
+      "title": "Appendix 01",
+      "appendix": {
+        "title": "Appendix 01 — Confirmation of consent to the purposes of processing Personal Data",
+        "intro": "By ticking the consent boxes in the table below, the Customer confirms its consent for HITEK to process Personal Data referred to in Article 3.1 for the following purposes:",
+        "table": {
+          "headers": ["No.", "Processing purpose", "Consent"],
+          "rows": [
+            ["1", "Deployment and provision of the product to the Customer (Clause 4.1) *", "☐"],
+            ["2", "Customer support, care, and experience management (Clause 4.2) *", "☐"],
+            ["3", "Security, legal compliance, and risk management (Clause 4.3) *", "☐"],
+            ["4", "Improving the quality of the Product (Clause 4.4) *", "☐"],
+            ["5", "Communications, marketing, and business development (Clause 4.5)", "☐"]
+          ]
+        },
+        "notes": [
+          "The purposes marked (*) in Clauses 4.1, 4.2, 4.3, and 4.4 are the minimum, mandatory requirements for HITEK to be able to provide and maintain the Product stably, directly serving the performance of the contract between the parties and compliance with the law under the Personal Data Protection Law No. 91/2025/QH15.",
+          "For the purpose in Clause 4.5, HITEK only processes data upon the Customer's consent by ticking. Should the Customer change its mind, it may send a request under Article 9.7.",
+          "Beyond the purposes stated above, if it needs to process Personal Data for any other purpose, HITEK will give notice and will only proceed upon the Customer's consent."
+        ]
+      }
     }
   ]
 }

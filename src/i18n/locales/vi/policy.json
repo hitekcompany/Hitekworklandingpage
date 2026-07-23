@@ -1,119 +1,582 @@
 {
-  "title": "Chính sách Bảo mật — Hitek Work",
-  "updated": "Cập nhật lần cuối: 13/07/2026. Được xây dựng theo Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định 356/2025/NĐ-CP.",
+  "title": "Chính sách Bảo vệ Dữ liệu Cá nhân",
+  "updated": "Phiên bản cập nhật ngày 22/07/2026. Ban hành theo Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và các văn bản hướng dẫn thi hành.",
   "tocLabel": "Nội dung chính",
+  "preamble": [
+    "Chính sách bảo vệ Dữ liệu cá nhân này (\"Chính sách bảo vệ DLCN\") do Công ty cổ phần Hitek Software (\"HITEK\") ban hành để giải thích cách HITEK thu thập, sử dụng, cung cấp, chuyển giao và thực hiện các hoạt động xử lý Dữ liệu cá nhân khác của Quý Khách thông qua phần mềm Hitek Work mà HITEK cung cấp.",
+    "Chính sách này mô tả mục đích, phương tiện xử lý Dữ liệu cá nhân và phân định vai trò, trách nhiệm của HITEK và Quý Khách với tư cách Bên Kiểm soát Dữ liệu cá nhân, Bên Xử lý Dữ liệu cá nhân, Bên Kiểm soát và xử lý Dữ liệu cá nhân, tùy từng ngữ cảnh. HITEK cam kết thực hiện đầy đủ nghĩa vụ và trách nhiệm pháp lý tương ứng với vai trò của mình theo Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và các văn bản hướng dẫn thi hành."
+  ],
   "sections": [
     {
-      "title": "Chính sách này bao gồm gì?",
-      "paragraphs": [
-        "Chính sách này áp dụng cho cách Hitek Work xử lý thông tin cá nhân thu thập qua website và ứng dụng máy tính do Hitek Work phát hành. Trong ứng dụng, Hitek Work theo dõi hiệu suất làm việc theo hai cách:"
+      "title": "Định nghĩa",
+      "clauses": [
+        {
+          "label": "1.1",
+          "heading": "Quý Khách/Khách hàng:",
+          "text": "là tổ chức, doanh nghiệp hoặc cá nhân tiếp cận, tìm hiểu, đăng ký, ký kết hợp đồng, sử dụng hoặc có liên quan trong quá trình sử dụng sản phẩm của HITEK. Trong phạm vi Chính sách này, Quý Khách đồng thời là người sử dụng lao động đối với Người lao động và là bên trực tiếp vận hành sản phẩm."
+        },
+        {
+          "label": "1.2",
+          "heading": "Người lao động/Người dùng cuối:",
+          "text": "là cá nhân được Quý Khách cấp quyền truy cập, sử dụng sản phẩm và có hoạt động làm việc được sản phẩm ghi nhận."
+        },
+        {
+          "label": "1.3",
+          "heading": "Chủ thể dữ liệu:",
+          "text": "là cá nhân được Dữ liệu cá nhân phản ánh. Trong phạm vi Chính sách này, Chủ thể dữ liệu bao gồm:",
+          "bullets": [
+            "Người liên hệ của Quý Khách: cá nhân đại diện, người quản trị hoặc đầu mối kỹ thuật của Quý Khách trong quan hệ với HITEK;",
+            "Người lao động của Quý Khách theo Điều 1.2;",
+            "Các cá nhân liên quan khác: cá nhân có Dữ liệu cá nhân được Người lao động nhập liệu, tạo lập hoặc hiển thị trong quá trình sử dụng Sản phẩm, bao gồm nhưng không giới hạn: khách hàng, đối tác, nhân sự của bên thứ ba."
+          ],
+          "after": [
+            "Trừ khi ngữ cảnh có yêu cầu khác, quy định áp dụng cho \"Quý Khách\" cũng được hiểu là áp dụng tương ứng cho \"Chủ thể dữ liệu\"."
+          ]
+        },
+        {
+          "label": "1.4",
+          "heading": "Sản phẩm:",
+          "text": "là phần mềm Hitek Work và các dịch vụ liên quan do HITEK cung cấp, bao gồm ứng dụng máy tính, ứng dụng di động, giao diện quản trị, mô-đun phân tích và báo cáo, các bản cập nhật và tài liệu kèm theo."
+        },
+        {
+          "label": "1.5",
+          "heading": "Dữ liệu cá nhân (DLCN):",
+          "text": "là dữ liệu số hoặc thông tin dưới dạng khác xác định hoặc giúp xác định một con người cụ thể, bao gồm Dữ liệu cá nhân cơ bản và Dữ liệu cá nhân nhạy cảm. Dữ liệu cá nhân sau khi khử nhận dạng không còn là Dữ liệu cá nhân."
+        },
+        {
+          "label": "1.6",
+          "heading": "Dữ liệu cá nhân cơ bản:",
+          "text": "là dữ liệu phản ánh các yếu tố nhân thân, lai lịch phổ biến gồm: họ, chữ đệm và tên; ngày tháng năm sinh; giới tính; nơi ở, địa chỉ liên hệ; quốc tịch; hình ảnh của cá nhân; số điện thoại, số định danh cá nhân; thông tin về tài khoản số; và các thông tin khác gắn liền với một con người cụ thể theo quy định pháp luật có hiệu lực từng thời điểm."
+        },
+        {
+          "label": "1.7",
+          "heading": "Dữ liệu cá nhân nhạy cảm:",
+          "text": "là dữ liệu gắn liền với quyền riêng tư của cá nhân mà khi bị xâm phạm sẽ gây ảnh hưởng trực tiếp tới quyền và lợi ích hợp pháp của cá nhân, gồm: tình trạng sức khỏe; quan điểm chính trị, tôn giáo, tín ngưỡng; thông tin về đời sống riêng tư, bí mật cá nhân, bí mật gia đình; dữ liệu sinh trắc học; vị trí của cá nhân; thông tin tài khoản ngân hàng, thông tin tài chính, tín dụng; dữ liệu theo dõi hành vi trên không gian mạng; và các dữ liệu khác được pháp luật quy định là đặc thù."
+        },
+        {
+          "label": "1.8",
+          "heading": "Dữ liệu giám sát:",
+          "text": "là Dữ liệu cá nhân phát sinh, được tạo lập trong quá trình Người lao động sử dụng Sản phẩm, phản ánh hoạt động làm việc và kết quả đánh giá năng suất."
+        },
+        {
+          "label": "1.9",
+          "heading": "Dữ liệu thương mại và hỗ trợ:",
+          "text": "là Dữ liệu cá nhân do Quý Khách chủ động cung cấp cho HITEK phục vụ quan hệ hợp đồng và hỗ trợ kỹ thuật, được nêu chi tiết tại Điều 3.1."
+        },
+        {
+          "label": "1.10",
+          "heading": "Xử lý Dữ liệu cá nhân:",
+          "text": "là hoạt động tác động đến Dữ liệu cá nhân, bao gồm một hoặc nhiều hoạt động: thu thập, phân tích, tổng hợp, mã hóa, giải mã, chỉnh sửa, xóa, hủy, khử nhận dạng, cung cấp, công khai, chuyển giao và các hoạt động khác."
+        },
+        {
+          "label": "1.11",
+          "heading": "Bên Kiểm soát Dữ liệu cá nhân:",
+          "text": "là tổ chức, cá nhân quyết định mục đích và phương tiện xử lý Dữ liệu cá nhân."
+        },
+        {
+          "label": "1.12",
+          "heading": "Bên Xử lý Dữ liệu cá nhân:",
+          "text": "là tổ chức, cá nhân thực hiện việc xử lý dữ liệu thay mặt cho Bên Kiểm soát Dữ liệu cá nhân, thông qua hợp đồng hoặc thỏa thuận."
+        },
+        {
+          "label": "1.13",
+          "heading": "Bên Kiểm soát và xử lý Dữ liệu cá nhân:",
+          "text": "là tổ chức, cá nhân đồng thời quyết định mục đích, phương tiện và trực tiếp xử lý Dữ liệu cá nhân."
+        }
+      ]
+    },
+    {
+      "title": "Tuyên bố của Chủ thể dữ liệu",
+      "clauses": [
+        {
+          "label": "2.1",
+          "text": "Quý Khách xác nhận đã đọc, tìm hiểu và nắm được đầy đủ các quyền, nghĩa vụ của mình với tư cách là Chủ thể dữ liệu hoặc một bên tham gia vào hoạt động xử lý Dữ liệu cá nhân, loại Dữ liệu cá nhân được xử lý, mục đích xử lý và các tổ chức, cá nhân được xử lý Dữ liệu cá nhân. Chính sách bảo vệ DLCN này có giá trị tương đương với một thông báo của HITEK cho Quý Khách trước khi HITEK tiến hành xử lý Dữ liệu cá nhân."
+        },
+        {
+          "label": "2.2",
+          "text": "Quý Khách hiểu rõ rằng, bằng việc đánh dấu vào ô tích chọn, phản hồi đồng ý qua phương thức điện tử, ký kết văn bản, hợp đồng, hoặc chủ động cung cấp Dữ liệu cá nhân để tiếp tục trải nghiệm, sử dụng sản phẩm sau khi đã được HITEK thông báo về Chính sách này, đồng nghĩa với việc Quý Khách đã thể hiện sự đồng ý rõ ràng, tự nguyện và có căn cứ pháp lý cho HITEK thu thập, sử dụng và xử lý Dữ liệu cá nhân theo các điều khoản và mục đích hợp pháp quy định tại Điều 4 Chính sách này."
+        },
+        {
+          "label": "2.3",
+          "text": "Bằng việc cung cấp Dữ liệu cá nhân của một bên thứ ba là Chủ thể dữ liệu, hoặc cho phép các Chủ thể dữ liệu này trực tiếp nhập, cung cấp, chuyển giao Dữ liệu cá nhân trong quá trình sử dụng Sản phẩm, Quý Khách cam đoan đã có được sự đồng ý hợp lệ hoặc căn cứ pháp lý phù hợp khác của Chủ thể dữ liệu cho việc xử lý Dữ liệu cá nhân, đồng thời xác nhận đã thông báo cho Chủ thể dữ liệu về nội dung Chính sách bảo vệ DLCN này."
+        },
+        {
+          "label": "2.4",
+          "text": "Quý Khách hiểu và đồng ý rằng, tùy thuộc vào loại hình Sản phẩm, dịch vụ cũng như hoạt động và luồng xử lý Dữ liệu cá nhân cụ thể, vai trò của mỗi bên trong hoạt động xử lý Dữ liệu cá nhân được xác định theo quy định tại Điều 11 Chính sách này và theo các văn bản thỏa thuận, hợp đồng đã giao kết giữa các bên."
+        }
+      ]
+    },
+    {
+      "title": "Loại Dữ liệu cá nhân xử lý",
+      "clauses": [
+        {
+          "label": "3.1",
+          "text": "Dữ liệu cá nhân do HITEK xử lý gồm các dữ liệu Quý Khách cung cấp khi tìm hiểu, đăng ký, giao kết hợp đồng và trong quá trình sử dụng sản phẩm:",
+          "items": [
+            {
+              "label": "(i)",
+              "text": "Các Dữ liệu cá nhân cơ bản quy định tại Điều 1.6 của Chính sách này; và"
+            },
+            {
+              "label": "(ii)",
+              "text": "Các Dữ liệu cá nhân nhạy cảm quy định tại Điều 1.7 của Chính sách này."
+            }
+          ]
+        },
+        {
+          "label": "3.2",
+          "text": "Dữ liệu cá nhân được xử lý phù hợp với phạm vi sản phẩm và cấu hình do Quý Khách lựa chọn."
+        }
+      ]
+    },
+    {
+      "title": "Mục đích xử lý Dữ liệu cá nhân",
+      "intro": [
+        "Quý Khách đồng ý rằng Dữ liệu cá nhân theo Điều 3.1 có thể được xử lý cho các mục đích sau:"
       ],
-      "bullets": [
-        "Active — chỉ đếm số lần thao tác chuột và bàn phím, không ghi lại nội dung bạn gõ.",
-        "AI evaluation — chụp màn hình định kỳ, AI chỉ nhận diện bạn đang dùng phần mềm gì để phân loại \"đang làm việc / không làm việc\", không đọc nội dung hiển thị trên màn hình."
+      "clauses": [
+        {
+          "label": "4.1",
+          "heading": "Triển khai, cung ứng sản phẩm cho Khách hàng",
+          "bullets": [
+            "Liên hệ tư vấn, giải đáp thắc mắc, báo giá và kết nối sử dụng sản phẩm;",
+            "Thực hiện thủ tục giao kết hợp đồng, quản lý việc thực hiện quyền và nghĩa vụ theo hợp đồng;",
+            "Cấp, gia hạn, quản lý bản quyền phần mềm và bàn giao các bản cập nhật;",
+            "Lập hóa đơn, đối soát công nợ và thực hiện nghĩa vụ thuế, kế toán;",
+            "Gửi thông báo liên quan đến quản trị tài khoản, lịch bảo trì, bản cập nhật và cảnh báo bảo mật."
+          ]
+        },
+        {
+          "label": "4.2",
+          "heading": "Hỗ trợ, chăm sóc và quản lý trải nghiệm Khách hàng",
+          "bullets": [
+            "Cung cấp hỗ trợ kỹ thuật, hướng dẫn cài đặt, cấu hình và đào tạo sử dụng; tiếp nhận và giải quyết thắc mắc, khiếu nại;",
+            "Thu thập ý kiến đóng góp, thực hiện khảo sát để đo lường sự hài lòng và cải tiến trải nghiệm."
+          ]
+        },
+        {
+          "label": "4.3",
+          "heading": "An ninh, tuân thủ quy định pháp luật và quản trị rủi ro",
+          "bullets": [
+            "Thực hiện nghĩa vụ pháp lý và đáp ứng yêu cầu hợp pháp của cơ quan nhà nước có thẩm quyền;",
+            "Điều tra, giải quyết tranh chấp, khiếu nại, tố cáo liên quan tới Khách hàng;",
+            "Thực hiện các biện pháp bảo đảm an toàn, bảo mật Dữ liệu cá nhân trước nguy cơ gây hại;",
+            "Phát hiện, ngăn chặn hành vi gian lận, tấn công, truy cập trái phép và vi phạm bản quyền phần mềm."
+          ]
+        },
+        {
+          "label": "4.4",
+          "heading": "Nâng cao chất lượng Sản phẩm",
+          "bullets": [
+            "Thống kê, phân tích nhu cầu sử dụng để phát triển tính năng mới, cải thiện công nghệ, giao diện và hiệu năng của Sản phẩm;",
+            "Phân tích trên cơ sở dữ liệu đã được ẩn danh hoặc khử nhận dạng nhằm nâng cao độ chính xác của các mô-đun phân tích."
+          ]
+        },
+        {
+          "label": "4.5",
+          "heading": "Truyền thông, tiếp thị và phát triển kinh doanh",
+          "bullets": [
+            "Gửi bản tin, thông báo phiên bản mới, chương trình khuyến mại về sản phẩm của HITEK;",
+            "Mời tham gia sự kiện, chương trình giới thiệu sản phẩm và hoạt động xúc tiến thương mại;",
+            "Thực hiện nghiên cứu thị trường và phân tích dữ liệu nhằm định hướng phát triển kinh doanh."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cách thức xử lý dữ liệu",
+      "clauses": [
+        {
+          "label": "5.1",
+          "heading": "Cách thức thu thập.",
+          "text": "HITEK thu thập Dữ liệu cá nhân theo Điều 3.1 qua các kênh: trực tiếp từ Quý Khách khi đăng ký nhận tư vấn, đăng ký tài khoản hoặc sử dụng website của HITEK; qua liên hệ và tương tác trực tiếp bằng lời nói hoặc văn bản tại các sự kiện, chương trình xúc tiến thương mại, tổng đài chăm sóc khách hàng và hộp thư hỗ trợ; qua văn bản khảo sát, phiếu đăng ký; qua hợp đồng, thỏa thuận giao kết giữa các Bên; và qua cookie cùng các công nghệ tương tự trên website của HITEK."
+        },
+        {
+          "label": "5.2",
+          "heading": "Cách thức lưu trữ.",
+          "text": "Dữ liệu cá nhân theo Điều 3.1 được lưu trữ tại hệ thống cơ sở dữ liệu bảo mật của HITEK, áp dụng các biện pháp kỹ thuật và tổ chức phù hợp theo quy định pháp luật để phòng ngừa, ngăn chặn truy cập trái phép, mất mát, hủy hoại, thay đổi, tiết lộ hoặc rò rỉ dữ liệu. Dữ liệu có thể được lưu trữ tại hạ tầng do HITEK quản lý hoặc do bên thứ ba cung cấp dịch vụ theo hợp đồng hợp pháp với HITEK.",
+          "after": [
+            "Dữ liệu giám sát của Người lao động của Quý Khách được lưu trữ tại hạ tầng do Quý Khách kiểm soát. Việc bảo đảm an toàn cho hạ tầng lưu trữ này thuộc trách nhiệm của Bên Kiểm soát Dữ liệu cá nhân theo Điều 11.1."
+          ]
+        },
+        {
+          "label": "5.3",
+          "heading": "Cung cấp, chuyển giao Dữ liệu cá nhân.",
+          "items": [
+            {
+              "label": "a)",
+              "text": "Quý Khách có thể chuyển giao Dữ liệu cá nhân của người liên hệ và cá nhân có liên quan cho HITEK xử lý nhằm cung cấp sản phẩm. Trong trường hợp này, Quý Khách bảo đảm việc chuyển giao có đầy đủ cơ sở pháp lý theo Điều 2.3 hoặc theo quy định pháp luật."
+            },
+            {
+              "label": "b)",
+              "text": "HITEK áp dụng các biện pháp bảo mật cần thiết theo tiêu chuẩn hợp pháp khi chuyển giao, chia sẻ Dữ liệu cá nhân theo Điều 3.1 tới các tổ chức, cá nhân quy định tại Điều 8 hoặc cơ quan nhà nước có thẩm quyền, và yêu cầu bên tiếp nhận có biện pháp bảo mật tương ứng."
+            },
+            {
+              "label": "c)",
+              "text": "Cung cấp ảnh chụp màn hình cho nhà cung cấp dịch vụ trí tuệ nhân tạo. Chỉ số AI được tạo ra trên cơ sở ảnh chụp màn hình được cung cấp cho nhà cung cấp dịch vụ trí tuệ nhân tạo là bên thứ ba do Quý Khách lựa chọn và trực tiếp giao kết. Hoạt động cung cấp này do Quý Khách quyết định và thực hiện; dữ liệu không đi qua hệ thống của HITEK. Ở phiên bản hiện tại của sản phẩm, hoạt động cung cấp dữ liệu này là điều kiện để sử dụng tính năng AI. Do ảnh chụp màn hình có thể chứa Dữ liệu cá nhân nhạy cảm theo Điều 1.7 hoặc dữ liệu bảo mật thuộc về khách hàng, đối tác của Quý Khách, HITEK khuyến nghị Quý Khách thẩm định nhà cung cấp dịch vụ trí tuệ nhân tạo trước khi lựa chọn, đặc biệt về vị trí lưu trữ dữ liệu, thời hạn lưu giữ và cam kết không sử dụng dữ liệu để huấn luyện mô hình. Nghĩa vụ tương ứng được nêu tại Điều 11.1."
+            },
+            {
+              "label": "d)",
+              "text": "Việc chuyển giao Dữ liệu cá nhân được giới hạn đúng đối tượng tiếp nhận và chỉ bao gồm các loại dữ liệu cần thiết thuộc phạm vi Điều 3, phù hợp với từng mục đích xử lý tại Điều 4."
+            },
+            {
+              "label": "e)",
+              "text": "Dữ liệu cá nhân được chuyển giao sẽ được xử lý trong thời hạn quy định tại Điều 7 và được xóa, hủy hoặc hoàn trả theo Điều 5.5 khi hết thời hạn, trừ trường hợp các bên có thỏa thuận khác hoặc pháp luật yêu cầu lưu trữ."
+            }
+          ]
+        },
+        {
+          "label": "5.4",
+          "heading": "Cách thức mã hóa.",
+          "text": "HITEK thực hiện mã hóa Dữ liệu cá nhân theo các tiêu chuẩn mã hóa phù hợp quy định pháp luật trong quá trình chuyển giao, nhằm bảo đảm tính bảo mật, xác thực, toàn vẹn và ngăn chặn việc truy cập, thay đổi trái phép kể từ khi thu thập cho đến khi kết thúc quá trình xử lý."
+        },
+        {
+          "label": "5.5",
+          "heading": "Cách thức xóa, hủy dữ liệu.",
+          "text": "HITEK thực hiện xóa, hủy Dữ liệu cá nhân theo Điều 3.1 trong các trường hợp: (a) Quý Khách có yêu cầu xóa, hủy; (b) Quý Khách rút lại sự đồng ý xử lý; (c) mục đích xử lý đã hoàn thành hoặc không còn phù hợp, hoặc theo các trường hợp khác được pháp luật quy định. Nhật ký kỹ thuật do Quý Khách cung cấp khi yêu cầu hỗ trợ được xóa sau khi hoàn tất việc xử lý yêu cầu, chậm nhất trong vòng 20 ngày.",
+          "after": [
+            "Trường hợp pháp luật yêu cầu HITEK phải lưu giữ dữ liệu, hoặc vì lý do hợp pháp khác nhằm bảo vệ lợi ích hợp pháp của HITEK, Quý Khách đồng ý và thừa nhận rằng HITEK được quyền tiếp tục lưu giữ và xử lý dữ liệu trong phạm vi đó.",
+            "Việc xóa, hủy Dữ liệu giám sát của người lao động do Quý Khách thực hiện trên hạ tầng của mình. HITEK không có khả năng thực hiện thay."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Biện pháp bảo mật và hậu quả có thể xảy ra",
+      "clauses": [
+        {
+          "label": "6.1",
+          "heading": "Biện pháp bảo mật do HITEK áp dụng.",
+          "text": "Đối với Dữ liệu cá nhân theo Điều 3.1, HITEK áp dụng các biện pháp kỹ thuật, vật lý và quản lý phù hợp, bao gồm: ràng buộc nghĩa vụ bảo mật đối với nhân sự có liên quan, kiểm tra và giám sát an ninh thường xuyên."
+        },
+        {
+          "label": "6.2",
+          "heading": "Biện pháp bảo mật được tích hợp trong sản phẩm.",
+          "text": "HITEK cung cấp trong sản phẩm các biện pháp bảo vệ Dữ liệu cá nhân để Quý Khách thiết lập và vận hành, bao gồm: phân quyền truy cập; mã hóa dữ liệu; thiết lập thời hạn lưu trữ và cơ chế xóa tự động; và cơ chế thông báo, lấy sự đồng ý của Chủ thể dữ liệu phục vụ nghĩa vụ tại Điều 11.1.",
+          "after": [
+            "HITEK bảo đảm các biện pháp nêu trên hoạt động đúng mô tả. Việc thiết lập, kích hoạt và vận hành các biện pháp này thuộc trách nhiệm của Bên Kiểm soát Dữ liệu cá nhân theo Điều 11.1."
+          ]
+        },
+        {
+          "label": "6.3",
+          "heading": "Hậu quả, thiệt hại không mong muốn có khả năng xảy ra.",
+          "items": [
+            {
+              "label": "a)",
+              "text": "HITEK cam kết áp dụng các biện pháp phù hợp để bảo vệ Dữ liệu cá nhân. Tuy nhiên, do các yếu tố đặc thù của môi trường công nghệ thông tin, mạng Internet và các yếu tố khách quan ngoài tầm kiểm soát hợp lý của các Bên, vẫn có thể phát sinh những rủi ro về an ninh thông tin."
+            },
+            {
+              "label": "b)",
+              "text": "Do vậy, HITEK không thể cam kết bảo vệ một cách tuyệt đối và không chịu trách nhiệm trong các trường hợp: (i) lỗi phần cứng, phần mềm trong quá trình xử lý dữ liệu làm mất dữ liệu; (ii) lỗ hổng bảo mật nằm ngoài khả năng kiểm soát của HITEK dẫn tới lộ, lọt dữ liệu."
+            },
+            {
+              "label": "c)",
+              "text": "Do Sản phẩm được vận hành trên hạ tầng ngoài phạm vi kiểm soát của HITEK, HITEK không chịu trách nhiệm đối với: (i) sự cố phát sinh từ hạ tầng, cấu hình hoặc chính sách vận hành của Quý Khách; (ii) truy cập trái phép do lộ thông tin đăng nhập hoặc phân quyền không phù hợp; (iii) hoạt động xử lý dữ liệu do Quý Khách thực hiện vượt quá phạm vi hợp pháp; (iv) hành vi xử lý dữ liệu của nhà cung cấp dịch vụ trí tuệ nhân tạo do Quý Khách lựa chọn; (v) thiệt hại do Quý Khách không cập nhật bản vá bảo mật đã được HITEK phát hành và thông báo."
+            },
+            {
+              "label": "d)",
+              "text": "Trường hợp xảy ra sự cố mất, lộ, lọt Dữ liệu cá nhân thuộc phạm vi Điều 3.1, HITEK có trách nhiệm thông báo cho cơ quan chức năng và cho Quý Khách theo quy định pháp luật. Đối với Dữ liệu giám sát của người lao động, nghĩa vụ thông báo thuộc về Bên Kiểm soát Dữ liệu cá nhân theo Điều 11.1."
+            }
+          ]
+        },
+        {
+          "label": "6.4",
+          "heading": "Hậu quả của việc không đồng ý hoặc rút lại sự đồng ý.",
+          "text": "Trường hợp Chủ thể dữ liệu thực hiện quyền xóa, quyền rút lại sự đồng ý, quyền hạn chế hoặc phản đối xử lý dữ liệu, việc cung cấp sản phẩm có thể bị ảnh hưởng. Tùy từng trường hợp, Chủ thể dữ liệu có thể: (a) không sử dụng được sản phẩm; (b) bị hạn chế một số tính năng; (c) không nhận được thông báo, cập nhật về sản phẩm; hoặc (d) các hạn chế khác. Trước khi thực hiện yêu cầu, bên tiếp nhận có trách nhiệm thông báo và giải thích rõ về các hậu quả hoặc hạn chế có thể phát sinh."
+        }
+      ]
+    },
+    {
+      "title": "Thời gian bắt đầu, thời gian kết thúc xử lý Dữ liệu cá nhân",
+      "clauses": [
+        {
+          "label": "7.1",
+          "heading": "Thời điểm bắt đầu.",
+          "text": "Dữ liệu cá nhân được xử lý kể từ thời điểm HITEK nhận được Dữ liệu cá nhân của Quý Khách và có cơ sở pháp lý phù hợp để xử lý theo quy định pháp luật."
+        },
+        {
+          "label": "7.2",
+          "heading": "Thời điểm kết thúc.",
+          "text": "Dữ liệu cá nhân sẽ được HITEK dừng xử lý khi (tùy sự kiện nào đến sau): (i) theo yêu cầu bằng văn bản của Chủ thể dữ liệu phù hợp với Chính sách này; (ii) kết thúc mục đích xử lý; (iii) theo quy định của pháp luật."
+        },
+        {
+          "label": "7.3",
+          "text": "HITEK có thể lưu trữ Dữ liệu cá nhân ngay cả trong quá trình cung cấp Sản phẩm hoặc khi đã chấm dứt hợp đồng với Quý Khách để thực hiện các nghĩa vụ pháp lý theo quy định pháp luật và/hoặc theo yêu cầu của cơ quan nhà nước có thẩm quyền."
+        },
+        {
+          "label": "7.4",
+          "text": "Thời hạn lưu trữ Dữ liệu giám sát của Người lao động do Quý Khách quyết định và thực thi trên hạ tầng của mình."
+        }
+      ]
+    },
+    {
+      "title": "Tổ chức, cá nhân tham gia quá trình xử lý Dữ liệu cá nhân",
+      "clauses": [
+        {
+          "label": "8.1",
+          "text": "Tùy từng trường hợp, Quý Khách hiểu rằng HITEK có thể là Bên Kiểm soát Dữ liệu cá nhân, Bên Kiểm soát và xử lý Dữ liệu cá nhân hoặc Bên Xử lý Dữ liệu cá nhân theo quy định tại Điều 11 Chính sách này."
+        },
+        {
+          "label": "8.2",
+          "text": "Trong phạm vi pháp luật cho phép, HITEK có thể chuyển giao, chia sẻ Dữ liệu cá nhân theo Điều 3.1 nhằm các mục đích hợp pháp tại Điều 4 với các tổ chức, cá nhân sau:",
+          "bullets": [
+            "Công ty thành viên, công ty liên kết của HITEK;",
+            "Tổ chức, cá nhân hợp tác hoặc cung cấp dịch vụ cho HITEK, bao gồm nhưng không giới hạn: đơn vị tư vấn, kiểm toán, luật sư; nhà cung cấp hạ tầng công nghệ thông tin, lưu trữ, thư điện tử và quản lý khách hàng; dịch vụ thanh toán;",
+            "Bất kỳ cá nhân, tổ chức nào là bên đại diện, bên được ủy quyền của Chủ thể dữ liệu, hành động thay mặt Chủ thể dữ liệu;",
+            "Cơ quan nhà nước có thẩm quyền theo quy định pháp luật."
+          ],
+          "after": [
+            "Các bên tiếp nhận Dữ liệu cá nhân có nghĩa vụ bảo mật phù hợp với Chính sách này và quy định pháp luật hiện hành."
+          ]
+        },
+        {
+          "label": "8.3",
+          "heading": "Bên thứ ba do Quý Khách lựa chọn.",
+          "text": "Nhà cung cấp dịch vụ trí tuệ nhân tạo tiếp nhận ảnh chụp màn hình theo Điều 5.3(c) là bên thứ ba do Quý Khách lựa chọn và trực tiếp giao kết. HITEK không chỉ định, không giao kết và không quản lý bên này. Quan hệ giữa Quý Khách và nhà cung cấp đó được điều chỉnh bởi thỏa thuận mà Quý Khách trực tiếp ký kết, không thuộc phạm vi Chính sách này."
+        },
+        {
+          "label": "8.4",
+          "heading": "Chuyển dữ liệu ra nước ngoài.",
+          "text": "HITEK không thực hiện chuyển Dữ liệu giám sát của Người lao động ra ngoài lãnh thổ Việt Nam. Hoạt động chuyển dữ liệu ra nước ngoài có thể phát sinh từ phía Quý Khách trong trường hợp: (i) nhà cung cấp dịch vụ trí tuệ nhân tạo theo Điều 8.3 có hạ tầng đặt ngoài lãnh thổ Việt Nam; (ii) Quý Khách đặt hệ thống trên hạ tầng có vùng máy chủ ngoài lãnh thổ Việt Nam; hoặc (iii) Quý Khách cho phép truy cập, xuất báo cáo hoặc chia sẻ dữ liệu tới tổ chức, cá nhân ở ngoài lãnh thổ Việt Nam. Trong các trường hợp này, Quý Khách chịu trách nhiệm tuân thủ quy định về chuyển dữ liệu cá nhân ra nước ngoài theo Luật số 91/2025/QH15 và văn bản hướng dẫn, bao gồm nghĩa vụ lập và lưu trữ hồ sơ đánh giá tác động."
+        }
+      ]
+    },
+    {
+      "title": "Quyền của Chủ thể dữ liệu",
+      "intro": [
+        "Chủ thể dữ liệu có các quyền hợp pháp theo quy định pháp luật, bao gồm:"
       ],
-      "paragraphsAfter": [
-        "Chính sách này không áp dụng cho hoạt động của các công ty mà Hitek Work không sở hữu hoặc kiểm soát, cũng như các website của bên thứ ba được liên kết từ website của chúng tôi.",
-        "Về vai trò: với dữ liệu thu qua website, Hitek Work là bên kiểm soát dữ liệu; với dữ liệu giám sát nhân viên bên trong sản phẩm, doanh nghiệp sử dụng là bên kiểm soát còn Hitek Work là bên xử lý."
+      "clauses": [
+        {
+          "label": "9.1",
+          "heading": "Quyền được biết",
+          "text": "về hoạt động xử lý Dữ liệu cá nhân của mình: loại dữ liệu được xử lý, mục đích xử lý, các bên tham gia hoạt động xử lý, các quyền và nghĩa vụ của Chủ thể dữ liệu."
+        },
+        {
+          "label": "9.2",
+          "heading": "Quyền đồng ý, rút lại sự đồng ý, hạn chế và phản đối xử lý.",
+          "text": "Chủ thể dữ liệu có quyền đồng ý hoặc không đồng ý cho phép xử lý Dữ liệu cá nhân; có thể đồng ý một phần hoặc kèm điều kiện. Chủ thể dữ liệu có thể rút lại sự đồng ý, yêu cầu hạn chế hoặc phản đối việc xử lý. Việc rút lại sự đồng ý không ảnh hưởng tới tính hợp pháp của việc xử lý đã thực hiện trước đó."
+        },
+        {
+          "label": "9.3",
+          "heading": "Quyền truy cập xem, chỉnh sửa và yêu cầu chỉnh sửa",
+          "text": "Dữ liệu cá nhân của mình, trừ trường hợp luật có quy định khác."
+        },
+        {
+          "label": "9.4",
+          "heading": "Quyền yêu cầu cung cấp dữ liệu",
+          "text": "bằng văn bản đối với Dữ liệu cá nhân mà Bên Kiểm soát Dữ liệu cá nhân thu thập, xử lý."
+        },
+        {
+          "label": "9.5",
+          "heading": "Quyền yêu cầu xóa dữ liệu",
+          "text": "trong các trường hợp: Chủ thể dữ liệu rút lại sự đồng ý; dữ liệu không còn phục vụ mục đích đã đồng ý; dữ liệu được xử lý không đúng mục đích hoặc vi phạm quy định pháp luật; hoặc dữ liệu phải xóa theo quy định pháp luật."
+        },
+        {
+          "label": "9.6",
+          "heading": "Các quyền khác",
+          "text": "theo quy định của pháp luật và các thỏa thuận có liên quan."
+        },
+        {
+          "label": "9.7",
+          "heading": "Thực hiện quyền của Chủ thể dữ liệu.",
+          "text": "Đối với Dữ liệu cá nhân mà HITEK là Bên Kiểm soát, Chủ thể dữ liệu gửi yêu cầu trực tiếp tới HITEK theo địa chỉ contact@hitek.com.vn. Đối với Dữ liệu giám sát, Chủ thể dữ liệu liên hệ Bên Kiểm soát Dữ liệu cá nhân của mình là Quý Khách. Mọi yêu cầu gửi tới HITEK trong trường hợp này sẽ được HITEK chuyển lại cho Quý Khách để xử lý. Ngay khi nhận được yêu cầu hợp lệ, Bên Kiểm soát Dữ liệu cá nhân thực hiện yêu cầu trong khả năng và thời hạn hợp lý theo quy định pháp luật và thông báo kết quả cho Chủ thể dữ liệu."
+        }
       ]
     },
     {
-      "title": "Thu thập và sử dụng thông tin cá nhân",
-      "paragraphs": [
-        "Bạn có thể truy cập website của Hitek Work mà không cần tiết lộ bất kỳ thông tin cá nhân nào. Tuy nhiên, chúng tôi cần một số thông tin cá nhân nếu bạn muốn sử dụng dịch vụ (đăng ký dùng thử hoặc cài đặt ứng dụng).",
-        "Khi cần, thông tin này có thể bao gồm thông tin liên hệ cá nhân và/hoặc thông tin liên hệ của công ty bạn. Chúng tôi dùng thông tin này để:"
+      "title": "Nghĩa vụ của Chủ thể dữ liệu",
+      "clauses": [
+        {
+          "label": "10.1",
+          "text": "Tuân thủ các quy định pháp luật liên quan đến việc xử lý Dữ liệu cá nhân của mình."
+        },
+        {
+          "label": "10.2",
+          "text": "Cung cấp, cập nhật đầy đủ, trung thực, chính xác Dữ liệu cá nhân. HITEK bảo mật Dữ liệu cá nhân căn cứ trên thông tin đã được cung cấp và không chịu trách nhiệm đối với thiệt hại phát sinh do thông tin sai lệch hoặc không được cập nhật kịp thời."
+        },
+        {
+          "label": "10.3",
+          "text": "Phối hợp với HITEK, Quý Khách, cơ quan nhà nước có thẩm quyền hoặc bên thứ ba khi phát sinh vấn đề ảnh hưởng đến tính bảo mật Dữ liệu cá nhân."
+        },
+        {
+          "label": "10.4",
+          "text": "Tự bảo vệ Dữ liệu cá nhân của mình; thông báo kịp thời khi phát hiện sai sót, nhầm lẫn hoặc nghi ngờ Dữ liệu cá nhân bị xâm phạm."
+        },
+        {
+          "label": "10.5",
+          "text": "Tôn trọng, bảo vệ Dữ liệu cá nhân của Chủ thể dữ liệu khác."
+        },
+        {
+          "label": "10.6",
+          "text": "Các trách nhiệm khác theo quy định pháp luật."
+        }
+      ]
+    },
+    {
+      "title": "Quyền và nghĩa vụ của Bên Kiểm soát, Bên Xử lý, Bên Kiểm soát và xử lý Dữ liệu cá nhân",
+      "intro": [
+        "HITEK và Quý Khách hiểu và đồng ý rằng, tùy từng trường hợp và tùy thuộc vào loại hình Sản phẩm, dịch vụ cũng như hoạt động, luồng xử lý DLCN cụ thể, HITEK hoặc Quý Khách có thể là Bên Kiểm soát Dữ liệu cá nhân, Bên Kiểm soát và Xử lý Dữ liệu cá nhân hoặc Bên Xử lý Dữ liệu cá nhân. Theo đó, các quyền và nghĩa vụ tương ứng với từng vai trò cụ thể trong hoạt động xử lý DLCN được quy định như sau:"
       ],
-      "bullets": [
-        "Phản hồi yêu cầu của bạn.",
-        "Cung cấp dịch vụ bạn yêu cầu.",
-        "Thiết lập tài khoản.",
-        "Liên hệ với bạn về dịch vụ đã đăng ký."
-      ],
-      "paragraphsAfter": [
-        "Chúng tôi thu thập theo từng mục đích cụ thể; bạn có thể đồng ý cho từng mục đích và không bị buộc phải đồng ý toàn bộ."
+      "clauses": [
+        {
+          "label": "11.1",
+          "heading": "Đối với vai trò là Bên Kiểm soát Dữ liệu cá nhân",
+          "items": [
+            {
+              "label": "a)",
+              "text": "Quyết định mục đích, phương tiện và phạm vi xử lý Dữ liệu cá nhân phù hợp với Sản phẩm, dịch vụ và quy định pháp luật; giới hạn phạm vi xử lý ở mức cần thiết và tương xứng với mục đích đã xác định."
+            },
+            {
+              "label": "b)",
+              "text": "Đảm bảo mọi Dữ liệu cá nhân được thu thập, nhập liệu, cung cấp, chuyển giao cho Bên Xử lý Dữ liệu cá nhân hoặc bên thứ ba đều đã được thông báo và nhận được sự đồng ý hợp lệ từ Chủ thể dữ liệu, trừ trường hợp pháp luật quy định khác."
+            },
+            {
+              "label": "c)",
+              "text": "Thực hiện thông báo đầy đủ cho Chủ thể dữ liệu về loại Dữ liệu cá nhân được xử lý, mục đích và phạm vi xử lý, các tổ chức tiếp nhận dữ liệu kèm quốc gia tiếp nhận, thời hạn lưu trữ, quyền của Chủ thể dữ liệu và hậu quả của việc từ chối; lưu trữ bằng chứng về sự đồng ý đã thu thập."
+            },
+            {
+              "label": "d)",
+              "text": "Thẩm định tổ chức, cá nhân tiếp nhận Dữ liệu cá nhân trước khi cung cấp, chuyển giao, bao gồm vị trí lưu trữ dữ liệu, thời hạn lưu giữ và biện pháp bảo vệ dữ liệu của bên tiếp nhận; giao kết thỏa thuận có điều khoản bảo vệ Dữ liệu cá nhân phù hợp; bảo đảm việc cung cấp dữ liệu không vi phạm cam kết bảo mật đã xác lập với bên thứ ba."
+            },
+            {
+              "label": "e)",
+              "text": "Tuân thủ quy định pháp luật về chuyển Dữ liệu cá nhân ra nước ngoài, bao gồm nghĩa vụ lập và lưu trữ hồ sơ đánh giá tác động khi hoạt động chuyển dữ liệu phát sinh."
+            },
+            {
+              "label": "f)",
+              "text": "Áp dụng các biện pháp kỹ thuật, tổ chức phù hợp để bảo vệ Dữ liệu cá nhân thuộc phạm vi quản lý của mình, bao gồm bảo đảm an toàn hạ tầng lưu trữ và vận hành, thiết lập kiểm soát truy cập theo nguyên tắc quyền tối thiểu, thu hồi quyền truy cập khi có thay đổi nhân sự và quản lý an toàn thông tin xác thực."
+            },
+            {
+              "label": "g)",
+              "text": "Thiết lập, thực thi thời hạn lưu trữ và cơ chế xóa, hủy Dữ liệu cá nhân khi hết thời hạn hoặc khi mục đích xử lý đã hoàn thành."
+            },
+            {
+              "label": "h)",
+              "text": "Yêu cầu Bên Xử lý Dữ liệu cá nhân thực hiện xử lý Dữ liệu cá nhân theo đúng hướng dẫn, thỏa thuận và quy định pháp luật."
+            },
+            {
+              "label": "i)",
+              "text": "Thông báo và cung cấp hướng dẫn phù hợp quy định pháp luật cho Bên Xử lý Dữ liệu cá nhân để kịp thời xử lý khiếu nại, thực hiện yêu cầu hợp pháp của Chủ thể dữ liệu; chỉ định và công bố đầu mối tiếp nhận yêu cầu của Chủ thể dữ liệu."
+            },
+            {
+              "label": "j)",
+              "text": "Lập và lưu trữ hồ sơ đánh giá tác động xử lý Dữ liệu cá nhân theo quy định pháp luật."
+            },
+            {
+              "label": "k)",
+              "text": "Trong trường hợp biết hoặc nghi ngờ có bất kỳ hành vi vi phạm Dữ liệu cá nhân nào, thông báo ngay lập tức cho cơ quan nhà nước có thẩm quyền, Chủ thể dữ liệu và Bên Xử lý Dữ liệu cá nhân theo quy định pháp luật, đồng thời phối hợp cung cấp các thông tin liên quan để xây dựng và thực hiện kế hoạch ứng phó nhằm nhanh chóng giải quyết vi phạm."
+            },
+            {
+              "label": "l)",
+              "text": "Các quyền và nghĩa vụ khác theo quy định của pháp luật."
+            }
+          ]
+        },
+        {
+          "label": "11.2",
+          "heading": "Đối với vai trò là Bên Xử lý Dữ liệu cá nhân",
+          "items": [
+            {
+              "label": "a)",
+              "text": "Chỉ tiếp nhận và xử lý Dữ liệu cá nhân theo yêu cầu và hướng dẫn của Bên Kiểm soát Dữ liệu cá nhân và cho các mục đích phù hợp quy định tại Chính sách này."
+            },
+            {
+              "label": "b)",
+              "text": "Bảo đảm thực hiện đầy đủ các quyền của Chủ thể dữ liệu theo yêu cầu, hướng dẫn của Bên Kiểm soát Dữ liệu cá nhân và phù hợp với quy định pháp luật."
+            },
+            {
+              "label": "c)",
+              "text": "Áp dụng các biện pháp quản lý, kỹ thuật và tổ chức phù hợp để bảo vệ Dữ liệu cá nhân, bao gồm nhưng không giới hạn việc: mã hóa Dữ liệu cá nhân; bảo đảm an toàn hệ thống; kiểm soát truy cập; kiểm tra, giám sát thường xuyên hiệu quả đảm bảo an ninh của quá trình xử lý Dữ liệu cá nhân."
+            },
+            {
+              "label": "d)",
+              "text": "Tiếp nhận thông tin và phối hợp với Bên Kiểm soát Dữ liệu cá nhân để giải quyết yêu cầu hợp pháp của Chủ thể dữ liệu."
+            },
+            {
+              "label": "e)",
+              "text": "Nếu Bên Xử lý Dữ liệu cá nhân biết rằng vi phạm Dữ liệu cá nhân có nguy cơ hoặc đã xảy ra trên thực tế, bất kể do lỗi của mình hay không, thì ngay khi biết được thông tin phải thông báo cho Bên Kiểm soát Dữ liệu cá nhân và cam kết hợp tác để xây dựng, thực hiện kế hoạch ứng phó nhằm nhanh chóng giải quyết vi phạm."
+            },
+            {
+              "label": "f)",
+              "text": "Xóa hoặc trả lại toàn bộ Dữ liệu cá nhân cho Bên Kiểm soát Dữ liệu cá nhân theo yêu cầu hoặc khi hoàn thành mục đích xử lý, hoặc sau khi chấm dứt thỏa thuận, hợp đồng về việc cung cấp Sản phẩm, dịch vụ; trừ trường hợp quy định pháp luật yêu cầu tiếp tục lưu trữ."
+            },
+            {
+              "label": "g)",
+              "text": "Các quyền và nghĩa vụ khác theo quy định của pháp luật."
+            }
+          ]
+        },
+        {
+          "label": "11.3",
+          "heading": "Đối với vai trò là Bên Kiểm soát và xử lý Dữ liệu cá nhân",
+          "text": "Trong trường hợp HITEK hoặc Quý Khách hoạt động với tư cách là Bên Kiểm soát và Xử lý Dữ liệu cá nhân, Bên đó có trách nhiệm thực hiện đầy đủ các nghĩa vụ quy định tại cả Khoản 11.1 và Khoản 11.2 nêu trên, đồng thời chịu trách nhiệm trực tiếp trước pháp luật và Chủ thể dữ liệu về hoạt động xử lý dữ liệu của mình."
+        }
       ]
     },
     {
-      "title": "Thu thập và sử dụng thông tin phi cá nhân",
-      "paragraphs": [
-        "Hitek Work tự động nhận và ghi lại thông tin phi cá nhân trong nhật ký máy chủ từ trình duyệt của bạn, gồm địa chỉ IP, thông tin cookie và trang bạn yêu cầu. Chúng tôi có thể dùng thông tin này để phục vụ các yêu cầu dịch vụ của bạn, và không gắn dữ liệu phi cá nhân này với thông tin cá nhân đã thu thập."
+      "title": "Sửa đổi, bổ sung, thay thế Chính sách bảo vệ DLCN",
+      "clauses": [
+        {
+          "label": "12.1",
+          "text": "HITEK được phép sửa đổi, bổ sung nội dung hoặc thay thế Chính sách bảo vệ DLCN này vào bất cứ thời điểm nào HITEK cho là phù hợp."
+        },
+        {
+          "label": "12.2",
+          "text": "HITEK sẽ thông báo các nội dung sửa đổi cho Quý Khách bằng một trong các hình thức: văn bản, thư điện tử, thông báo trên website chính thức của HITEK hoặc hình thức khác HITEK đánh giá là phù hợp. Việc Quý Khách tiếp tục sử dụng Sản phẩm có nghĩa là Quý Khách đã đồng ý với các sửa đổi, trừ trường hợp pháp luật có yêu cầu xin sự đồng ý đối với nội dung thay đổi đó."
+        },
+        {
+          "label": "12.3",
+          "text": "Trường hợp có thay đổi làm phát sinh việc HITEK xử lý Dữ liệu giám sát, HITEK sẽ ban hành chính sách tương ứng và lấy lại sự đồng ý trước khi áp dụng."
+        }
       ]
     },
     {
-      "title": "Chia sẻ và tiết lộ thông tin",
-      "paragraphs": [
-        "Mọi quyền đối với dữ liệu thu từ doanh nghiệp (đăng ký để giám sát nhân viên) và từ nhân viên (ghi nhận thời gian và ảnh chụp màn hình sau khi chấp nhận lời mời của doanh nghiệp) thuộc về doanh nghiệp sử dụng lao động.",
-        "Hitek Work chỉ tiết lộ thông tin cá nhân của bạn trong các trường hợp sau:"
-      ],
-      "bullets": [
-        "Bạn đồng ý rõ ràng cho việc chia sẻ nhằm một mục đích cụ thể;",
-        "Chúng tôi phải tuân theo lệnh của cơ quan có thẩm quyền, quyết định của tòa án hoặc quy trình pháp lý khác."
-      ],
-      "paragraphsAfter": [
-        "Chúng tôi không bán dữ liệu cá nhân."
+      "title": "Giải quyết tranh chấp",
+      "clauses": [
+        {
+          "text": "Nếu có bất kỳ tranh chấp nào phát sinh hoặc liên quan đến việc xử lý Dữ liệu cá nhân, Quý Khách và HITEK trước hết cùng nhau giải quyết thông qua thương lượng trên tinh thần thiện chí. Trong trường hợp thương lượng không thành, các Bên có quyền đưa tranh chấp ra Tòa án có thẩm quyền ở Việt Nam giải quyết."
+        }
       ]
     },
     {
-      "title": "Sự đồng ý",
-      "paragraphs": [
-        "Nếu bạn không đồng ý với việc thu thập, sử dụng hoặc tiết lộ thông tin cá nhân như nêu trong chính sách này, vui lòng không cung cấp thông tin cá nhân cho chúng tôi. Nếu bạn đã cung cấp thông tin và không còn đồng ý, vui lòng liên hệ với chúng tôi để rút lại sự đồng ý bất cứ lúc nào."
+      "title": "Điều khoản thi hành",
+      "clauses": [
+        {
+          "label": "14.1",
+          "text": "Chính sách này có hiệu lực pháp lý độc lập và ràng buộc các Bên ngay từ thời điểm Quý Khách tiếp cận, tìm hiểu, tương tác, cung cấp Dữ liệu cá nhân cho HITEK hoặc đăng ký sử dụng thử Sản phẩm, không phụ thuộc vào việc các Bên đã giao kết hợp đồng hay chưa."
+        },
+        {
+          "label": "14.2",
+          "text": "Trong trường hợp HITEK và Quý Khách chính thức xác lập hợp đồng cung cấp, sử dụng Sản phẩm, Chính sách này trở thành một phần đính kèm, không tách rời với các cam kết, thỏa thuận giữa các Bên."
+        },
+        {
+          "label": "14.3",
+          "text": "Chính sách này được ưu tiên áp dụng trong trường hợp có bất kỳ mâu thuẫn nào với các thỏa thuận khác giữa Quý Khách và HITEK về việc xử lý Dữ liệu cá nhân. Mọi yêu cầu liên quan, Quý Khách vui lòng liên hệ HITEK qua địa chỉ contact@hitek.com.vn."
+        }
       ]
     },
     {
-      "title": "Bảo mật",
-      "paragraphs": [
-        "Chúng tôi áp dụng nhiều lớp bảo vệ cho dữ liệu:"
-      ],
-      "bullets": [
-        "Mã hóa: dữ liệu ảnh chụp màn hình được mã hóa khi truyền (HTTPS).",
-        "Phân quyền truy cập: quản lý chỉ xem được nhân viên trong phạm vi mình phụ trách; mỗi vai trò chỉ truy cập đúng phần cần thiết.",
-        "Tự động xóa: dữ liệu được xóa tự động sau thời hạn lưu trữ (AI evaluation: 30 ngày và Active: 90 ngày).",
-        "Kiểm soát hạ tầng: tường lửa, giám sát truy cập bất thường và các biện pháp bảo vệ hệ thống."
-      ]
-    },
-    {
-      "title": "Quyền của chủ thể dữ liệu",
-      "paragraphs": [
-        "Bạn có các quyền sau đây:"
-      ],
-      "bullets": [
-        "Được biết về việc xử lý dữ liệu.",
-        "Đồng ý hoặc không đồng ý.",
-        "Truy cập dữ liệu của mình.",
-        "Chỉnh sửa dữ liệu.",
-        "Xóa dữ liệu.",
-        "Hạn chế hoặc phản đối việc xử lý.",
-        "Rút lại sự đồng ý.",
-        "Yêu cầu cung cấp dữ liệu của mình.",
-        "Khiếu nại, tố cáo, khởi kiện khi bị xâm phạm."
-      ],
-      "paragraphsAfter": [
-        "Liên hệ chúng tôi để thực hiện các quyền này."
-      ]
-    },
-    {
-      "title": "Thời hạn lưu trữ",
-      "paragraphs": [
-        "Chúng tôi chỉ lưu thông tin liên hệ trong thời gian cần thiết cho mục đích đã nêu, và xóa khi bạn yêu cầu (trong vòng 20 ngày). Với dữ liệu sản phẩm: AI evaluation lưu 30 ngày, Active lưu 90 ngày, và dữ liệu người lao động được xóa khi chấm dứt hợp đồng."
-      ]
-    },
-    {
-      "title": "Chuyển dữ liệu ra nước ngoài",
-      "paragraphs": [
-        "Với dữ liệu cá nhân, chúng tôi chỉ chuyển ra nước ngoài khi có cơ sở hợp pháp và tuân theo quy định về chuyển dữ liệu xuyên biên giới."
-      ]
-    },
-    {
-      "title": "Thông báo khi có sự cố dữ liệu",
-      "paragraphs": [
-        "Nếu xảy ra sự cố rò rỉ ảnh hưởng đến dữ liệu của bạn, chúng tôi thông báo cho bạn và cơ quan có thẩm quyền theo quy định."
-      ]
-    },
-    {
-      "title": "Thay đổi chính sách",
-      "paragraphs": [
-        "Hitek Work có thể sửa đổi chính sách này theo thời gian, kèm thông báo trước cho người dùng đã đăng ký; các phiên bản cũ được lưu lại. Vui lòng xem lại chính sách định kỳ. Nếu thay đổi làm phát sinh mục đích xử lý mới, chúng tôi sẽ xin lại sự đồng ý của bạn."
-      ]
+      "title": "Phụ lục 01",
+      "appendix": {
+        "title": "Phụ lục 01 — Xác nhận sự đồng ý với mục đích xử lý Dữ liệu cá nhân",
+        "intro": "Bằng việc đánh dấu vào các ô đồng ý trong bảng dưới đây, Quý Khách xác nhận đồng ý cho HITEK xử lý Dữ liệu cá nhân theo Điều 3.1 cho các mục đích sau:",
+        "table": {
+          "headers": ["STT", "Mục đích xử lý", "Đồng ý"],
+          "rows": [
+            ["1", "Triển khai, cung ứng sản phẩm cho Khách hàng (Khoản 4.1) *", "☐"],
+            ["2", "Hỗ trợ, chăm sóc và quản lý trải nghiệm Khách hàng (Khoản 4.2) *", "☐"],
+            ["3", "An ninh, tuân thủ quy định pháp luật và quản trị rủi ro (Khoản 4.3) *", "☐"],
+            ["4", "Nâng cao chất lượng Sản phẩm (Khoản 4.4) *", "☐"],
+            ["5", "Truyền thông, tiếp thị và phát triển kinh doanh (Khoản 4.5)", "☐"]
+          ]
+        },
+        "notes": [
+          "Các mục đích đánh dấu (*) tại Khoản 4.1, 4.2, 4.3 và 4.4 là yêu cầu tối thiểu, bắt buộc để HITEK có thể cung cấp và duy trì Sản phẩm ổn định, phục vụ trực tiếp cho việc thực hiện hợp đồng giữa các Bên và tuân thủ quy định pháp luật theo Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15.",
+          "Đối với mục đích tại Khoản 4.5, HITEK chỉ thực hiện xử lý dữ liệu khi có sự đồng ý bằng đánh dấu của Quý Khách. Trường hợp Quý Khách thay đổi ý định, có thể gửi yêu cầu theo Điều 9.7.",
+          "Ngoài các mục đích nêu trên, nếu cần xử lý Dữ liệu cá nhân cho bất kỳ mục đích nào khác, HITEK sẽ thông báo và chỉ tiến hành khi có sự đồng ý của Quý Khách."
+        ]
+      }
     }
   ]
 }
